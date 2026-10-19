@@ -50,17 +50,29 @@ MD_TABLE_ROW_RE = re.compile(r"^\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*
 NAV_LINE_RE = re.compile(r"^\[(?:←|Table of Contents|Next Chapter).*\|.*$", re.IGNORECASE)
 
 # Unattributed dialogue line wrapped in tooltip: [—"Speech."](# "Speaker: ...")
+# Robust to: (# "tip"), (<# "tip">), (<#> "tip"), escaped quotes, single quotes, and curly quotes
 UNATTRIBUTED_DIALOGUE_RE = re.compile(
-    r'^\[([—\-]+["“].*["”])\]\(\s*#\s*"((?:[^"\\]|\\.)*)"\s*\)\s*$'
+    r'^\s*\[([—\-]+["“].*?["”])\]\(\s*<?#\S*?>?\s*\\?["“](.*?)\\?["”]\s*>?\s*\)\s*$|'
+    r'^\s*\[([—\-]+["“].*?["”])\]\(\s*<?#\S*?>?\s*\\?[\'‘](.*?)\\?[\'’]\s*>?\s*\)\s*$'
 )
 
 # Inline tooltip link: [text](# "tooltip")
+# Robust to: (# "tip"), (<# "tip">), (<#> "tip"), escaped quotes, single quotes, and curly quotes
 INLINE_TOOLTIP_RE = re.compile(
-    r'\[([^\[\]]+?)\]\(\s*#\s*"((?:[^"\\]|\\.)*)"\s*\)'
+    r'\[([^\[\]\r\n]+?)\]\(\s*<?#\S*?>?\s*\\?["“](.*?)\\?["”]\s*>?\s*\)|'
+    r'\[([^\[\]\r\n]+?)\]\(\s*<?#\S*?>?\s*\\?[\'‘](.*?)\\?[\'’]\s*>?\s*\)'
 )
 
-# Monologue brackets: [Monologue text] (excluding bold system tags like **[Spirit Stones +1,080]**)
-MONOLOGUE_RE = re.compile(r"(?<!\*)\[([^\[\]\n]+)\](?!\*)")
+# Monologue brackets: [Monologue text]
+# Guarded against:
+# - Preceding * or ! (e.g. **[Spirit Stones]**, ![image](...))
+# - Following (, [, or * (e.g. markdown links [anchor](url), reference links [anchor][ref], or **[system]**)
+MONOLOGUE_RE = re.compile(r"(?<![\*!])\[([^\[\]\r\n]+)\](?!\s*[\(\[\*])")
+
+# General markdown link: [text](url) or [text](url "title")
+GENERAL_LINK_RE = re.compile(
+    r'\[([^\[\]\r\n]+?)\]\(\s*<?([^\s\)>]+)>?(?:\s+\\?["“\'](.*?)\\?["”\'])?\s*\)'
+)
 
 # Attributed dialogue segments inside a line starting with —" or —“
 DIALOGUE_SEGMENT_RE = re.compile(
@@ -396,8 +408,9 @@ class InlineProcessor:
             return f"\x00PH{idx}PH\x00"
 
         def replace_tooltip(match: re.Match[str]) -> str:
-            inner_raw = match.group(1)
-            tip_raw = match.group(2).replace('\\"', '"')
+            inner_raw = match.group(1) if match.group(1) is not None else match.group(3)
+            tip_raw = match.group(2) if match.group(2) is not None else match.group(4)
+            tip_raw = (tip_raw or "").replace('\\"', '"').replace("\\'", "'")
             inner_escaped = html.escape(inner_raw)
             tip_escaped = html.escape(tip_raw, quote=True)
 
@@ -416,6 +429,19 @@ class InlineProcessor:
 
         work = INLINE_TOOLTIP_RE.sub(replace_tooltip, text)
 
+        def replace_link(match: re.Match[str]) -> str:
+            label_raw = match.group(1)
+            url_raw = match.group(2).strip()
+            title_raw = (match.group(3) or "").replace('\\"', '"').replace("\\'", "'")
+            label_processed = self._process_text_primitives(label_raw, placeholders)
+            url_escaped = html.escape(url_raw, quote=True)
+            title_attr = f' title="{html.escape(title_raw, quote=True)}"' if title_raw else ""
+            target_attr = ' target="_blank" rel="noopener noreferrer"' if url_raw.startswith(("http://", "https://")) else ""
+            snippet = f'<a href="{url_escaped}" class="novel-link"{title_attr}{target_attr}>{label_processed}</a>'
+            return big_placeholder(snippet)
+
+        work = GENERAL_LINK_RE.sub(replace_link, work)
+
         if allow_monologue:
             def replace_monologue(match: re.Match[str]) -> str:
                 mono_inner = match.group(1).strip()
@@ -427,7 +453,7 @@ class InlineProcessor:
 
         work = self._process_text_primitives(work, placeholders)
 
-        for _ in range(3):
+        for _ in range(4):
             if "\x00PH" not in work:
                 break
             work = re.sub(
@@ -510,7 +536,8 @@ def convert_markdown_chapter_to_html(
         if stripped.startswith("# ") and not title_en:
             flush_para()
             flush_blockquote()
-            title_en = stripped[2:].strip()
+            raw_title = stripped[2:].strip()
+            title_en = re.sub(r'\[([^\[\]\r\n]+?)\]\([^\)]*\)', r'\1', raw_title).strip()
             continue
 
         if stripped.startswith(">"):
@@ -583,8 +610,8 @@ def convert_markdown_chapter_to_html(
 
         m_unattr = UNATTRIBUTED_DIALOGUE_RE.match(block)
         if m_unattr:
-            speech_part = m_unattr.group(1)
-            tip_raw = m_unattr.group(2).replace('\\"', '"')
+            speech_part = m_unattr.group(1) if m_unattr.group(1) is not None else m_unattr.group(3)
+            tip_raw = (m_unattr.group(2) if m_unattr.group(2) is not None else m_unattr.group(4) or "").replace('\\"', '"').replace("\\'", "'")
             dash_match = re.match(r"^([—\-]+)(.*)$", speech_part, re.DOTALL)
             if dash_match:
                 dash_str, quote_str = dash_match.group(1), dash_match.group(2)
@@ -904,6 +931,16 @@ READER_HTML_TEMPLATE = """<!DOCTYPE html>
     .char-ref:hover {
       background-color: var(--reader-char-hover);
       color: var(--reader-accent);
+    }
+
+    .novel-link {
+      color: var(--reader-accent);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      transition: opacity 0.15s ease;
+    }
+    .novel-link:hover {
+      opacity: 0.8;
     }
 
     /* Exam Scroll Blockquote */

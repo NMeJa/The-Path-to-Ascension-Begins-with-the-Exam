@@ -102,7 +102,7 @@ Another voiced confusion:
 
 —"Qiao Family Village has been here for centuries, yet I've never heard of them having their own script! In that village, barely anyone can even read!"
 
-—"Wait, what about finding cultivators who practice the [Language Comprehension Spell](# \"Literal CN: 通语术 (Tōngyǔ Shù) — Universal Language Comprehension spell\")?!"-another offered a suggestion.-"I recall the Chen Clan has one!"
+—"Wait, what about finding cultivators who practice the [Language Comprehension Spell](# "Literal CN: 通语术 (Tōngyǔ Shù) — Universal Language Comprehension spell")?!"-another offered a suggestion.-"I recall the Chen Clan has one!"
 
 The so-called "Language Comprehension Spell" was a universal translation art. Cultivators who mastered this spell could not only understand the speech of beasts such as cats and dogs, but could even listen to the whispering of plants and trees. Given its immense convenience, quite a few cultivators practiced it.
 
@@ -200,7 +200,7 @@ Unaware of the Carefree Palace Master's grievances, high above the Abyss Sea abo
 
 [—"This is outright extortion!"](# "Speaker: Merchant")
 
-[—"Exactly! This covenant is nothing short of a [deed of servitude](# \"Literal CN: 卖身契 (mài shēn qì) — an indentured servitude contract or deed selling oneself into slavery\")!"](# "Speaker: Merchant")
+[—"Exactly! This covenant is nothing short of a [deed of servitude](# "Literal CN: 卖身契 (mài shēn qì) — an indentured servitude contract or deed selling oneself into slavery")!"](# "Speaker: Merchant")
 
 [—"What kind of righteous sect is Heavenly Spirit Sect?!"](# "Speaker: Lou Wu")
 
@@ -486,7 +486,7 @@ Mo Xi could not resist confirming with Qu Qianxing:
 
 Hearing this, Qu Qianxing sneered coldly:
 
-—"It is merely [killing the chicken to scare the monkey](# \"Literal CN: 杀鸡儆猴 (shā jī jǐng hóu) — punishing one to deter others\"). If we do not make an example of them, these foolish masses will never learn their lesson!"
+—"It is merely [killing the chicken to scare the monkey](# "Literal CN: 杀鸡儆猴 (shā jī jǐng hóu) — punishing one to deter others"). If we do not make an example of them, these foolish masses will never learn their lesson!"
 
 [Foolish masses...]
 

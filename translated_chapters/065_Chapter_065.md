@@ -52,7 +52,7 @@ Zhou Hui looked at Shen Qingqian with an exceedingly strange expression, then sh
 
 —"Of course your progress would be fast. Resisting baleful qi day in and day out is equivalent to circulating your techniques every waking second without pause. It would be bizarre if you didn't advance under such conditions,"-Zhou Hui said.-"But didn't you ever feel that living in this environment left your bodies faintly chilled, aching, depleted of strength, and feeling as though you were constantly suffering from blood loss?"
 
-—"I thought it was [uterine cold](# \"Literal CN: 宫寒 (gōnghán) — traditional Chinese medical concept of uterine coldness / menstrual chills, causing severe dysmenorrhea, fatigue, and lower abdominal pain\"),"-Shen Qingqian answered purely out of instinct.
+—"I thought it was [uterine cold](# "Literal CN: 宫寒 (gōnghán) — traditional Chinese medical concept of uterine coldness / menstrual chills, causing severe dysmenorrhea, fatigue, and lower abdominal pain"),"-Shen Qingqian answered purely out of instinct.
 
 The entire spatial rift instantly plunged into a dead silence.
 
@@ -369,7 +369,7 @@ The golden eyes blinked innocently, tears streaming down even faster. Yet the bl
 
 It was flattened into a pancake yet again.
 
-—"No, you aren't Xuan'er. But you ought to be a fragment of Xuan'er's soul..."-Zhou Hui stated with certainty.-"A [Soul of the Taotie](# \"Literal CN: 饕餮之魂 (Tāotiè zhī hún) — soul of the ancient ferocious beast Taotie, embodiment of insatiable gluttony\")?"
+—"No, you aren't Xuan'er. But you ought to be a fragment of Xuan'er's soul..."-Zhou Hui stated with certainty.-"A [Soul of the Taotie](# "Literal CN: 饕餮之魂 (Tāotiè zhī hún) — soul of the ancient ferocious beast Taotie, embodiment of insatiable gluttony")?"
 
 Indeed: physically speaking, Zhou Hui's eldest disciple Yuwen Xuan was one hundred percent human, but his soul was that of a Taotie.
 

@@ -73,6 +73,30 @@
 | 068 | [Chapter 68: An Amusement Park? (第68章 游乐场？)](068_Chapter_068.md) | ✅ Translated |
 | 069 | [Chapter 69: A Minor Surprise (第69章 一点小意外)](069_Chapter_069.md) | ✅ Translated |
 | 070 | [Chapter 70: The School (第70章 学堂)](070_Chapter_070.md) | ✅ Translated |
+| 071 | [Chapter 71: Final Exams and Winter Break (第71章 期末考试和寒假)](071_Chapter_071.md) | ✅ Translated |
+| 072 | [Chapter 72: The Essence of New Year Celebrations Lies in Awkward Small Talk (第72章 过年的精髓在尬聊)](072_Chapter_072.md) | ✅ Translated |
+| 073 | [Chapter 73: Fanning the Flames (第73章 拱火)](073_Chapter_073.md) | ✅ Translated |
+| 074 | [Chapter 74: Completely Under Control (第74章 尽在掌握)](074_Chapter_074.md) | ✅ Translated |
+| 075 | [Chapter 75: Progress? (第75章 进步？)](075_Chapter_075.md) | ✅ Translated |
+| 076 | [Chapter 76: Like Teacher, Like Disciple (第76章 有其师……)](076_Chapter_076.md) | ✅ Translated |
+| 077 | [Chapter 77: The Beginning of the Schoolyard Tyrant Path (第77章 校霸之路的开始)](077_Chapter_077.md) | ✅ Translated |
+| 078 | [Chapter 78: Contest (第78章 较量)](078_Chapter_078.md) | ✅ Translated |
+| 079 | [Chapter 79: A Fleeting Pinnacle of Life (第79章 转瞬即逝的人生巅峰)](079_Chapter_079.md) | ✅ Translated |
+| 080 | [Chapter 80: Warming Up (第80章 预热)](080_Chapter_080.md) | ✅ Translated |
+| 081 | [Chapter 81: An Old Trick Replayed (第81章 故技重施)](081_Chapter_081.md) | ✅ Translated |
+| 082 | [Chapter 82: A Brutal Contrast (第82章 惨烈的对比)](082_Chapter_082.md) | ✅ Translated |
+| 083 | [Chapter 83: Calculating Agendas (第83章 算盘)](083_Chapter_083.md) | ✅ Translated |
+| 084 | [Chapter 84: The Neighbor's Chicken (第84章 隔壁家的鸡肉)](084_Chapter_084.md) | ✅ Translated |
+| 085 | [Chapter 85: The Neighbor's Messy Business (第85章 邻居家的破事)](085_Chapter_085.md) | ✅ Translated |
+| 086 | [Chapter 86: Some Past History (第86章 一些过去)](086_Chapter_086.md) | ✅ Translated |
+| 087 | [Chapter 87: The Setting (第87章 设定)](087_Chapter_087.md) | ✅ Translated |
+| 088 | [Chapter 88: Not Even Born Yet (第88章 还没生出来)](088_Chapter_088.md) | ✅ Translated |
+| 089 | [Chapter 89: Exchange Student (第89章 交换生)](089_Chapter_089.md) | ✅ Translated |
+| 090 | [Chapter 90: The Test (第90章 考验)](090_Chapter_090.md) | ✅ Translated |
+| 091 | [Chapter 91: Daily Life in the Heavenly Spirit Sect (第91章 天灵派的日常)](091_Chapter_091.md) | ✅ Translated |
+| 092 | [Chapter 92: Obsession (第92章 执念)](092_Chapter_092.md) | ✅ Translated |
+
+
 
 
 

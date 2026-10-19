@@ -74,6 +74,7 @@ You MUST format all monologues, dialogues, speaker tags, and cultural idioms usi
     `Ran Deng had always been content being a [total slacker](# "Literal CN: salted fish (咸鱼) — slang for someone with zero ambition who just wants to lie flat").`
   - ✅ Example 2:
     `Everyone recognized that the last problem on the scroll was a [death-trap question](# "Literal CN: life-forfeiting question (送命题) — a trick question where every wrong answer leads to doom").`
+  - ⚠️ **Syntax Notice**: Strictly use standard `(# "...")`. Never wrap the link target in angle brackets (avoid `(<# ...>)`) and never backslash-escape outer quotation marks (avoid `(# \"...\")`).
 
 ### Rule 2.5 — In-Story Exam Questions, Notices & Book Titles
 - **Exam Questions, Test Prompts, Blackboards & Official Sect Notices**: Format inside Markdown blockquotes (`>`) with bold headers so they visually stand out like real exam papers:

@@ -83,6 +83,7 @@ Apply all formatting rules below without exception:
 4. **Cultural Adaptation & Idiom Hover Tooltips**:
    - Whenever a Chinese idiom, slang term, or cultural pun (`咸鱼`, `内卷`, `送命题`, `偏科`, `五飞三修`, etc.) is adapted into natural English (or kept as a flavorful literal phrase), wrap the phrase in a Markdown hover tooltip explaining the counterpart:
      `[total slacker](# "Literal CN: salted fish (咸鱼) — slang for someone who has completely given up on ambition")`
+   - **Syntax Rule**: Strictly use standard `(# "...")`. Never use angle brackets `(<# ...>)` and never backslash-escape outer quotation marks `(# \"...\")`.
 
 5. **Exam Papers, Notices, Manuals & Censorship**:
    - Format in-story **Exam Questions, Notices, and Written Answers** inside Markdown blockquotes (`>`).
