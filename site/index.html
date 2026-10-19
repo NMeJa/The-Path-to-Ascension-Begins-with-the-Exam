@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Path to Ascension Begins with the Exam — Local Reader</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --background: #111318;
+      --card: #1a1d24;
+      --foreground: #ebedf2;
+      --muted-foreground: #9ca3af;
+      --border: #2b303c;
+      --primary: #60a5fa;
+      --primary-foreground: #0f172a;
+    }
+
+    body[data-reader-theme="sepia"] {
+      --reader-bg: #f4ecd8;
+      --reader-card: #fbf6e9;
+      --reader-fg: #2c221e;
+      --reader-muted: #6e5a4f;
+      --reader-border: #dfd3b8;
+      --reader-accent: #8c4a27;
+      --reader-monologue-bg: rgba(140, 74, 39, 0.10);
+      --reader-monologue-fg: #5c3219;
+      --reader-slang-bg: rgba(180, 83, 9, 0.10);
+      --reader-speaker-bg: rgba(14, 116, 144, 0.09);
+      --reader-char-hover: rgba(140, 74, 39, 0.14);
+      --reader-tooltip-bg: #2c221e;
+      --reader-tooltip-fg: #fbf6e9;
+    }
+    body[data-reader-theme="midnight"] {
+      --reader-bg: #0d1117;
+      --reader-card: #161b22;
+      --reader-fg: #e6edf3;
+      --reader-muted: #8b949e;
+      --reader-border: #30363d;
+      --reader-accent: #58a6ff;
+      --reader-monologue-bg: rgba(88, 166, 255, 0.12);
+      --reader-monologue-fg: #a5d6ff;
+      --reader-slang-bg: rgba(245, 158, 11, 0.13);
+      --reader-speaker-bg: rgba(56, 189, 248, 0.11);
+      --reader-char-hover: rgba(88, 166, 255, 0.18);
+      --reader-tooltip-bg: #1f2937;
+      --reader-tooltip-fg: #f9fafb;
+    }
+    body[data-reader-theme="jade"] {
+      --reader-bg: #0f1915;
+      --reader-card: #15241e;
+      --reader-fg: #e2f1ea;
+      --reader-muted: #84a597;
+      --reader-border: #253d33;
+      --reader-accent: #34d399;
+      --reader-monologue-bg: rgba(52, 211, 153, 0.12);
+      --reader-monologue-fg: #6ee7b7;
+      --reader-slang-bg: rgba(251, 191, 36, 0.12);
+      --reader-speaker-bg: rgba(45, 212, 191, 0.11);
+      --reader-char-hover: rgba(52, 211, 153, 0.18);
+      --reader-tooltip-bg: #064e3b;
+      --reader-tooltip-fg: #ecfdf5;
+    }
+    body[data-reader-theme="light"] {
+      --reader-bg: #f8fafc;
+      --reader-card: #ffffff;
+      --reader-fg: #0f172a;
+      --reader-muted: #64748b;
+      --reader-border: #e2e8f0;
+      --reader-accent: #2563eb;
+      --reader-monologue-bg: rgba(37, 99, 235, 0.09);
+      --reader-monologue-fg: #1e40af;
+      --reader-slang-bg: rgba(217, 119, 6, 0.10);
+      --reader-speaker-bg: rgba(2, 132, 199, 0.09);
+      --reader-char-hover: rgba(37, 99, 235, 0.12);
+      --reader-tooltip-bg: #0f172a;
+      --reader-tooltip-fg: #f8fafc;
+    }
+
+    .novel-prose p {
+      margin-bottom: 1.15em;
+      line-height: var(--reader-lh, 1.85);
+      font-size: var(--reader-fs, 18px);
+    }
+
+    /* 1. Monologue Styling (No literal [] brackets, no underlines!) */
+    .monologue-span {
+      transition: all 0.15s ease;
+    }
+    body[data-monologue-style="pill"] .monologue-span {
+      background: var(--reader-monologue-bg);
+      color: var(--reader-monologue-fg);
+      padding: 0.14em 0.5em;
+      border-radius: 0.375rem;
+      font-style: italic;
+    }
+    body[data-monologue-style="italic"] .monologue-span {
+      color: var(--reader-monologue-fg);
+      font-style: italic;
+      opacity: 0.9;
+    }
+
+    /* 2. Dialogue Line Styling (Flush — no vertical bar in front!) */
+    .dialogue-line {
+      padding-left: 0;
+      border-left: none;
+    }
+    .dialogue-dash {
+      color: var(--reader-accent);
+      font-weight: 700;
+      margin-right: 1px;
+    }
+    .dialogue-speech {
+      font-weight: 500;
+    }
+    .dialogue-tag-sep {
+      color: var(--reader-accent);
+      font-weight: 700;
+      padding: 0 2px;
+    }
+    .dialogue-tag {
+      color: var(--reader-muted);
+    }
+
+    /* 3. Unattributed Dialogue & Cultural Slang (Hidden by default — zero underlines, zero symbols!) */
+    .unattributed-dialogue,
+    .cultural-note {
+      border-bottom: none;
+      text-decoration: none;
+      transition: all 0.15s ease;
+    }
+
+    body[data-slang-mode="pill"] .cultural-note {
+      background: var(--reader-slang-bg);
+      padding: 0.12em 0.42em;
+      border-radius: 0.375rem;
+      cursor: help;
+    }
+    body[data-slang-mode="hover"] .cultural-note {
+      cursor: help;
+    }
+    body[data-slang-mode="hover"] .cultural-note:hover {
+      background: var(--reader-slang-bg);
+      border-radius: 0.25rem;
+    }
+
+    body[data-speaker-mode="pill"] .unattributed-dialogue {
+      background: var(--reader-speaker-bg);
+      padding: 0.12em 0.45em;
+      border-radius: 0.375rem;
+      cursor: help;
+    }
+    body[data-speaker-mode="hover"] .unattributed-dialogue {
+      cursor: help;
+    }
+    body[data-speaker-mode="hover"] .unattributed-dialogue:hover {
+      background: var(--reader-speaker-bg);
+      border-radius: 0.25rem;
+    }
+
+    /* 4. Interactive Character Names (No underline; hover tint + click opens Glossary Card) */
+    .char-ref {
+      cursor: pointer;
+      border-radius: 0.3rem;
+      padding: 0.05em 0.2em;
+      margin: 0 -0.1em;
+      transition: background-color 0.15s ease, color 0.15s ease;
+    }
+    .char-ref:hover {
+      background-color: var(--reader-char-hover);
+      color: var(--reader-accent);
+    }
+
+    /* Exam Scroll Blockquote */
+    .exam-scroll {
+      background: color-mix(in srgb, var(--reader-card) 88%, var(--reader-accent) 12%);
+      border: 1px solid color-mix(in srgb, var(--reader-accent) 35%, var(--reader-border));
+      border-left: 4px solid var(--reader-accent);
+      border-radius: 0.75rem;
+      padding: 1.25rem 1.5rem;
+      margin: 1.5rem 0;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    }
+
+    @keyframes pulse-ring {
+      0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--reader-accent) 60%, transparent); }
+      70% { box-shadow: 0 0 0 8px transparent; }
+      100% { box-shadow: 0 0 0 0 transparent; }
+    }
+    .glossary-card-active {
+      border-color: var(--reader-accent) !important;
+      background-color: color-mix(in srgb, var(--reader-accent) 12%, var(--reader-bg)) !important;
+      animation: pulse-ring 1.2s ease-out 2;
+    }
+
+    #floating-tooltip {
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+      z-index: 100;
+    }
+  </style>
+</head>
+<body
+  data-reader-theme="midnight"
+  data-monologue-style="pill"
+  data-slang-mode="hidden"
+  data-speaker-mode="hidden"
+  style="background-color: var(--reader-bg); color: var(--reader-fg);"
+  class="antialiased min-h-screen flex flex-col transition-colors duration-200"
+>
+  <!-- Top Reading Progress Bar -->
+  <div class="fixed top-0 left-0 right-0 h-1 bg-[var(--reader-border)] z-50">
+    <div id="reading-progress" class="h-full transition-all duration-150" style="width: 5%; background-color: var(--reader-accent);"></div>
+  </div>
+
+  <!-- Sticky Top Navigation Header -->
+  <header
+    style="background-color: color-mix(in srgb, var(--reader-card) 92%, transparent); border-color: var(--reader-border);"
+    class="sticky top-0 z-40 backdrop-blur-md border-b px-4 py-2.5"
+  >
+    <div class="max-w-5xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      <!-- Left: Book Title & Chapter Overview Button -->
+      <div class="flex items-center gap-2.5">
+        <button
+          onclick="toggleModal('index-modal')"
+          style="border-color: var(--reader-border); background-color: var(--reader-bg);"
+          class="flex items-center gap-2 px-3 py-1.5 rounded-lg border text-sm font-medium hover:opacity-80 transition"
+        >
+          <span>📑</span>
+          <span id="nav-chapters-count">Chapters</span>
+        </button>
+
+        <div class="hidden sm:block pl-1">
+          <div class="flex items-center gap-2 text-xs font-medium opacity-75">
+            <span>《飞升从考试开始》</span>
+            <span>•</span>
+            <span id="header-read-counter" class="font-semibold" style="color: var(--reader-accent);">0 Read</span>
+          </div>
+          <div id="header-chapter-title" class="text-sm font-semibold truncate max-w-xs">
+            Loading...
+          </div>
+        </div>
+      </div>
+
+      <!-- Center: Mode Toggle (Paginated vs Infinite Scroll) -->
+      <div
+        style="background-color: var(--reader-bg); border-color: var(--reader-border);"
+        class="flex items-center p-0.5 rounded-lg border text-xs font-medium"
+      >
+        <button
+          id="mode-paginated-btn"
+          onclick="setScrollMode('paginated')"
+          class="px-3 py-1.5 rounded-md transition font-semibold"
+          style="background-color: var(--reader-card); color: var(--reader-fg); box-shadow: 0 1px 2px rgba(0,0,0,0.08);"
+        >
+          📖 Paginated
+        </button>
+        <button
+          id="mode-infinite-btn"
+          onclick="setScrollMode('infinite')"
+          class="px-3 py-1.5 rounded-md transition opacity-70 hover:opacity-100"
+        >
+          ♾️ Infinite Scroll
+        </button>
+      </div>
+
+      <!-- Right: Glossary Drawer, Rebuild & Settings -->
+      <div class="flex items-center gap-2">
+        <button
+          onclick="openGlossary()"
+          style="border-color: var(--reader-border); background-color: var(--reader-bg);"
+          class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-xs font-medium hover:opacity-80 transition"
+        >
+          <span>👥</span>
+          <span id="nav-glossary-count">Glossary</span>
+        </button>
+
+        <button
+          id="rebuild-btn"
+          onclick="triggerLiveRebuild()"
+          style="border-color: var(--reader-border); background-color: var(--reader-bg);"
+          class="flex items-center gap-1 px-2.5 py-1.5 rounded-lg border text-xs font-medium hover:opacity-80 transition"
+          title="Re-parse GLOSSARY.md and translated_chapters/ without restarting"
+        >
+          <span>🔄</span>
+          <span class="hidden md:inline">Sync Files</span>
+        </button>
+
+        <button
+          onclick="toggleModal('settings-popover')"
+          style="border-color: var(--reader-border); background-color: var(--reader-bg);"
+          class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-xs font-medium hover:opacity-80 transition"
+        >
+          <span>⚙️</span>
+          <span>Settings</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Settings & Tooltips Popover Panel -->
+  <div
+    id="settings-popover"
+    style="background-color: var(--reader-card); border-color: var(--reader-border);"
+    class="hidden fixed right-4 top-14 z-50 w-80 sm:w-96 rounded-xl border p-4 shadow-2xl max-h-[85vh] overflow-y-auto"
+  >
+    <div class="flex items-center justify-between pb-3 mb-3 border-b" style="border-color: var(--reader-border);">
+      <h3 class="font-semibold text-sm">Reader Settings &amp; Tooltip Controls</h3>
+      <button onclick="toggleModal('settings-popover')" class="text-xs opacity-60 hover:opacity-100">✕ Close</button>
+    </div>
+
+    <!-- Theme Presets -->
+    <div class="mb-4">
+      <label class="block text-xs font-medium opacity-75 mb-1.5">Color Theme</label>
+      <div class="grid grid-cols-2 gap-2 text-xs">
+        <button onclick="setTheme('midnight')" class="px-2.5 py-2 rounded-lg border text-left font-medium" style="background:#0d1117; color:#e6edf3; border-color:#30363d;">
+          🌙 Midnight Ink
+        </button>
+        <button onclick="setTheme('sepia')" class="px-2.5 py-2 rounded-lg border text-left font-medium" style="background:#f4ecd8; color:#2c221e; border-color:#dfd3b8;">
+          📜 Parchment Sepia
+        </button>
+        <button onclick="setTheme('jade')" class="px-2.5 py-2 rounded-lg border text-left font-medium" style="background:#0f1915; color:#e2f1ea; border-color:#253d33;">
+          🎋 Immortal Jade
+        </button>
+        <button onclick="setTheme('light')" class="px-2.5 py-2 rounded-lg border text-left font-medium" style="background:#f8fafc; color:#0f172a; border-color:#cbd5e1;">
+          ☀️ Alabaster Light
+        </button>
+      </div>
+    </div>
+
+    <!-- Monologue Style (No brackets!) -->
+    <div class="mb-4">
+      <label class="block text-xs font-medium opacity-75 mb-1.5">Inner Monologue Style (No `[ ]` brackets)</label>
+      <div class="grid grid-cols-2 gap-2 text-xs">
+        <button id="mono-pill" onclick="setMonologueStyle('pill')" class="px-2.5 py-1.5 rounded-lg border font-semibold" style="border-color: var(--reader-accent);">
+          Tinted Pill (Default)
+        </button>
+        <button id="mono-italic" onclick="setMonologueStyle('italic')" class="px-2.5 py-1.5 rounded-lg border opacity-75" style="border-color: var(--reader-border);">
+          Clean Italic Only
+        </button>
+      </div>
+    </div>
+
+    <!-- Unattributed Speaker Tooltip Mode -->
+    <div class="mb-4">
+      <label class="block text-xs font-medium opacity-75 mb-1.5">Speaker Tooltips (Untagged Dialogue)</label>
+      <div class="grid grid-cols-3 gap-1.5 text-xs">
+        <button id="spk-hidden" onclick="setSpeakerMode('hidden')" class="px-2 py-1.5 rounded-lg border font-semibold" style="border-color: var(--reader-accent);">
+          Hidden (Off)
+        </button>
+        <button id="spk-hover" onclick="setSpeakerMode('hover')" class="px-2 py-1.5 rounded-lg border opacity-75" style="border-color: var(--reader-border);">
+          Hover Only
+        </button>
+        <button id="spk-pill" onclick="setSpeakerMode('pill')" class="px-2 py-1.5 rounded-lg border opacity-75" style="border-color: var(--reader-border);">
+          Tinted Pill
+        </button>
+      </div>
+    </div>
+
+    <!-- Cultural Idiom / Slang Tooltip Mode -->
+    <div class="mb-4">
+      <label class="block text-xs font-medium opacity-75 mb-1.5">Idiom &amp; Slang Tooltips</label>
+      <div class="grid grid-cols-3 gap-1.5 text-xs">
+        <button id="slang-hidden" onclick="setSlangMode('hidden')" class="px-2 py-1.5 rounded-lg border font-semibold" style="border-color: var(--reader-accent);">
+          Hidden (Off)
+        </button>
+        <button id="slang-hover" onclick="setSlangMode('hover')" class="px-2 py-1.5 rounded-lg border opacity-75" style="border-color: var(--reader-border);">
+          Hover Only
+        </button>
+        <button id="slang-pill" onclick="setSlangMode('pill')" class="px-2 py-1.5 rounded-lg border opacity-75" style="border-color: var(--reader-border);">
+          Tinted Pill
+        </button>
+      </div>
+    </div>
+
+    <!-- Font Family & Size -->
+    <div class="mb-3">
+      <label class="block text-xs font-medium opacity-75 mb-1.5">Font Family</label>
+      <div class="grid grid-cols-2 gap-2 text-xs">
+        <button onclick="setFontFamily('serif')" class="px-2.5 py-1.5 rounded-lg border font-serif" style="border-color: var(--reader-border);">
+          Book Serif
+        </button>
+        <button onclick="setFontFamily('sans')" class="px-2.5 py-1.5 rounded-lg border font-sans" style="border-color: var(--reader-border);">
+          Clean Sans
+        </button>
+      </div>
+    </div>
+
+    <div>
+      <div class="flex justify-between text-xs mb-1">
+        <span class="opacity-75">Font Size</span>
+        <span id="fs-label" class="font-semibold">18px</span>
+      </div>
+      <input
+        id="fs-slider"
+        type="range"
+        min="14"
+        max="24"
+        value="18"
+        oninput="setFontSize(this.value)"
+        class="w-full"
+      />
+    </div>
+  </div>
+
+  <!-- Main Reader Container -->
+  <main class="flex-1 px-4 py-8">
+    <div class="max-w-3xl mx-auto">
+      <!-- Top Chapter Jump Bar (Paginated Mode) -->
+      <div id="top-pagination-bar" class="flex flex-wrap items-center justify-between gap-2 mb-6 text-xs">
+        <button
+          id="prev-btn-top"
+          onclick="stepChapter(-1)"
+          style="background-color: var(--reader-card); border-color: var(--reader-border);"
+          class="px-3.5 py-2 rounded-lg border font-medium hover:opacity-80 transition disabled:opacity-40"
+        >
+          ← Previous
+        </button>
+
+        <div class="flex items-center gap-2">
+          <span class="opacity-70">Jump to:</span>
+          <select
+            id="chapter-select"
+            onchange="selectChapter(parseInt(this.value, 10))"
+            style="background-color: var(--reader-card); border-color: var(--reader-border); color: var(--reader-fg);"
+            class="px-2.5 py-1.5 rounded-lg border font-medium max-w-[260px] truncate"
+          ></select>
+        </div>
+
+        <button
+          id="next-btn-top"
+          onclick="stepChapter(1)"
+          style="background-color: var(--reader-card); border-color: var(--reader-border);"
+          class="px-3.5 py-2 rounded-lg border font-medium hover:opacity-80 transition disabled:opacity-40"
+        >
+          Next →
+        </button>
+      </div>
+
+      <!-- Chapter Content Mount Point -->
+      <div id="chapter-viewport" class="space-y-10"></div>
+
+      <!-- Bottom Pagination Bar -->
+      <div id="bottom-pagination-bar" class="mt-10 pt-6 border-t flex items-center justify-between" style="border-color: var(--reader-border);">
+        <button
+          id="prev-btn-bottom"
+          onclick="stepChapter(-1)"
+          style="background-color: var(--reader-card); border-color: var(--reader-border);"
+          class="px-5 py-3 rounded-xl border text-sm font-medium hover:opacity-80 transition disabled:opacity-40"
+        >
+          ← Previous Chapter
+        </button>
+
+        <button
+          onclick="toggleModal('index-modal')"
+          style="background-color: var(--reader-card); border-color: var(--reader-border);"
+          class="px-4 py-3 rounded-xl border text-sm font-medium hover:opacity-80 transition"
+        >
+          📑 Chapter Index
+        </button>
+
+        <button
+          id="next-btn-bottom"
+          onclick="stepChapter(1)"
+          style="background-color: var(--reader-accent); color: #fff;"
+          class="px-5 py-3 rounded-xl text-sm font-semibold hover:opacity-90 transition disabled:opacity-40 shadow-sm"
+        >
+          Next Chapter →
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Chapter Index / Overview Modal -->
+  <div
+    id="index-modal"
+    class="hidden fixed inset-0 z-50 flex items-center justify-center p-4"
+    style="background-color: rgba(0, 0, 0, 0.65);"
+  >
+    <div
+      style="background-color: var(--reader-card); border-color: var(--reader-border); max-height: 85vh;"
+      class="w-full max-w-4xl rounded-2xl border shadow-2xl overflow-hidden flex flex-col"
+    >
+      <div class="p-4 border-b flex flex-wrap items-center justify-between gap-3" style="border-color: var(--reader-border);">
+        <div>
+          <h2 class="text-base font-bold">📑 Chapter Overview &amp; Reading History (`reading_progress.json`)</h2>
+          <p id="index-modal-subtitle" class="text-xs opacity-70"></p>
+        </div>
+        <button onclick="toggleModal('index-modal')" class="px-3 py-1 rounded-lg border text-xs font-medium" style="border-color: var(--reader-border);">
+          ✕ Close
+        </button>
+      </div>
+
+      <!-- Last Read Banner inside Index Modal -->
+      <div
+        id="last-read-banner"
+        style="background-color: color-mix(in srgb, var(--reader-accent) 12%, var(--reader-bg)); border-color: var(--reader-border);"
+        class="px-4 py-2.5 border-b flex flex-wrap items-center justify-between gap-2 text-xs"
+      >
+        <div class="flex items-center gap-2">
+          <span class="px-2 py-0.5 rounded font-bold uppercase" style="background-color: var(--reader-accent); color: #fff;">📍 Last Read</span>
+          <span id="last-read-banner-text" class="font-semibold">000 — Synopsis</span>
+        </div>
+        <button
+          onclick="resumeLastRead()"
+          class="font-semibold hover:underline"
+          style="color: var(--reader-accent);"
+        >
+          Resume Reading →
+        </button>
+      </div>
+
+      <div class="p-3 border-b flex flex-wrap items-center justify-between gap-3 text-xs" style="border-color: var(--reader-border); background-color: var(--reader-bg);">
+        <input
+          id="chapter-search"
+          type="text"
+          placeholder="Search chapter number or title..."
+          oninput="renderChapterDirectory()"
+          style="background-color: var(--reader-card); border-color: var(--reader-border); color: var(--reader-fg);"
+          class="flex-1 min-w-[200px] px-3 py-2 rounded-lg border"
+        />
+        <div class="flex flex-wrap items-center gap-1.5">
+          <button onclick="setIndexFilter('all')" id="filter-all" class="px-2.5 py-1.5 rounded-lg border font-semibold" style="border-color: var(--reader-border); background-color: var(--reader-card);">
+            All
+          </button>
+          <button onclick="setIndexFilter('translated')" id="filter-translated" class="px-2.5 py-1.5 rounded-lg border opacity-75" style="border-color: var(--reader-border);">
+            ✅ Translated
+          </button>
+          <button onclick="setIndexFilter('read')" id="filter-read" class="px-2.5 py-1.5 rounded-lg border opacity-75" style="border-color: var(--reader-border);">
+            📖 Read
+          </button>
+          <button onclick="setIndexFilter('unread')" id="filter-unread" class="px-2.5 py-1.5 rounded-lg border opacity-75" style="border-color: var(--reader-border);">
+            🆕 Unread EN
+          </button>
+          <button onclick="setIndexFilter('raw')" id="filter-raw" class="px-2.5 py-1.5 rounded-lg border opacity-75" style="border-color: var(--reader-border);">
+            ⏳ Pending CN
+          </button>
+        </div>
+      </div>
+
+      <div id="chapter-directory-grid" style="max-height: 55vh; overflow-y: auto;" class="p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5 text-xs"></div>
+    </div>
+  </div>
+
+  <!-- Full Scrollable Glossary Modal -->
+  <div
+    id="glossary-modal"
+    class="hidden fixed inset-0 z-50 flex items-center justify-center p-4"
+    style="background-color: rgba(0, 0, 0, 0.65);"
+  >
+    <div
+      style="background-color: var(--reader-card); border-color: var(--reader-border);"
+      class="w-full max-w-4xl rounded-2xl border shadow-2xl overflow-hidden flex flex-col"
+    >
+      <div class="p-4 border-b flex items-center justify-between" style="border-color: var(--reader-border);">
+        <div>
+          <h2 class="text-base font-bold">👥 Master Glossary (`GLOSSARY.md`)</h2>
+          <p class="text-xs opacity-70">Click any character or sect in the story text to jump directly to their card</p>
+        </div>
+        <button onclick="toggleModal('glossary-modal')" class="px-3 py-1 rounded-lg border text-xs font-medium" style="border-color: var(--reader-border);">
+          ✕ Close
+        </button>
+      </div>
+
+      <div class="p-3 border-b flex flex-wrap items-center justify-between gap-2 text-xs" style="border-color: var(--reader-border); background-color: var(--reader-bg);">
+        <input
+          id="glossary-search"
+          type="text"
+          placeholder="Filter characters, locations, sects, realms..."
+          oninput="renderGlossaryList()"
+          style="background-color: var(--reader-card); border-color: var(--reader-border); color: var(--reader-fg);"
+          class="flex-1 min-w-[200px] px-3 py-1.5 rounded-lg border"
+        />
+        <div class="flex items-center gap-1.5">
+          <button onclick="setGlossaryTab('all')" id="gtab-all" class="px-2.5 py-1.5 rounded-lg border font-semibold" style="border-color: var(--reader-border); background-color: var(--reader-card);">
+            All
+          </button>
+          <button onclick="setGlossaryTab('Characters')" id="gtab-Characters" class="px-2.5 py-1.5 rounded-lg border opacity-75" style="border-color: var(--reader-border);">
+            Characters
+          </button>
+          <button onclick="setGlossaryTab('Locations')" id="gtab-Locations" class="px-2.5 py-1.5 rounded-lg border opacity-75" style="border-color: var(--reader-border);">
+            Locations &amp; Sects
+          </button>
+          <button onclick="setGlossaryTab('Realms')" id="gtab-Realms" class="px-2.5 py-1.5 rounded-lg border opacity-75" style="border-color: var(--reader-border);">
+            Realms &amp; Manuals
+          </button>
+        </div>
+      </div>
+
+      <div
+        id="glossary-scroll-container"
+        style="max-height: 60vh; overflow-y: auto;"
+        class="p-4 grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs"
+      ></div>
+    </div>
+  </div>
+
+  <!-- Floating Hover Tooltip Element -->
+  <div
+    id="floating-tooltip"
+    style="background-color: var(--reader-tooltip-bg); color: var(--reader-tooltip-fg); border-color: var(--reader-accent);"
+    class="opacity-0 fixed max-w-xs px-3.5 py-2.5 rounded-xl border shadow-xl text-xs leading-relaxed"
+  >
+    <div id="tooltip-badge" class="font-bold uppercase tracking-wider text-xs mb-0.5" style="color: var(--reader-accent);"></div>
+    <div id="tooltip-body"></div>
+  </div>
+
+  <script src="chapters_data.js"></script>
+  <script>
+    const GLOSSARY_ENTRIES = window.READER_DATA.glossaryEntries || [];
+    const TRANSLATED_CHAPTERS = window.READER_DATA.translatedChapters || [];
+    const ALL_CHAPTERS_META = window.READER_DATA.allChaptersMeta || [];
+
+    // Load initial DB state from `reading_progress.json` (embedded + synced via /api/progress)
+    let progressDB = window.READER_DATA.initialProgress || {
+      last_read_code: "000",
+      last_read_title: "Synopsis & Introduction",
+      read_chapters: ["000"],
+      scroll_positions: {},
+      settings: {}
+    };
+    let readChaptersSet = new Set(progressDB.read_chapters || []);
+
+    let currentChapterIdx = 0;
+    let scrollMode = "paginated";
+    let currentFilter = "all";
+    let currentGlossaryTab = "all";
+    let highlightedGlossaryId = null;
+    let saveTimer = null;
+
+    async function fetchLatestProgressFromServer() {
+      let serverLoaded = false;
+      if (window.location.protocol.startsWith("http")) {
+        try {
+          const resp = await fetch("/api/progress", { cache: "no-store" });
+          if (resp.ok) {
+            const serverData = await resp.json();
+            progressDB = serverData;
+            readChaptersSet = new Set(progressDB.read_chapters || []);
+            serverLoaded = true;
+          }
+        } catch (_) {}
+      }
+      if (!serverLoaded) {
+        // Fallback to localStorage if opened via file:// or static web hosting (e.g. GitHub Pages)
+        const localRaw = localStorage.getItem("reader_progress_db");
+        if (localRaw) {
+          try {
+            progressDB = JSON.parse(localRaw);
+            readChaptersSet = new Set(progressDB.read_chapters || []);
+          } catch (_) {}
+        }
+      }
+    }
+
+    function syncProgressToDisk() {
+      progressDB.read_chapters = Array.from(readChaptersSet);
+      localStorage.setItem("reader_progress_db", JSON.stringify(progressDB));
+
+      if (window.location.protocol.startsWith("http")) {
+        clearTimeout(saveTimer);
+        saveTimer = setTimeout(() => {
+          fetch("/api/progress", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(progressDB)
+          }).catch(() => {});
+        }, 150);
+      }
+      updateProgressCounters();
+    }
+
+    async function triggerLiveRebuild() {
+      const btn = document.getElementById("rebuild-btn");
+      if (!window.location.protocol.startsWith("http")) {
+        window.location.reload();
+        return;
+      }
+      btn.textContent = "⏳ Syncing...";
+      try {
+        const resp = await fetch("/api/rebuild", { method: "POST" });
+        if (resp.ok) {
+          window.location.reload();
+        } else {
+          window.location.reload();
+        }
+      } catch (_) {
+        window.location.reload();
+      }
+    }
+
+    async function initReader() {
+      await fetchLatestProgressFromServer();
+
+      const s = progressDB.settings || {};
+      const savedTheme = s.theme || localStorage.getItem("reader_theme") || "midnight";
+      const savedMono = s.monologueStyle || localStorage.getItem("reader_mono") || "pill";
+      const savedSpk = s.speakerMode || localStorage.getItem("reader_spk") || "hidden";
+      const savedSlang = s.slangMode || localStorage.getItem("reader_slang") || "hidden";
+      const savedFs = s.fontSize || localStorage.getItem("reader_fs") || "18";
+      const savedFont = s.fontFamily || localStorage.getItem("reader_font") || "sans";
+      scrollMode = s.scrollMode || localStorage.getItem("reader_scrollMode") || "paginated";
+
+      setTheme(savedTheme, false);
+      setMonologueStyle(savedMono, false);
+      setSpeakerMode(savedSpk, false);
+      setSlangMode(savedSlang, false);
+      setFontSize(savedFs, false);
+      setFontFamily(savedFont, false);
+      document.getElementById("fs-slider").value = savedFs;
+
+      if (progressDB.last_read_code) {
+        const foundIdx = TRANSLATED_CHAPTERS.findIndex(c => c.code === progressDB.last_read_code);
+        if (foundIdx >= 0) currentChapterIdx = foundIdx;
+      }
+
+      document.getElementById("nav-glossary-count").textContent = `Glossary (${GLOSSARY_ENTRIES.length})`;
+      updateProgressCounters();
+      setScrollMode(scrollMode, false);
+
+      // Restore scroll offset for the last read chapter
+      const activeCh = TRANSLATED_CHAPTERS[currentChapterIdx];
+      if (activeCh && progressDB.scroll_positions && progressDB.scroll_positions[activeCh.code]) {
+        setTimeout(() => {
+          window.scrollTo({ top: progressDB.scroll_positions[activeCh.code], behavior: "instant" });
+        }, 50);
+      }
+    }
+
+    function updateProgressCounters() {
+      const totalTranslated = TRANSLATED_CHAPTERS.length;
+      const totalAll = ALL_CHAPTERS_META.length;
+      const totalRead = readChaptersSet.size;
+      const unreadTranslated = TRANSLATED_CHAPTERS.filter(c => !readChaptersSet.has(c.code)).length;
+
+      document.getElementById("nav-chapters-count").textContent = `Chapters (${totalTranslated}/${totalAll})`;
+      document.getElementById("header-read-counter").textContent = `${totalRead} Read`;
+      document.getElementById("index-modal-subtitle").textContent =
+        `${totalRead} Read • ${totalTranslated} Translated • ${totalAll - totalTranslated} Pending in raw_chapters/`;
+
+      document.getElementById("filter-all").textContent = `All (${totalAll})`;
+      document.getElementById("filter-translated").textContent = `✅ Translated (${totalTranslated})`;
+      document.getElementById("filter-read").textContent = `📖 Read (${totalRead})`;
+      document.getElementById("filter-unread").textContent = `🆕 Unread EN (${unreadTranslated})`;
+      document.getElementById("filter-raw").textContent = `⏳ Pending CN (${totalAll - totalTranslated})`;
+
+      // Update Last Read Banner
+      const lastCode = progressDB.last_read_code || "000";
+      const lastMeta = ALL_CHAPTERS_META.find(m => m.code === lastCode);
+      document.getElementById("last-read-banner-text").textContent =
+        lastMeta ? `#${lastMeta.code} — ${lastMeta.titleEn} (${lastMeta.titleZh})` : `#${lastCode}`;
+
+      // Update Top Chapter Select Dropdown with ✓ Read and 📍 Last Read markers
+      const selectEl = document.getElementById("chapter-select");
+      selectEl.innerHTML = TRANSLATED_CHAPTERS.map((ch, idx) => {
+        const isRead = readChaptersSet.has(ch.code);
+        const isLast = ch.code === progressDB.last_read_code;
+        const prefix = isLast ? "📍 " : isRead ? "✓ " : "○ ";
+        return `<option value="${idx}" ${idx === currentChapterIdx ? 'selected' : ''}>${prefix}${ch.code} — ${ch.titleEn}</option>`;
+      }).join("");
+    }
+
+    function toggleChapterReadStatus(code, event) {
+      if (event) event.stopPropagation();
+      if (readChaptersSet.has(code)) {
+        readChaptersSet.delete(code);
+      } else {
+        readChaptersSet.add(code);
+      }
+      syncProgressToDisk();
+      renderViewport();
+      if (!document.getElementById("index-modal").classList.contains("hidden")) {
+        renderChapterDirectory();
+      }
+    }
+
+    function resumeLastRead() {
+      const foundIdx = TRANSLATED_CHAPTERS.findIndex(c => c.code === progressDB.last_read_code);
+      if (foundIdx >= 0) {
+        selectChapter(foundIdx);
+        toggleModal("index-modal");
+      }
+    }
+
+    function renderChapterCard(ch) {
+      const isRead = readChaptersSet.has(ch.code);
+      const isLast = ch.code === progressDB.last_read_code;
+      return `
+        <article
+          style="background-color: var(--reader-card); border-color: var(--reader-border);"
+          class="rounded-2xl border p-6 sm:p-10 shadow-sm"
+        >
+          <div class="border-b pb-5 mb-6" style="border-color: var(--reader-border);">
+            <div class="flex flex-wrap items-center justify-between gap-2 text-xs mb-2">
+              <div class="flex items-center gap-2 opacity-75">
+                <span>FILE: ${ch.filename}</span>
+                <span>•</span>
+                <span>${ch.words}</span>
+              </div>
+              <div class="flex items-center gap-2">
+                ${isLast ? `<span class="px-2 py-0.5 rounded font-semibold" style="background-color: var(--reader-monologue-bg); color: var(--reader-accent);">📍 Last Read</span>` : ''}
+                <button
+                  onclick="toggleChapterReadStatus('${ch.code}', event)"
+                  style="border-color: var(--reader-border); background-color: ${isRead ? 'rgba(16, 185, 129, 0.16)' : 'var(--reader-bg)'}; color: ${isRead ? '#10b981' : 'var(--reader-muted)'};"
+                  class="px-2.5 py-1 rounded-lg border font-semibold transition hover:opacity-85"
+                >
+                  ${isRead ? '✓ Marked as Read' : '○ Mark as Read'}
+                </button>
+              </div>
+            </div>
+            <h1 class="text-2xl sm:text-3xl font-bold tracking-tight mb-1">${ch.titleEn}</h1>
+            <div class="text-sm opacity-75">${ch.titleZh}</div>
+          </div>
+
+          <div class="novel-prose">
+            ${ch.html}
+          </div>
+        </article>
+      `;
+    }
+
+    function renderViewport() {
+      const viewport = document.getElementById("chapter-viewport");
+      const topBar = document.getElementById("top-pagination-bar");
+      const bottomBar = document.getElementById("bottom-pagination-bar");
+      const headerTitle = document.getElementById("header-chapter-title");
+
+      if (TRANSLATED_CHAPTERS.length === 0) {
+        headerTitle.textContent = "No Translated Chapters Yet";
+        topBar.classList.add("hidden");
+        bottomBar.classList.add("hidden");
+        viewport.innerHTML = `
+          <div style="background-color: var(--reader-card); border-color: var(--reader-border);" class="rounded-2xl border p-8 text-center">
+            <h2 class="text-xl font-bold mb-2">No translated chapters found in <code>translated_chapters/</code></h2>
+            <p class="text-sm opacity-75">Ask Antigravity to translate a chapter (e.g. "Translate Chapter 1") and click <strong>🔄 Sync Files</strong>!</p>
+          </div>
+        `;
+        return;
+      }
+
+      if (scrollMode === "paginated") {
+        const ch = TRANSLATED_CHAPTERS[currentChapterIdx] || TRANSLATED_CHAPTERS[0];
+        // Record as Last Read & automatically mark as Read in reading_progress.json
+        progressDB.last_read_code = ch.code;
+        progressDB.last_read_title = ch.titleEn;
+        readChaptersSet.add(ch.code);
+        syncProgressToDisk();
+
+        viewport.innerHTML = renderChapterCard(ch);
+        headerTitle.textContent = ch.titleEn;
+        topBar.classList.remove("hidden");
+        bottomBar.classList.remove("hidden");
+
+        const disablePrev = currentChapterIdx <= 0;
+        const disableNext = currentChapterIdx >= TRANSLATED_CHAPTERS.length - 1;
+        document.getElementById("prev-btn-top").disabled = disablePrev;
+        document.getElementById("prev-btn-bottom").disabled = disablePrev;
+        document.getElementById("next-btn-top").disabled = disableNext;
+        document.getElementById("next-btn-bottom").disabled = disableNext;
+      } else {
+        headerTitle.textContent = `Infinite Scroll (${TRANSLATED_CHAPTERS.length} Translated Chapters)`;
+        topBar.classList.add("hidden");
+        bottomBar.classList.add("hidden");
+        viewport.innerHTML = TRANSLATED_CHAPTERS.map((ch, idx) => `
+          <div>
+            ${idx > 0 ? `
+              <div class="flex items-center gap-4 my-8 opacity-60 text-xs font-semibold uppercase tracking-widest">
+                <div class="flex-1 border-t" style="border-color: var(--reader-border);"></div>
+                <span>♾️ Chapter ${ch.code}</span>
+                <div class="flex-1 border-t" style="border-color: var(--reader-border);"></div>
+              </div>
+            ` : ''}
+            ${renderChapterCard(ch)}
+          </div>
+        `).join("");
+      }
+
+      bindTooltips();
+    }
+
+    function selectChapter(tIdx) {
+      if (tIdx === null || tIdx === undefined) return;
+      currentChapterIdx = tIdx;
+      if (scrollMode !== "paginated") {
+        setScrollMode("paginated");
+      } else {
+        renderViewport();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    }
+
+    function stepChapter(delta) {
+      const next = currentChapterIdx + delta;
+      if (next >= 0 && next < TRANSLATED_CHAPTERS.length) {
+        currentChapterIdx = next;
+        renderViewport();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    }
+
+    function saveSetting(key, val) {
+      progressDB.settings = progressDB.settings || {};
+      progressDB.settings[key] = val;
+      syncProgressToDisk();
+    }
+
+    function setScrollMode(mode, persist = true) {
+      scrollMode = mode;
+      localStorage.setItem("reader_scrollMode", mode);
+      if (persist) saveSetting("scrollMode", mode);
+      const pagBtn = document.getElementById("mode-paginated-btn");
+      const infBtn = document.getElementById("mode-infinite-btn");
+
+      if (mode === "paginated") {
+        pagBtn.style.backgroundColor = "var(--reader-card)";
+        pagBtn.style.boxShadow = "0 1px 2px rgba(0,0,0,0.08)";
+        pagBtn.classList.remove("opacity-70");
+        infBtn.style.backgroundColor = "transparent";
+        infBtn.style.boxShadow = "none";
+        infBtn.classList.add("opacity-70");
+      } else {
+        infBtn.style.backgroundColor = "var(--reader-card)";
+        infBtn.style.boxShadow = "0 1px 2px rgba(0,0,0,0.08)";
+        infBtn.classList.remove("opacity-70");
+        pagBtn.style.backgroundColor = "transparent";
+        pagBtn.style.boxShadow = "none";
+        pagBtn.classList.add("opacity-70");
+      }
+      renderViewport();
+    }
+
+    function setTheme(theme, persist = true) {
+      document.body.setAttribute("data-reader-theme", theme);
+      localStorage.setItem("reader_theme", theme);
+      if (persist) saveSetting("theme", theme);
+    }
+
+    function setFontFamily(family, persist = true) {
+      localStorage.setItem("reader_font", family);
+      if (persist) saveSetting("fontFamily", family);
+      const prose = document.getElementById("chapter-viewport");
+      if (family === "serif") {
+        prose.classList.add("font-serif");
+        prose.classList.remove("font-sans");
+      } else {
+        prose.classList.add("font-sans");
+        prose.classList.remove("font-serif");
+      }
+    }
+
+    function setFontSize(sizePx, persist = true) {
+      localStorage.setItem("reader_fs", sizePx);
+      if (persist) saveSetting("fontSize", String(sizePx));
+      document.documentElement.style.setProperty("--reader-fs", sizePx + "px");
+      document.getElementById("fs-label").textContent = sizePx + "px";
+    }
+
+    function setMonologueStyle(style, persist = true) {
+      localStorage.setItem("reader_mono", style);
+      if (persist) saveSetting("monologueStyle", style);
+      document.body.setAttribute("data-monologue-style", style);
+      ["pill", "italic"].forEach(s => {
+        const btn = document.getElementById("mono-" + s);
+        if (s === style) {
+          btn.style.borderColor = "var(--reader-accent)";
+          btn.classList.add("font-semibold");
+          btn.classList.remove("opacity-75");
+        } else {
+          btn.style.borderColor = "var(--reader-border)";
+          btn.classList.remove("font-semibold");
+          btn.classList.add("opacity-75");
+        }
+      });
+    }
+
+    function setSpeakerMode(mode, persist = true) {
+      localStorage.setItem("reader_spk", mode);
+      if (persist) saveSetting("speakerMode", mode);
+      document.body.setAttribute("data-speaker-mode", mode);
+      ["hidden", "hover", "pill"].forEach(m => {
+        const btn = document.getElementById("spk-" + m);
+        if (m === mode) {
+          btn.style.borderColor = "var(--reader-accent)";
+          btn.classList.add("font-semibold");
+          btn.classList.remove("opacity-75");
+        } else {
+          btn.style.borderColor = "var(--reader-border)";
+          btn.classList.remove("font-semibold");
+          btn.classList.add("opacity-75");
+        }
+      });
+    }
+
+    function setSlangMode(mode, persist = true) {
+      localStorage.setItem("reader_slang", mode);
+      if (persist) saveSetting("slangMode", mode);
+      document.body.setAttribute("data-slang-mode", mode);
+      ["hidden", "hover", "pill"].forEach(m => {
+        const btn = document.getElementById("slang-" + m);
+        if (m === mode) {
+          btn.style.borderColor = "var(--reader-accent)";
+          btn.classList.add("font-semibold");
+          btn.classList.remove("opacity-75");
+        } else {
+          btn.style.borderColor = "var(--reader-border)";
+          btn.classList.remove("font-semibold");
+          btn.classList.add("opacity-75");
+        }
+      });
+    }
+
+    function toggleModal(id) {
+      const el = document.getElementById(id);
+      el.classList.toggle("hidden");
+      if (id === "index-modal" && !el.classList.contains("hidden")) {
+        renderChapterDirectory();
+      }
+    }
+
+    function openGlossary(targetId) {
+      const modal = document.getElementById("glossary-modal");
+      modal.classList.remove("hidden");
+      document.getElementById("glossary-search").value = "";
+      setGlossaryTab("all", targetId || null);
+
+      if (targetId) {
+        setTimeout(() => {
+          const card = document.getElementById("gcard-" + targetId);
+          if (card) {
+            card.scrollIntoView({ behavior: "smooth", block: "center" });
+          }
+        }, 60);
+      }
+    }
+
+    function setGlossaryTab(tab, focusId = null) {
+      currentGlossaryTab = tab;
+      highlightedGlossaryId = focusId;
+      ["all", "Characters", "Locations", "Realms"].forEach(t => {
+        const btn = document.getElementById("gtab-" + t);
+        if (t === tab) {
+          btn.style.backgroundColor = "var(--reader-card)";
+          btn.classList.add("font-semibold");
+          btn.classList.remove("opacity-75");
+        } else {
+          btn.style.backgroundColor = "transparent";
+          btn.classList.remove("font-semibold");
+          btn.classList.add("opacity-75");
+        }
+      });
+      renderGlossaryList();
+    }
+
+    function renderGlossaryList() {
+      const q = (document.getElementById("glossary-search").value || "").toLowerCase().trim();
+      const container = document.getElementById("glossary-scroll-container");
+
+      const filtered = GLOSSARY_ENTRIES.filter(item => {
+        if (currentGlossaryTab !== "all" && item.category !== currentGlossaryTab) return false;
+        if (!q) return true;
+        return (
+          item.name.toLowerCase().includes(q) ||
+          item.zh.toLowerCase().includes(q) ||
+          item.titles.toLowerCase().includes(q) ||
+          item.role.toLowerCase().includes(q) ||
+          item.desc.toLowerCase().includes(q)
+        );
+      });
+
+      container.innerHTML = filtered.map(item => {
+        const isHighlighted = item.id === highlightedGlossaryId;
+        return `
+          <div
+            id="gcard-${item.id}"
+            style="border-color: var(--reader-border); background-color: var(--reader-bg);"
+            class="p-3.5 rounded-xl border transition ${isHighlighted ? 'glossary-card-active' : ''}"
+          >
+            <div class="flex items-center justify-between gap-2 mb-1">
+              <span class="font-bold text-sm">${item.name} <span class="opacity-75 font-normal">(${item.zh})</span></span>
+              <span class="px-2 py-0.5 rounded text-xs font-medium shrink-0" style="background-color: var(--reader-monologue-bg);">
+                ${item.sex}
+              </span>
+            </div>
+            ${item.titles ? `<div class="opacity-75 mb-1"><strong>Titles:</strong> ${item.titles}</div>` : ''}
+            ${item.role ? `<div class="opacity-75 mb-1.5"><strong>Role:</strong> ${item.role}</div>` : ''}
+            <p class="opacity-90 leading-relaxed">${item.desc}</p>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function setIndexFilter(filter) {
+      currentFilter = filter;
+      ["all", "translated", "read", "unread", "raw"].forEach(f => {
+        const btn = document.getElementById("filter-" + f);
+        if (f === filter) {
+          btn.style.backgroundColor = "var(--reader-card)";
+          btn.classList.add("font-semibold");
+          btn.classList.remove("opacity-75");
+        } else {
+          btn.style.backgroundColor = "transparent";
+          btn.classList.remove("font-semibold");
+          btn.classList.add("opacity-75");
+        }
+      });
+      renderChapterDirectory();
+    }
+
+    function renderChapterDirectory() {
+      const q = (document.getElementById("chapter-search").value || "").toLowerCase().trim();
+      const grid = document.getElementById("chapter-directory-grid");
+
+      const filtered = ALL_CHAPTERS_META.filter(ch => {
+        const isRead = readChaptersSet.has(ch.code);
+        if (currentFilter === "translated" && ch.status !== "translated") return false;
+        if (currentFilter === "raw" && ch.status !== "raw") return false;
+        if (currentFilter === "read" && !isRead) return false;
+        if (currentFilter === "unread" && (ch.status !== "translated" || isRead)) return false;
+
+        if (!q) return true;
+        return (
+          ch.code.toLowerCase().includes(q) ||
+          ch.titleZh.toLowerCase().includes(q) ||
+          ch.titleEn.toLowerCase().includes(q)
+        );
+      });
+
+      grid.innerHTML = filtered.map(ch => {
+        const isTranslated = ch.status === "translated";
+        const isRead = readChaptersSet.has(ch.code);
+        const isLast = ch.code === progressDB.last_read_code;
+
+        return `
+          <div
+            onclick="${isTranslated ? `selectChapter(${ch.tIdx}); toggleModal('index-modal');` : ''}"
+            style="background-color: var(--reader-bg); border-color: ${isLast ? 'var(--reader-accent)' : 'var(--reader-border)'};"
+            class="p-3 rounded-xl border flex flex-col justify-between transition ${isTranslated ? 'cursor-pointer hover:opacity-85' : 'opacity-65'}"
+          >
+            <div>
+              <div class="flex items-center justify-between gap-1.5 mb-1">
+                <div class="flex items-center gap-1.5">
+                  <span class="font-bold">#${ch.code}</span>
+                  ${isLast ? `<span class="px-1.5 py-0.5 rounded text-xs font-bold" style="background-color: var(--reader-accent); color: #fff;">📍 LAST</span>` : ''}
+                </div>
+                <div class="flex items-center gap-1">
+                  <button
+                    onclick="toggleChapterReadStatus('${ch.code}', event)"
+                    title="Click to toggle Read / Unread"
+                    class="px-2 py-0.5 rounded text-xs font-medium border"
+                    style="border-color: var(--reader-border); background-color: ${isRead ? 'rgba(16, 185, 129, 0.18)' : 'transparent'}; color: ${isRead ? '#10b981' : 'var(--reader-muted)'};"
+                  >
+                    ${isRead ? '✓ Read' : '○ Unread'}
+                  </button>
+                </div>
+              </div>
+              <div class="font-semibold truncate">${ch.titleEn}</div>
+              <div class="opacity-70 truncate">${ch.titleZh}</div>
+            </div>
+            <div class="mt-2 pt-1.5 border-t flex justify-between opacity-65" style="border-color: var(--reader-border);">
+              <span>${ch.chars.toLocaleString()} CN chars</span>
+              <span>${isTranslated ? `✅ ${ch.words.toLocaleString()} words →` : '⏳ Raw CN'}</span>
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function bindTooltips() {
+      const tooltip = document.getElementById("floating-tooltip");
+      const badge = document.getElementById("tooltip-badge");
+      const body = document.getElementById("tooltip-body");
+
+      document.querySelectorAll(".has-char-tooltip").forEach(el => {
+        el.addEventListener("mouseenter", (e) => {
+          badge.textContent = el.getAttribute("data-tip-type") || "Character";
+          body.textContent = el.getAttribute("data-tip-text") || "";
+          tooltip.classList.remove("opacity-0");
+          tooltip.classList.add("opacity-100");
+          positionTooltip(e);
+        });
+        el.addEventListener("mousemove", positionTooltip);
+        el.addEventListener("mouseleave", () => {
+          tooltip.classList.remove("opacity-100");
+          tooltip.classList.add("opacity-0");
+        });
+      });
+
+      document.querySelectorAll(".has-tooltip").forEach(el => {
+        el.addEventListener("mouseenter", (e) => {
+          const isSpeaker = el.classList.contains("unattributed-dialogue");
+          const isSlang = el.classList.contains("cultural-note");
+          const speakerMode = document.body.getAttribute("data-speaker-mode");
+          const slangMode = document.body.getAttribute("data-slang-mode");
+
+          if (isSpeaker && speakerMode === "hidden") return;
+          if (isSlang && slangMode === "hidden") return;
+
+          badge.textContent = el.getAttribute("data-tip-type") || "Note";
+          body.textContent = el.getAttribute("data-tip-text") || "";
+          tooltip.classList.remove("opacity-0");
+          tooltip.classList.add("opacity-100");
+          positionTooltip(e);
+        });
+        el.addEventListener("mousemove", positionTooltip);
+        el.addEventListener("mouseleave", () => {
+          tooltip.classList.remove("opacity-100");
+          tooltip.classList.add("opacity-0");
+        });
+      });
+    }
+
+    function positionTooltip(e) {
+      const tooltip = document.getElementById("floating-tooltip");
+      const pad = 14;
+      let x = e.clientX + pad;
+      let y = e.clientY + pad;
+      const rect = tooltip.getBoundingClientRect();
+      if (x + rect.width > window.innerWidth - 16) {
+        x = e.clientX - rect.width - pad;
+      }
+      if (y + rect.height > window.innerHeight - 16) {
+        y = e.clientY - rect.height - pad;
+      }
+      tooltip.style.left = x + "px";
+      tooltip.style.top = y + "px";
+    }
+
+    let scrollSaveTimeout = null;
+    window.addEventListener("scroll", () => {
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const pct = docHeight > 0 ? Math.min(100, Math.max(5, (window.scrollY / docHeight) * 100)) : 100;
+      document.getElementById("reading-progress").style.width = pct + "%";
+
+      if (scrollMode === "paginated" && TRANSLATED_CHAPTERS[currentChapterIdx]) {
+        clearTimeout(scrollSaveTimeout);
+        scrollSaveTimeout = setTimeout(() => {
+          const code = TRANSLATED_CHAPTERS[currentChapterIdx].code;
+          progressDB.scroll_positions = progressDB.scroll_positions || {};
+          progressDB.scroll_positions[code] = Math.round(window.scrollY);
+          syncProgressToDisk();
+        }, 400);
+      }
+    });
+
+    window.addEventListener("keydown", (e) => {
+      const indexHidden = document.getElementById("index-modal").classList.contains("hidden");
+      const glossaryHidden = document.getElementById("glossary-modal").classList.contains("hidden");
+      if (scrollMode === "paginated" && indexHidden && glossaryHidden) {
+        if (e.key === "ArrowLeft") stepChapter(-1);
+        if (e.key === "ArrowRight") stepChapter(1);
+      }
+    });
+
+    initReader();
+  </script>
+</body>
+</html>
