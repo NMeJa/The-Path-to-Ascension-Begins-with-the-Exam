@@ -109,6 +109,7 @@ Sect & Role: Heavenly Spirit Sect — 6th Direct Disciple of Zhou Hui (Sword Cul
 Aliases & Forms of Address: 
   - Called "Mo Bei" (莫悲) by Zhou Hui
   - Called "Youngest Junior Sister" (小师妹) by her senior brothers and sister
+  - Public tournament alias of Mo Xi (莫喜) in the Immortal Arts Assembly (Chapter 100)
 Relationships: 6th Direct Disciple of Zhou Hui; older twin sister of Mo Xi (dragon-phoenix twins / 龙凤胎); former high-grade cultivation furnace captive in Fallen Immortal Palace alongside Mo Xi, rescued and taken in as a disciple by Zhou Hui when he annihilated the palace
 Speech Style & Personality: Spirited, mischievous, and fond of storybooks featuring handsome young swordsmen coming to save the damsel; quick to banter and tease her twin brother Mo Xi. Possesses an easygoing mindset, content to enjoy life and tasty immortal peaches while teasing her stressed brother.
 ```
@@ -123,6 +124,7 @@ Sect & Role: Heavenly Spirit Sect — 7th Direct Disciple of Zhou Hui
 Aliases & Forms of Address: 
   - Called "Mo Xi" (莫喜) by Zhou Hui
   - Called "Youngest Junior Brother" (小师弟) by his seniors
+  - Registered for the Immortal Arts Assembly under the public tournament alias "Mo Bei" (莫悲) as the sixth disciple (Chapter 100)
 Relationships: 7th Direct Disciple of Zhou Hui; younger twin brother of Mo Bei; former high-grade cultivation furnace captive in Fallen Immortal Palace alongside Mo Bei, rescued by Zhou Hui
 Speech Style & Personality: Playful, restless, and calculating on the surface, yet harbors deep-seated trauma from his past as a furnace slave; terrified of being deemed "useless" and discarded or recaptured once Zhou Hui ascends. Possesses an Extreme Yin Constitution (极阴之体) and originally practiced a pure Yin technique (纯阴功法). Driven by an obsessive need to amass spirit stones and prove his utility, even exhausting his spiritual energy to near-death. Deeply touched when Zhou Hui gifts him the sect's entire spirit stone vein and tells him he never needed him to be useful, only wanting him to have a dignified future.
 ```
@@ -271,9 +273,9 @@ English Name (optional):
 Sex: Male (he/him)
 Titles / Epithets: Little Martial Uncle (小师叔), Little Ancestor (小祖宗)
 Sect & Role: Heavenly Dao Alliance — Young Master / Special Emissary (Foundation Establishment Stage / 筑基期)
-Aliases & Forms of Address: Su Xin, Lord Emissary (使者大人)
+Aliases & Forms of Address: Su Xin, Xin'er (辛儿), Lord Emissary (使者大人)
 Relationships: Son of Tribulation Transcendence powerhouses Su Mei and Xin Zhu; junior martial brother to Heyunzi; Little Martial Uncle to He Yong
-Speech Style & Personality: Arrogant, entitled, incredibly pampered youth born on his parents' 8,888th birthday. Boastful and dismissive of backwater cultivators, derisively mispronouncing Zhou Hui's title as "Un-Grinding Immortal" (不卷仙人/不卷仙尊). Convinced he is an invincible genius because opponents always took dives to let him win.
+Speech Style & Personality: Arrogant, entitled, incredibly pampered youth born on his parents' 8,888th birthday. Boastful and dismissive of backwater cultivators, derisively mispronouncing Zhou Hui's title as "Un-Grinding Immortal" (不卷仙人/不卷仙尊). Convinced he is an invincible genius because opponents always took dives to let him win. His father Su Mei secretly borrows his name to publish scathing flame-war articles in *White Jade Capital Weekly*.
 ```
 
 ```yaml
@@ -281,11 +283,11 @@ Character Name: Su Mei
 Chinese Name: 苏枚
 English Name (optional): 
 Sex: Male (he/him)
-Titles / Epithets: Senior Daoist / Tribulation Transcendence Elder
+Titles / Epithets: Senior Daoist / Tribulation Transcendence Elder, Lord Mei (梅)
 Sect & Role: Heavenly Dao Alliance — Tribulation Transcendence Elder (渡劫期)
-Aliases & Forms of Address: Su Mei
-Relationships: Daoist partner of Xin Zhu; father of Su Xin; master of Heyunzi
-Speech Style & Personality: Renowned Tribulation Transcendence powerhouse forming a legendary lifelong Daoist couple with Xin Zhu; conceived Su Xin late in life and spoils him unconditionally.
+Aliases & Forms of Address: Su Mei, Lord Mei
+Relationships: Daoist partner of Xin Zhu; father of Su Xin (Xin'er); master of Heyunzi; ancient friend of Zhou Hui
+Speech Style & Personality: Renowned Tribulation Transcendence powerhouse forming a legendary lifelong Daoist couple with Xin Zhu; conceived Su Xin late in life and spoils him unconditionally. Idles away at home 'enjoying sweets with his son' (含饴弄子); secretly thrilled by academic flame wars in *White Jade Capital Weekly* and writes blistering rebuttal articles ghostwritten under his son Su Xin's name to preserve his own dignity, demonstrating the same vicious cursing prowess he used against matchmakers centuries ago.
 ```
 
 ```yaml
@@ -293,11 +295,11 @@ Character Name: Xin Zhu
 Chinese Name: 辛烛
 English Name (optional): 
 Sex: Female (she/her)
-Titles / Epithets: Senior Daoist / Tribulation Transcendence Elder
+Titles / Epithets: Senior Daoist / Tribulation Transcendence Elder, Lady Zhu (竹)
 Sect & Role: Heavenly Dao Alliance — Tribulation Transcendence Elder (渡劫期)
-Aliases & Forms of Address: Xin Zhu
-Relationships: Daoist partner of Su Mei; mother of Su Xin; master of Heyunzi
-Speech Style & Personality: Renowned Tribulation Transcendence powerhouse forming a legendary lifelong Daoist couple with Su Mei; conceived Su Xin late in life and spoils him unconditionally.
+Aliases & Forms of Address: Xin Zhu, Lady Zhu
+Relationships: Daoist partner of Su Mei; mother of Su Xin (Xin'er); master of Heyunzi; ancient friend of Zhou Hui
+Speech Style & Personality: Renowned Tribulation Transcendence powerhouse forming a legendary lifelong Daoist couple with Su Mei; conceived Su Xin late in life and spoils him unconditionally; pure drama goblin (乐子人) who revels in watching domain-wide flame wars and laughs at her husband's ridiculous antics.
 ```
 
 ```yaml
@@ -572,8 +574,8 @@ Sex: Male (he/him)
 Titles / Epithets: City Lord Feng (风城主)
 Sect & Role: Fengqing City (风清城) — City Lord
 Aliases & Forms of Address: Feng Lang, City Lord Feng
-Relationships: City Lord of Fengqing City, controlling the inter-domain teleportation array connecting the Central and Southern Domains; initially allied with Daoist Huang to boycott the Heavenly Spirit Sect
-Speech Style & Personality: Shrewd and prideful local ruler with a prized estate garden; turned on Daoist Huang with rabid fury after the blue coral trees live-streamed the auction's astronomical profits, and watched in horror as Daoist Huang's flesh melted away.
+Relationships: City Lord of Fengqing City, controlling the inter-domain teleportation array connecting the Central and Southern Domains; cowardly official secretly allied with Joyous Palace (Palace of Carefree Wandering); initially allied with Daoist Huang to boycott the Heavenly Spirit Sect
+Speech Style & Personality: Shrewd, prideful, and deeply cowardly local ruler; turned on Daoist Huang with rabid fury after the blue coral trees live-streamed the auction's astronomical profits, and watched in horror as Daoist Huang's flesh melted away. Deeply terrified of Zhou Hui's retribution, he spends all his time 'playing dead' in secluded cultivation inside the City Lord's Estate, desperately 'following his heart' (从心 / 怂) to avoid offending either side while hoping challengers overwhelm Mo Bei.
 ```
 
 ```yaml
@@ -596,20 +598,32 @@ Sex: Male (he/him)
 Titles / Epithets: Steward Bai Tuo (白驼管事)
 Sect & Role: Thousand Beasts Hall (万兽堂) — Manager / Personnel Steward (Golden Core Stage / 金丹期)
 Aliases & Forms of Address: Bai Tuo, Steward Bai
-Relationships: Corrupt manager in Thousand Beasts Hall in charge of personnel assignments and expedition teams
-Speech Style & Personality: Greedy, tyrannical, and grotesque; sports a bald pate and bulbous rosacea-red nose; raises lethal vipers inside a teal gourd; extorts exorbitant medicinal herb kickbacks from low-tier disciples by threatening them with suicidal assignments.
+Relationships: Corrupt manager in Thousand Beasts Hall in charge of personnel assignments and expedition teams; direct descendant of Elder Bai Jun; paired against Lu Shulong in the regional preliminaries of the Immortal Arts Assembly
+Speech Style & Personality: Greedy, tyrannical, and grotesque; sports a bald pate and bulbous rosacea-red nose; raises lethal vipers inside a teal gourd; extorts exorbitant medicinal herb kickbacks from low-tier disciples by threatening them with suicidal assignments. Given the ancient Dragon-Locking Cauldron by his ancestor Bai Jun to hunt Lu Shulong, only to be effortlessly knocked out by Lu Shulong's aerosolized pill poison without ever provoking a single spell.
+```
+
+```yaml
+Character Name: Bai Jun
+Chinese Name: 白骏
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Elder Bai Jun (白骏长老)
+Sect & Role: Thousand Beasts Hall (万兽堂) — Elder
+Aliases & Forms of Address: Bai Jun, Elder Bai
+Relationships: High-ranking elder in Thousand Beasts Hall; ancestor / grandfather of Bai Tuo; colludes with Sect Leader Yan Bailang to scheme against Lu Shulong during the Immortal Arts Assembly
+Speech Style & Personality: Insidious, petty, calculating, and greedy; cut from the exact same cloth as his descendant Bai Tuo. Provided Bai Tuo with the ancient Dragon-Locking Cauldron to secretly injure Lu Shulong and leave an imprint to claim the True Dragon as Thousand Beasts Hall's guardian beast after Zhou Hui ascends.
 ```
 
 ```yaml
 Character Name: Qingyang Yang
-Chinese Name: 青阳洋
+Chinese Name: 青阳洋 / 洋洋
 English Name (optional): 
 Sex: Male (he/him)
-Titles / Epithets: 
-Sect & Role: Eternal Villa (千古山庄) — Disciple (Ice Spirit Root / 冰灵根)
-Aliases & Forms of Address: Qingyang Yang, Fellow Daoist Qingyang (青阳道友)
-Relationships: Disciple of Eternal Villa; fellow trialee alongside Rong Rong, Xia Bing, and Disciple Shen
-Speech Style & Personality: Vain, pompous, debonair "B-King" who prioritizes dramatic swagger, romance, and looking cool above all else; wields a Jade-Bamboo Snow-Gold Fan that unleashes icy winds, which promptly freezes his nose and makes him sneeze uncontrollably ("Shatter—Achoo!"); has an atrocious sense of direction; loves Immortal Chess.
+Titles / Epithets: Yang-yang (洋洋)
+Sect & Role: Eternal Villa (千古山庄) — Foundation Establishment Disciple (Ice Spirit Root / 冰灵根)
+Aliases & Forms of Address: Qingyang Yang, Fellow Daoist Qingyang (青阳道友), Yang-yang (洋洋)
+Relationships: Junior disciple of Eternal Villa; nephew of Qingyang Qingyu and Qingyang Qingli; fellow trialee alongside Rong Rong, Xia Bing, and Disciple Shen; enthusiastic beta tester of Qingyu's Tower Defense System in Chapter 94
+Speech Style & Personality: Vain, pompous, debonair "B-King" who prioritizes dramatic swagger, romance, and looking cool above all else; wields a Jade-Bamboo Snow-Gold Fan that unleashes icy winds, which promptly freezes his nose and makes him sneeze uncontrollably ("Shatter—Achoo!"); has an atrocious sense of direction; loves gaming, tower defense, and Immortal Chess.
 ```
 
 ```yaml
@@ -857,10 +871,10 @@ Chinese Name: 青阳轻离
 English Name (optional): 
 Sex: Male (he/him)
 Titles / Epithets: Fifth Master (五当家)
-Sect & Role: Eternal Villa (千古山庄) — Fifth Master / Leader
-Aliases & Forms of Address: Qingyang Qingli, Fifth Master, Brother Qingyang
-Relationships: Senior leader of Eternal Villa; elder kinsman to Qingyang Yang; member of Zhang Hongjing's "Persuasion Delegation"
-Speech Style & Personality: Debonair, perceptive, and worldly; carries an unfurled folding fan; well-informed on Qianxing Secret Realm's booming cottage rental economy and laments not signing a real estate lease contract with Heavenly Spirit Sect.
+Sect & Role: Eternal Villa (千古山庄) — Fifth Master (Soul Formation Stage / 化神期)
+Aliases & Forms of Address: Qingyang Qingli, Fifth Master, Fifth Uncle (五叔), Fifth Cousin (五堂兄), Brother Qingyang
+Relationships: Senior leader / Fifth Master of Eternal Villa; cousin to Qingyang Qingyu; uncle to Qingyang Yang; member of Zhang Hongjing's "Persuasion Delegation"; champion of the 1st Immortals' Chess tournament as the Soul Formation representative; informs Qingyu about Ancestor's True Immortal Blood research in Chapter 94 before shamelessly wiping his nephews' tower defense high scores to zero
+Speech Style & Personality: Debonair, perceptive, and worldly; carries an unfurled folding fan; well-informed on Qianxing Secret Realm's booming cottage rental economy and laments not signing a real estate lease contract with Heavenly Spirit Sect; loves strutting as the "First Champion Senior" despite getting soundly thrashed by clan relatives for hiding tournament intel.
 ```
 
 ```yaml
@@ -1137,15 +1151,15 @@ Speech Style & Personality: Fourteen years old, quiet, observant, numbly detache
 ```
 
 ```yaml
-Character Name: Qiao Shiyiniang
+Character Name: Qiao Shiyi'niang
 Chinese Name: 乔十一娘
 English Name (optional): Eleventh Lady Qiao
 Sex: Female (she/her)
-Titles / Epithets: Eleventh Lady Qiao (乔十一娘)
-Sect & Role: Qiao Family Village (乔家村) — Elder Daughter of Village / Student at White Jade Capital Central Domain Southeast Second School
-Aliases & Forms of Address: Eleventh Lady Qiao
-Relationships: Native daughter of Qiao Family Village; betrothed to a boy from a neighboring village; helper to Village Chief Qiao Linggen; student at Southeast Second School
-Speech Style & Personality: Virtuous, capable, practical, and fiercely hardworking; takes pride in being the most capable young woman in the surrounding villages. Learned basic literacy and arithmetic just by listening to peddlers and helping weigh and catalog an entire warehouse of goods for the Immortals' Bazaar. Highly competitive—upon seeing an undercover girl from another village asking to start classes immediately, her peasant pride ignited, resolving to board at school and out-study everyone.
+Titles / Epithets: Eleventh Lady Qiao (乔十一娘), Eleventh Daughter Qiao
+Sect & Role: Qiao Family Village (乔家村) — Elder Daughter of Village / Student at Second Southeast Academy of White Jade Capital (白玉京东南第二学堂)
+Aliases & Forms of Address: Eleventh Lady Qiao, Shiyi'niang, Qiao Shiyi'niang
+Relationships: Mortal village girl from Qiao Family Village; betrothed to a boy from a neighboring village; helper to Village Chief Qiao Linggen; student at Second Southeast Academy of White Jade Capital who invented a mechanical sugar press
+Speech Style & Personality: Virtuous, capable, practical, and fiercely hardworking; takes pride in being the most capable young woman in the surrounding villages. Learned basic literacy and arithmetic just by listening to peddlers and helping weigh and catalog an entire warehouse of goods for the Immortals' Bazaar. Highly competitive—upon seeing an undercover girl from another village asking to start classes immediately, her peasant pride ignited, resolving to board at school and out-study everyone. Engineered a mechanical sugar press using academy blueprints and Artifact Refinement Hall guidance.
 ```
 
 ```yaml
@@ -1378,15 +1392,16 @@ Speech Style & Personality: Poised, articulate, graceful, and methodical; presen
 
 ```yaml
 Character Name: Lord Siwu
-Chinese Name: 司吾 / 司吾大人
+Chinese Name: 司吾 / 司吾长老 / 司吾大人
 English Name (optional): 
 Sex: Male (he/him)
-Titles / Epithets: Lord Siwu (司吾大人), Head of Ceremony Court (典礼院最高管事)
-Sect & Role: Northern Domain Heavenly Dao Alliance — Ceremony Court Head / Supreme Ritual Official
-Aliases & Forms of Address: Lord Siwu, Steward Siwu
-Relationships: Supreme ceremonial official of the Heavenly Dao Alliance in charge of the tri-centennial Grand Sacrificial Rites to Heaven (祭天大典); dispatched to inspect the White Jade Capital deity-descending relic (降神之物) unearthed in the Abyss Sea and agreed to visit Heavenly Spirit Sect
-Speech Style & Personality: Dignified, lofty, and discerning; curious about Zhou Hui's academic reputation while maintaining that being fond of learning and truly possessing profound scholarship are two different matters.
+Titles / Epithets: Lord Siwu (司吾大人), Head Elder of Ceremony Court (典礼院长老 / 典礼院最高管事)
+Sect & Role: Northern Domain Heavenly Dao Alliance — Head Elder of Ceremony Court (Late Mahayana Stage / 大乘后期)
+Aliases & Forms of Address: Lord Siwu, Elder Siwu, Steward Siwu
+Relationships: Supreme ceremonial official of the Heavenly Dao Alliance in charge of the tri-centennial Grand Sacrificial Rites to Heaven (祭天大典); dispatched to inspect the White Jade Capital deity-descending relic (降神之物) in the Abyss Sea and agreed to visit Heavenly Spirit Sect; arrived incognito in the Central Domain and detoured to Cloud City to watch the Immortals' Gathering Tournament
+Speech Style & Personality: Dignified, lofty, cold, and discerning; sports white hair and white robes (causing an aesthetic clash that annoys Qu Qianxing); adheres strictly to archaic court etiquette; his perception was effortlessly bypassed by Zhou Hui while drinking tea just a few tables away; currently being targeted by Qu Qianxing to deliver a mandatory academic presentation at the Heavenly Spirit Sect.
 ```
+
 
 ```yaml
 Character Name: Qingyang Qingyu
@@ -1410,6 +1425,258 @@ Sect & Role: Sky City (天上城) — Son of the City Lord / Young Master
 Aliases & Forms of Address: Jian Nuo, Young Master Jian
 Relationships: Son of the City Lord of Sky City in the Northern Domain; fell in love with Qingyang Qingyu at first sight during her shopping trip to Sky City and aggressively courted her, sending dew-kissed Sky Lilies daily; disliked by Villa Master Qingyang as a debauched playboy who caroused with cultivation scions and had ties with Carefree Palace
 Speech Style & Personality: Exceptionally handsome ("the kind of handsome capable of making two-thirds of women with conventional aesthetics swoon"); wealthy, lavish, and persistent in courtship, though viewed with suspicion by Eternal Villa elders.
+```
+
+```yaml
+Character Name: Brown-Winged Fei Mother
+Chinese Name: 棕翅蜚母
+English Name (optional): 
+Sex: Female / Demon Insect (she/it)
+Titles / Epithets: Fei Mother (蜚母), Insect Mother (虫母)
+Sect & Role: Ancient Demon Insect Matriarch / Guardian of the Demon Eye (Demon Realm / 魔界)
+Aliases & Forms of Address: Brown-Winged Fei Mother, Fei Mother
+Relationships: Matriarch of the Fei demon bug swarm; sealed in an insect urn near the Demon Eye beneath Eternal Villa's spirit stone mine vein by "Master" thousands of years ago; commands hundreds of millions of offspring
+Speech Style & Personality: Cautious, pragmatic, and ruthless ancient demon bug queen who survived the ancient God-Demon War; possesses a brain "hardly meant for thinking"; produces inaudible wing-friction frequencies to command her swarm; craves human meat above all else and views her endless generations of offspring as expendable scouts and cannon fodder.
+```
+
+```yaml
+Character Name: King Golden Whiskers
+Chinese Name: 金须大王
+English Name (optional): 
+Sex: Male / Demon Insect (he/it)
+Titles / Epithets: King Golden Whiskers (金须大王)
+Sect & Role: Mutant Fei Bug / Scout Vanguard (Demon Realm / 魔界)
+Aliases & Forms of Address: King Golden Whiskers
+Relationships: Child of the Brown-Winged Fei Mother; vanguard scout who survived through four waves of elemental attack towers in the Spirit Palace corridor; skewered by Qingyang Yang's ice pillars and detonated into demonic qi
+Speech Style & Personality: Ambitious, narcissistic, and exceptionally lucky mutant Fei bug who grew handsome golden antennae instead of bizarre deformities like a golden butt; firmly believed in his own supremacy; bewildered to the point of existential despair when his parasitic demonic cloud was thwarted by Qingyang Yang's sudden surge of gaming joy.
+```
+
+```yaml
+Character Name: Lu Zhen
+Chinese Name: 卢阵
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Platform Master Lu (卢擂主)
+Sect & Role: Cloud City (云中城) / Northern Domain Xiafei Sect (霞飞门) — Nascent Soul Cultivator (元婴期)
+Aliases & Forms of Address: Lu Zhen, Cultivator Lu (卢道友)
+Relationships: Cultivator hailing originally from Northern Domain's Xiafei Sect who has resided in Cloud City for 360 years; reader of the academic journal *Arts & Sorcery*; competitor and first Platform Master in the Immortals' Gathering preliminary rounds
+Speech Style & Personality: Shrewd, pragmatic, and tactical under the guise of an impulsive, hotheaded brute; deliberately baited challengers and calculated risk vs. reward; extracted immortal energy from hoarded relic shards using Villa Master Qingyang's thesis and triggered the colossal skeleton on the "Immortal's Bones" map to crush Nie Tongzi.
+```
+
+```yaml
+Character Name: Nie Tongzi
+Chinese Name: 孽童子
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Wicked Boy / Nie Tongzi (孽童子)
+Sect & Role: Disciple of Lord Siwu (Northern Domain Heavenly Dao Alliance) posing as an ancient demonic cultivator from the Central Domain's Abyss Sea
+Aliases & Forms of Address: Nie Tongzi
+Relationships: Disciple of Lord Siwu; dispatched into the arena wrapped in illusory demonic mist and spatial rift techniques to crash the tournament as a "prank" under Lord Siwu's concealed barrier
+Speech Style & Personality: Arrogant, insolent, and theatrical; sneered at northern cultivators representing the Central Domain and mockingly swallowed eight challengers into a spatial rift before being instantly squashed into meat paste by Lu Zhen's terrain spell.
+```
+
+```yaml
+Character Name: Zhengpingzi
+Chinese Name: 正平子
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: 
+Sect & Role: Northern Domain Heavenly Dao Alliance — Disciple of Lord Siwu (Ceremony Court / 典礼院)
+Aliases & Forms of Address: Zhengpingzi
+Relationships: Senior disciple of Lord Siwu; senior brother to Nie Tongzi and fellow Ceremony Court disciples
+Speech Style & Personality: Arrogant, haughty sword cultivator from the Northern Domain; fiercely loyal to Lord Siwu; rushed onto the stage to avenge Nie Tongzi and accused the host and contestants of colluding with demons; fought aggressively with sword light before being blasted clear out of the arena by Lu Zhen's terrain-empowered immortal spellcraft.
+```
+
+```yaml
+Character Name: Shui Huang'er
+Chinese Name: 水凰儿
+English Name (optional): 
+Sex: Female (she/her)
+Titles / Epithets: Saintess of the Azure Phoenix Clan (青凰族圣女)
+Sect & Role: Azure Phoenix Clan (青凰族) — Young Saintess
+Aliases & Forms of Address: Shui Huang'er
+Relationships: Saintess of the Azure Phoenix Clan from the Southern Realm; accompanied telepathically by Elder Tong Ling; ran away from home to the Middle Realm for her trial
+Speech Style & Personality: Cheerful, curious, naive, and idealistic; possesses an azure feathered crest, feathered ears, and long tail feathers. Equipped with the innate "Heavenly Eye" (天目) spiritual vision of the Azure Phoenix Clan that can see through soul essence. Enthusiastic about "exterminating demons and defending the Dao" with zero worldly malice or cynicism, readily persuaded to cheer for Mo Bei.
+```
+
+```yaml
+Character Name: Elder Tong Ling
+Chinese Name: 桐令长老
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Elder Tong Ling (桐令长老)
+Sect & Role: Azure Phoenix Clan (青凰族) — Ancient Elder
+Aliases & Forms of Address: Elder Tong Ling
+Relationships: Ancient elder of the Azure Phoenix Clan residing telepathically within Shui Huang'er's spiritual realm / sea of consciousness; accompanied her on her runaway trial to the Middle Realm
+Speech Style & Personality: Nagging, nostalgic, dramatic, and opinionated; hasn't left the Divine Tree in over ten thousand years. Constantly lectures Shui Huang'er on human sociology, firmly believing humans are unprincipled and frail compared to demons. Leaps to wild, sensational conclusions upon seeing Mo Bei, convincing himself she is an ancient Holy Sovereign descendant possessed by a vile yin spirit scheming to usurp the throne.
+```
+
+```yaml
+Character Name: Jiang Feiyan
+Chinese Name: 江飞烟
+English Name (optional): 
+Sex: Female (she/her)
+Titles / Epithets: President Jiang (江会长)
+Sect & Role: Mo Bei Fan Club (莫悲后援会·风清城分会) — Branch President / Rogue Cultivator (Three-Element Spirit Root / 三灵根)
+Aliases & Forms of Address: Jiang Feiyan
+Relationships: Daughter of a chess parlor owner in Fengqing City; great-granddaughter of a Soul Formation cultivator who founded the parlor; president of the Fengqing City branch of the Mo Bei Fan Club; hired as an external Immortal Chess consultant for Yi Bei Tea
+Speech Style & Personality: Passionate, observant, and rational; skilled chess player since childhood who grew tired of sore losers. Utterly fascinated by Immortal Chess and became an ardent meta-slave fan of Mo Bei's piece; deeply admires Mo Bei's decisive martial might; organized the local fan club and choreographs tournament support while dreaming of visiting the Immortal Fair.
+```
+
+```yaml
+Character Name: Patriarch Jiuzhai
+Chinese Name: 九斋老祖
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Patriarch Jiuzhai (九斋老祖)
+Sect & Role: Southern Realm (南境) — Tribulation Transcendence Supreme Powerhouse / Divination Cultivator (渡劫期卦修)
+Aliases & Forms of Address: Patriarch Jiuzhai, Jiuzhai
+Relationships: Ancient peer and acquaintance of Zhou Hui from the Southern Realm; startled out of seclusion when Southern Realm providential fate shifted to White Jade Capital and Fengqing City
+Speech Style & Personality: Eccentric, booming, and mysterious; an ancient divination cultivator (卦修) who can perceive too many branching futures, leading him to rarely leave his sanctuary; deeply concerned by sudden cosmological shifts in fate.
+```
+
+```yaml
+Character Name: Chi Xue
+Chinese Name: 赤血
+English Name (optional): 
+Sex: Male / Demon Beast (he/it)
+Titles / Epithets: 
+Sect & Role: Southern Domain Fire Abyss Sacred Tree (火渊神树) — Chi Clan Demon Beast / Serpentine Hornless Dragon
+Aliases & Forms of Address: Chi Xue
+Relationships: Inhabitant of the middle boughs of the Fire Abyss Sacred Tree; member of the Chi clan (螭族); kin to fellow serpentine demons residing in tree hollows; taps into the Wood Spirit network for cultivation and news
+Speech Style & Personality: Lazy, cold-blooded slacker who can remain motionless on a branch for three to four months if unprovoked. Easily devours passing sparrows with a bloody maw. Capable of morphing from a green scaled serpent into a humanoid form (though retaining an oversized mouth). Pragmatic, cynical, and disdainful of canopy-dwelling avian demons, yet fiercely proud of his dragon heritage and fanatically loyal to True Dragon Lu Shulong upon watching the Sacred Tree livestream.
+```
+
+```yaml
+Character Name: Chi Clan / Hornless Dragon Clan
+Chinese Name: 螭族 / 螭
+English Name (optional): 
+Sex: Group / Species
+Titles / Epithets: Hornless Dragons (螭)
+Sect & Role: Southern Domain Fire Abyss Sacred Tree (火渊神树) — Demon Clan / Relatives of the Dragon Race
+Aliases & Forms of Address: Chi Clan, Hornless Dragons
+Relationships: Distant kin of the dragon race inhabiting the middle branches and tree hollows of the Fire Abyss Sacred Tree; includes Chi Xue and elder kin; historical targets of human beast cultivators due to their formidable combat prowess
+Speech Style & Personality: Boisterous, pugnacious, and intensely proud of their dragon heritage. Quick to brawl among themselves until they knot into a tangled ball at tree hollow exits, yet unconditionally loyal to True Dragons, passionately cheering for Lu Shulong on the Sacred Tree livestream and scrambling to sign up for Heavenly Spirit Sect cultivation tutorials.
+```
+
+```yaml
+Character Name: Master Chunan
+Chinese Name: 初南 / 初南真人
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Master Chunan (初南真人)
+Sect & Role: Moon-Welcoming Valley (迎月谷 / Yingyue Valley) — Elder / Senior Pill Cultivator (Dan Xiu / 丹修)
+Aliases & Forms of Address: Master Chunan, Chunan
+Relationships: Close acquaintance of Shu Jiawen and Qingyang Qingli; leads Moon-Welcoming Valley's outpost in the Central Domain to harvest local ingredients; embarrassed that he didn't know basic wind cantrips to diffuse pill poison
+Speech Style & Personality: Defensive, proud, and easily ruffled when his alchemy expertise is questioned; hates admitting his lack of basic spell knowledge; desperately eager to import Heavenly Spirit Sect's standardized curriculum so his inquisitive disciples will stop pestering him with endless questions.
+```
+
+```yaml
+Character Name: Daoist Heju
+Chinese Name: 何惧道人 / 何惧
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Daoist Heju (何惧道人)
+Sect & Role: Cloud Azure Sect (云苍门 / 云苍派) — Representative Cultivator (Golden Core / Nascent Soul Stage)
+Aliases & Forms of Address: Daoist Heju, Cultivator Heju
+Relationships: Cultivator hailing from Cloud Azure Sect, a minor local sect in the Central Domain; attempts to leverage Shu Jiawen and Chunan's friendship with Eternal Villa to introduce Heavenly Spirit Sect textbooks to his sect
+Speech Style & Personality: Pragmatic, observant, and proactive; recognizes the revolutionary value of Heavenly Spirit Sect's foundational textbooks and shamelessly lobbies larger sects to get a slice of the educational resources.
+```
+
+```yaml
+Character Name: Senior Brother Fan
+Chinese Name: 范师兄
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Senior Brother Fan (范师兄)
+Sect & Role: Heavenly Spirit Sect — Senior Disciple (Foundation Establishment / Golden Core Stage)
+Aliases & Forms of Address: Senior Brother Fan, Fan Shixiong
+Relationships: Senior disciple of the Heavenly Spirit Sect who guides junior disciples during emergencies
+Speech Style & Personality: Loud, sharp-tongued, pragmatic, and reliable; blows an excruciatingly ear-piercing flute as an emergency assembly summons during lightning tribulations when the Sundial Clock is disrupted, proudly bragging about Zhou Hui's casual tribulations while herding panicking juniors and visiting cultivators to shelter in the Library Pavilion.
+```
+
+```yaml
+Character Name: Fairy Ruopei
+Chinese Name: 若佩仙子 / 若佩
+English Name (optional): 
+Sex: Female (she/her)
+Titles / Epithets: Fairy Ruopei (若佩仙子), Venerable Ancestor Ruopei
+Sect & Role: Northern Domain Huanfei Sect (幻飞门) — Founding Ancestor / Venerable Matriarch (Mahayana Stage / 大乘期)
+Aliases & Forms of Address: Fairy Ruopei, Grandmaster (师祖), "Fake Fish" (伪鱼)
+Relationships: Supreme Mahayana ancestor of the Huanfei Sect in the Northern Domain; grandmaster to Daojun Bo Jiu; invited out of secluded cultivation during the continental panic triggered by Zhou Hui's ascension tribulation; took over and ghostwrote her grand-disciple's academic paper for the journal *Spells*, which passed preliminary review in 15 minutes but was rejected during tertiary review; furious, she penned a scathing open flame-war exposé in *White Jade Capital Weekly* under the pen name "Fake Fish" strafing peer reviewers and ghostwriting elders
+Speech Style & Personality: Lofty, protective, and imposing Mahayana matriarch; easily tilted and brain-fried by academic peer review and thesis formatting; fiery, vengeful, and fearless in calling out reviewers and academic hypocrisy in public press.
+```
+
+```yaml
+Character Name: Daojun Bo Jiu
+Chinese Name: 薄九道君 / 薄九
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Daojun Bo Jiu (薄九道君)
+Sect & Role: Northern Domain Huanfei Sect (幻飞门) — Traveling Elder (Void Refinement Stage / 炼虚期)
+Aliases & Forms of Address: Bo Jiu, Daojun Bo Jiu
+Relationships: Void Refinement disciple/grand-disciple of Fairy Ruopei hailing from the Huanfei Sect; has traveled in the Central Domain for centuries; currently residing in the Central Domain submitting research papers
+Speech Style & Personality: Nearly two thousand years old yet reduced to a weeping, sleep-deprived mess like an exhausted graduate student; sports deep dark circles and an emaciated physique from having his academic research paper rejected and revised 13 times due to lack of novelty and duplicate similarity checks.
+```
+
+```yaml
+Character Name: Lord Mei and Lady Zhu (Mei Zhu Couple)
+Chinese Name: 梅竹夫妇
+English Name (optional): 
+Sex: Couple / Male & Female (they/them)
+Titles / Epithets: Lord Mei and Lady Zhu (梅竹夫妇)
+Sect & Role: Northern Domain Heavenly Dao Alliance — Senior Leadership / High Officials
+Aliases & Forms of Address: Mei Zhu Couple, Lord Mei and Lady Zhu
+Relationships: Ancient acquaintances and "old friends" of Zhou Hui; senior executives presiding over the Heavenly Dao Alliance headquarters in the Northern Domain
+Speech Style & Personality: Dignified yet perpetually harassed and beleaguered high-ranking administrative officials; hounded by desperate inquiries from across the Northern Domain whenever bizarre anomalies erupt in the Central Domain.
+```
+
+```yaml
+Character Name: Xin Zhu (Lady Zhu)
+Chinese Name: 辛烛
+English Name (optional): 
+Sex: Female (she/her)
+Titles / Epithets: Lady Zhu (竹 / 辛烛), Lady Xin Zhu (辛烛大人)
+Sect & Role: Northern Domain Heavenly Dao Alliance — Senior Leadership / Supreme Powerhouse (Tribulation Transcendence Stage / 渡劫期)
+Aliases & Forms of Address: Xin Zhu, Lady Zhu, Mei Zhu Couple (梅竹夫妇)
+Relationships: Wife of Lord Mei (Su Mei); mother of Su Xin (Xin'er); ancient friend of Zhou Hui; senior executive of the Northern Domain Heavenly Dao Alliance; appointed by Zhou Hui as an academic peer reviewer for the journal *Spells*
+Speech Style & Personality: Pragmatic, composed, slightly exasperated with her husband and son; pure drama goblin (乐子人) who loves watching domain-wide flame wars and chaos with front-row popcorn-munching delight (看热闹), laughing herself sick over the academic drama in *White Jade Capital Weekly*.
+```
+
+```yaml
+Character Name: Su Mei (Lord Mei)
+Chinese Name: 苏枚 / 梅
+English Name (optional): Lord Mei
+Sex: Male (he/him)
+Titles / Epithets: Lord Mei (梅 / 苏枚), Fellow Daoist Mei
+Sect & Role: Northern Domain Heavenly Dao Alliance — Tribulation Transcendence Titan (渡劫期大能) / Reclusive Official
+Aliases & Forms of Address: Su Mei, Lord Mei, Mei Zhu Couple (梅竹夫妇)
+Relationships: Husband of Lady Xin Zhu; father of Su Xin (Xin'er); ancient acquaintance of Zhou Hui; co-ruler with Xin Zhu in the Heavenly Dao Alliance
+Speech Style & Personality: A leisure-loving Tribulation Transcendence titan who crossed the threshold long ago, abandoned further cultivation ambition, and spends his days peacefully at home enjoying sweets with his son (含饴弄子). Easily provoked by entertaining arguments; secretly ghostwrites a scathing, fiery rebuttal article in *White Jade Capital Weekly* under his son's name to preserve his dignity while relishing in his prime scolding prowess.
+```
+
+```yaml
+Character Name: Su Xin (Xin'er)
+Chinese Name: 辛儿 / 苏辛
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Xin'er (辛儿), Big Brother Su (苏哥)
+Sect & Role: Northern Domain Heavenly Dao Alliance — Scion of Lord Mei and Lady Zhu (Foundation Establishment Stage / 筑基期)
+Aliases & Forms of Address: Xin'er, Little Xin, Big Brother Su
+Relationships: Young son of Su Mei and Lady Xin Zhu; leader/top dog of the foppish cultivation scions in Sky City; traumatized by Zhou Hui and Yuwen Xuan during his mandatory entrance exam on the coral platform at Heavenly Spirit Sect; friend to Mo Bei in Immortal Chess
+Speech Style & Personality: Boisterous, vain, and spoiled cultivation second-generation (修二代) who constantly flaunts his parents' status and his father's articles before his clique at Carefree Pavilion. Highly perceptive and terrified of crossing Zhou Hui again; wields his mother's inherited "Candle Fire" (烛火) exotic flame against anyone scheming to use him as a political pawn.
+```
+
+```yaml
+Character Name: Ruwang Ghost Emperor
+Chinese Name: 入妄鬼帝 / 鬼帝
+English Name (optional): Delusion-Entering Ghost Emperor
+Sex: Male (he/him)
+Titles / Epithets: His Majesty (陛下), Zhen (朕), Ruwang Ghost Emperor (入妄鬼帝)
+Sect & Role: Western Domain Blood Cliff Abyss — Ghost Emperor / Sovereign of the Inverted Blood Palace (Tribulation Transcendence / Mahayana Stage)
+Aliases & Forms of Address: Your Majesty, Ruwang Ghost Emperor
+Relationships: Monarch reigning over the subterranean karst palace beneath the blood-red cliff in the Western Domain; master of numerous crimson skeletal retainers and demonic disciples; grower of the legendary Spider Lily (彼岸花); terrified of provoking Zhou Hui (Lord Untiring) after realizing an offending newspaper was backed by White Jade Capital, hastily pivoting to penning blistering counter-arguments under a pen name to preach his "Great Dao"
+Speech Style & Personality: Haughty, imperious, volatile, and deeply sensitive about his academic/cultivation legitimacy. Uses the imperial pronoun "Zhen" (朕). Flies into an incandescent rage when accused of ghostwriting or academic fraud in White Jade Capital Weekly, executing sycophants who dare suggest declaring war on the Untiring Immortal Venerable, but overjoyed when realizing public debate is the perfect platform to propagate his unorthodox Dao across the continent.
 ```
 
 ---
@@ -2072,19 +2339,29 @@ Notes: An undersea branch campus of the White Jade Capital schools situated with
 ```
 
 ```yaml
-Location Name: White Jade Capital Central Domain Southeast Second School
-Location Chinese Name: 白玉京中境东南第二学堂
-Location English Name (optional): 
+Location Name: Second Southeast Academy of White Jade Capital
+Location Chinese Name: 白玉京东南第二学堂 / 白玉京中境东南第二学堂
+Location English Name (optional): Second Southeast Academy of White Jade Capital
 Type: Primary Educational Facility / Undersea Coral Campus in Abyss Sea (白玉京东南分校)
-Notes: An undersea branch campus of the White Jade Capital schools located in the southeastern Central Domain near Fengqing City; serves mortal children from partner villages including Qiao Family Village; where Eleventh Lady Qiao and an undercover Carefree Palace orphan girl registered for enrollment before Zhou Hui's moonlight-bright "Rector" avatar. Textbooks are distributed before term start with entrance placement exams scheduled post-New Year.
+Notes: Primary mortal academy established by Zhou Hui. An undersea branch campus of the White Jade Capital schools located in the southeastern Central Domain near Fengqing City; serves mortal children from partner villages including Qiao Family Village; where Eleventh Lady Qiao and an undercover Carefree Palace orphan girl registered for enrollment before Zhou Hui's moonlight-bright "Rector" avatar. Textbooks are distributed before term start with entrance placement exams scheduled post-New Year.
 ```
 
 ```yaml
 Location Name: Carefree Pavilion
 Location Chinese Name: 逍遥阁
 Location English Name (optional): 
-Type: Commercial Branch Outlets / Retail Storefronts of Carefree Palace (逍遥宫连锁网点)
-Notes: Commercial storefronts and retail outlets established by Carefree Palace across every major immortal market and city. Backed by stable supply lines, they offer quality-guaranteed pills, after-sales service for magical artifacts, and custom bespoke orders, serving as the default shopping and auction hub for cultivators across the realms. Also operates covert alter-egos such as Fallen Immortal Pavilion in chaotic black markets to harvest intelligence, procure contraband, and manipulate market trade.
+Type: Commercial Branch Outlets / Luxury Entertainment Complexes of Carefree Palace (逍遥宫连锁网点 / 娱乐会所)
+Notes: Commercial storefronts and luxury entertainment complexes established by Carefree Palace across every major immortal market and city, foremost among them the premier entertainment pavilion in Sky City offering high-end wine, dance, rare auctions, and covert gray vices. Backed by stable supply lines, they offer quality-guaranteed pills, after-sales service for magical artifacts, and custom bespoke orders, serving as the default shopping and auction hub across the realms.
+```
+
+```yaml
+Location Name: Blood Cliff of the Western Domain
+Location Chinese Name: 西境血崖
+Location English Name (optional): 
+Type: Karst Abyss & Demonic Stronghold in Western Domain (西境险地)
+Notes: A perilous blood-red cliff and subterranean karst chasm in the Western Domain where flesh-eating crows peck at rotting carrion; houses the inverted subterranean palace of the Ruwang Ghost Emperor and the blooming grounds of the mythical Spider Lily (彼岸花).
+```
+
 ```yaml
 Location Name: Beast Soul Tower
 Location Chinese Name: 兽魂塔
@@ -2099,6 +2376,102 @@ Location Chinese Name: 天上城
 Location English Name (optional): 
 Type: Floating Immortal Metropolis / Supreme Power in Northern Domain (北境最高血统浮空仙城)
 Notes: The supreme floating immortal city in the Northern Domain, whose City Lord boasts the highest bloodline in the modern cultivation realm; in the Heavenly Dao's original script, Eternal Villa dispatched a flying vessel to Sky City to report the demonic calamity, leading to the protagonist being lavishly hosted by Sky City and catching the eye of its young miss, the "Red Rose."
+```
+
+```yaml
+Location Name: Spirit Palace Secret Realm / Spirit Stone Palace
+Location Chinese Name: 灵宫秘境 / 灵石宫殿
+Location English Name (optional): Spirit Palace Secret Realm
+Type: Ancient Secret Realm / Pure Spirit Stone Palace in Eternal Villa (千古山庄上古秘境)
+Notes: An ancient secret realm belonging to Eternal Villa, completely constructed from massive, monolithic, radiant spirit stones stacked directly atop an ancient mineral vein. Originally erected during the ancient Demon-God War when a Demon Eye opened beneath the mineral vein; the immense spiritual energy pinned down the demonic vanguard. Later, Eternal Villa ancestors built a magnificent palace of spirit stones equipped with ninety-nine Reverse-Spirit Formations to continuously pump spiritual energy into the Demon Eye for 9,999 years to dissolve it. In the original Heavenly Dao script, Mo Xi was fated to unseal this Demon Eye after the sect's fall, causing the palace to be corrupted into a demonic lair that destroyed Eternal Villa. Opened by Villa Master Qingyang for Qingyang Qingyu and Mo Xi to study secret realm construction, where Zhou Hui planned to crack open the vein and install a Tower Defense System.
+```
+
+```yaml
+Location Name: Water Mirror Tower
+Location Chinese Name: 水镜楼
+Location English Name (optional): 
+Type: Communications & Media Operations Center in Heavenly Spirit Sect (天灵派通信与直播商务枢纽)
+Notes: A specialized facility of the Heavenly Spirit Sect equipped with numerous water mirror arrays; dedicated to external communications, live array broadcasts of major events such as the Immortal Arts Conference, and managing the sect's commercial advertising operations and sponsorship requests.
+```
+
+```yaml
+Location Name: Fengqing City
+Location Chinese Name: 风清城
+Location English Name (optional): 
+Type: Ancient Commercial Metropolis / Inter-Domain Transit Hub in Southern Central Domain (中境南部古代重镇)
+Notes: A prominent commercial city and regional hub situated in the southern Central Domain, linked to the Southern Domain and White Jade Capital via an ancient spatial teleportation array preserved from the God-Demon War era. Historically under the deep economic sway of the Carefree Palace; its teleportation array is currently situated in the City Lord's Estate at the city center. Site of a major regional preliminary arena of the Immortal Arts Assembly where Mo Bei led a disciple contingent and claimed the championship.
+```
+
+```yaml
+Location Name: Azure Phoenix Clan
+Location Chinese Name: 青凰族
+Location English Name (optional): 
+Type: High-Ranking Avian Demon Clan in Southern Realm (南境禽类妖族)
+Notes: A revered, high-ranking avian demon clan native to the Southern Realm, celebrated as a symbol of benevolence, harmony, and righteousness. In antiquity during the God-Demon War, their ancestors allied with human cultivators and fought alongside human heroic spirits through the cross-border teleportation arrays. Blessed with the innate spiritual "Heavenly Eye" (天目) capable of piercing illusions and perceiving the fundamental essence of souls.
+```
+
+```yaml
+Location Name: Sacred Tree of Fire Abyss
+Location Chinese Name: 火渊神树
+Location English Name (optional): 
+Type: Ancient Divine Tree / Sacred Arboreal Realm in Southwestern Southern Realm (南境西南巨木神树)
+Notes: A colossal, primordial divine tree situated in the southwestern corner of the Southern Realm, flourishing for tens of thousands of years since the War of Gods and Demons. Revered as the seat of supreme authority in the Southern Realm, where various beast and avian demon clans roost, chief among them the Azure Phoenix Clan whose holy maidens and priestesses worship and tend to it. Houses powerful ancient wood spirits capable of rivaling True Immortals within the tree's native domain.
+```
+
+```yaml
+Location Name: Azure Phoenix Hall
+Location Chinese Name: 青凰殿
+Location English Name (optional): 
+Type: Sacred Palace / Clan Seat atop Fire Abyss Sacred Tree (青凰族王庭大殿)
+Notes: The royal palace and administrative hall of the Azure Phoenix Clan situated in the high canopy of the Fire Abyss Sacred Tree in the Southern Domain; where Saintess Shui Huang'er and the elders direct clan affairs, and where demon clans register to participate in trial educational programs and study Heavenly Spirit Sect cultivation manuals.
+```
+
+```yaml
+Location Name: The Severed World / Counterfeit World of the Sixth Cycle
+Location Chinese Name: 第六世的另外半边世界 / 伪物世界
+Location English Name (optional): 
+Type: Shattered Realm / Spatiotemporal Anomaly of the Sixth Reincarnation Cycle (第六世分裂世界)
+Notes: The severed half of the world created when the fifth cycle's heavenly lightning tribulation ripped the cosmos in two. While Zhou Hui remained in one half desperately gathering fragments to mend reality, the direct disciples' primary forms fell into the other half. There, an impostor puppet sculpted from dust and Zhou Hui's residual aura presided over the disciples. Retaining residual emotions and chaotic trauma from the third and fourth cycles, the disciples banded together to investigate the fake Master by staging the 'Heavenly Dao script' (a dogblood harem novel scenario) like a puppet theater, until Yuwen Xuan and Qu Qianxing ultimately obliterated that half-world to return its materials for Zhou Hui to mend.
+```
+
+```yaml
+Location Name: Moon-Welcoming Valley
+Location Chinese Name: 迎月谷
+Location English Name (optional): 
+Type: Cultivation Sect (Northern Domain / 北境)
+Notes: The premier authoritative alchemy sect (丹修门派) of the Northern Domain. Because it requires rare medicinal herbs from various climates, the sect establishes outposts and plantations across all domains, rotating disciples to manage them; consequently, its disciples have broad exposure to external territories and eagerly adapt local resources.
+```
+
+```yaml
+Location Name: Cloud Azure Sect
+Location Chinese Name: 云苍门 / 云苍派
+Location English Name (optional): 
+Type: Cultivation Sect (Central Domain / 中境)
+Notes: A minor local cultivation sect located in the Central Domain; represented by Daoist Heju at the Immortal Arts Assembly, seeking to import Heavenly Spirit Sect's standardized textbooks to improve disciple foundational education.
+```
+
+```yaml
+Location Name: Huanfei Sect
+Location Chinese Name: 幻飞门
+Location English Name (optional): 
+Type: Cultivation Sect (Northern Domain / 北境)
+Notes: One of the premier, top-ranked cultivation sects in the Northern Domain belonging to the "Three Sects, Six Factions, One Valley"; founded by the ancient Mahayana powerhouse Fairy Ruopei; possesses the sacred Moon Phase Mirror.
+```
+
+```yaml
+Location Name: Three Sects, Six Factions, One Valley
+Location Chinese Name: 三门六派一谷
+Location English Name (optional): 
+Type: Regional Cultivation Hegemony / Elite Sect League (Northern Domain / 北境)
+Notes: The collective title for the ten foremost, ruling elite cultivation sects of the Northern Domain; includes the Huanfei Sect (幻飞门), Moon-Welcoming Valley (迎月谷), and other supreme sects commanding northern cultivation society.
+```
+
+```yaml
+Location Name: Feisha Sect
+Location Chinese Name: 飞沙门
+Location English Name (optional): 
+Type: Cultivation Sect (Western Domain / 西境)
+Notes: Prominent cultivation sect in the Western Domain; one of whose traveling disciples submitted an academic paper on the Central Domain's heavenly tribulation to the journal *Spells* that was blatantly ghostwritten by his sect master / elder.
 ```
 
 ---
@@ -2126,7 +2499,7 @@ Notes: The supreme floating immortal city in the Northern Domain, whose City Lor
 
 | Chinese Name | English Translation | Notes |
 | :--- | :--- | :--- |
-| 《七世转轮诀》 | *Seven Cycles Revolving Wheel Method* / *Seven-Life Reincarnation Art* | Reincarnation technique self-created by Zhou Hui; harnesses the deluge of spiritual energy unleashed upon the demise of a Tribulation Transcendence cultivator to perform a temporal leap back to his save point (the founding of Heavenly Spirit Sect), erasing the traces of past timelines |
+| 《七世转轮诀》 / 《七世转轮功》 | *Seven-Life Cyclic Metempsychosis Art* (*Seven Cycles Revolving Wheel Method* / *Seven-Life Reincarnation Art*) | Zhou Hui's core rebirth cultivation technique; harnesses the deluge of spiritual energy unleashed upon the demise of a Tribulation Transcendence cultivator to perform a temporal leap back to his save point (the founding of Heavenly Spirit Sect), erasing the traces of past timelines and wiping his disciples' memories with each cycle |
 | 《五千年飞升三千年修仙》 | *Five Thousand Years of Ascension, Three Thousand Years of Cultivation* | Parody of China's infamous Gaokao workbook *Five Years of Gaokao, Three Years of Mock Exams* (《五年高考三年模拟》). Abbreviated in-story as *Five-Ascension Three-Cultivation* (五飞三修). |
 | 《退休日程安排计划》 | *Retirement Schedule Plan* | Qu Qianxing's secret notebook that gets mercilessly postponed for centuries |
 | 《山河地理志》 | *Records of Mountains and Rivers* | Mortal geography and gazetteer text stored in Zhou Hui's modern university library memory |
@@ -2139,6 +2512,13 @@ Notes: The supreme floating immortal city in the Northern Domain, whose City Lor
 | 《基础灵气论》 | *Fundamental Theory of Spiritual Energy* | Foundational treatise authored by Zhou Hui analyzing the mechanics, transformation, and conservation of spiritual energy; assigned to Yuwen Xuan to copy 20,000 times as punishment for claiming "no spiritual energy means no danger" |
 | 《引魂功》 | *Soul-Guiding Art* | Advanced cultivation manual synthesizing the Laws of Space, created by Zhou Hui across his fifth and sixth reincarnations; requires a pure Yin / spatial aptitude constitution; passed down to Mo Bei |
 | 《真仙心经》 | *True Immortal Mind Sutra* | Ancient core cultivation manual passed down in Eternal Villa since before the War of Gods and Demons, reportedly allowing a cultivator to attain the realm of a True Immortal without ascending; incomplete and extraordinarily difficult to deduce or supplement due to severed contact with the True Immortal Realm |
+| 《白玉仙法》 | *White Jade Immortal Technique* | Core ancestral cultivation art of Eternal Villa; originated from True Immortals, naturally cleanses and purifies demonic qi, turning practitioners into human air purifiers |
+| 《白玉京周报》 | *White Jade Capital Weekly* | Popular weekly newspaper founded and established by Eldest Senior Sister Ran Deng, featuring sect publicity, academic paper commentary, tournament reports, and juicy gossip from across the cultivation world |
+| 《白玉京日报》 | *White Jade Capital Daily* | Upgraded daily edition of the continental newspaper established by Ran Deng and Qu Qianxing to keep pace with the explosion of academic rebuttal submissions, debate essays, and tournament highlight reports |
+| 《修仙界周报》 | *Cultivation World Weekly* | Copycat/counterfeit weekly newspaper published by Carefree Palace (逍遥宫) to compete with *White Jade Capital Weekly* |
+| 《法术》 | *Spells* | Academic research journal founded by Untiring Immortal Venerable Zhou Hui to publish peer-reviewed treatises on spell mechanics, magical theory, and cultivation phenomena; peer-reviewed by Tribulation Transcendence powerhouses across multiple domains |
+| 《飞升可控论》 | *Controllable Ascension Theory* | Central Domain thesis positing that ascension is a natural, controllable physical migration to higher-energy realms (such as the True Immortal Realm) once cultivation reaches maturity, popularized after Zhou Hui captured heavenly lightning in his palm |
+| 《飞升奖赏说》 | *Ascension Reward Hypothesis* | Traditional Northern Domain orthodox dogma maintaining that ascension is a divine moral reward granted by True Immortals and the Heavenly Dao in recognition of a cultivator's strength and virtue, with heavenly lightning serving as the final trial |
 
 
 | 全门大考 | Grand Unified Examination | Sect-wide standardized exam instituted by Zhou Hui across both Inner and Outer Sects to dismantle nepotism and ensure meritocratic fairness |
@@ -2289,10 +2669,31 @@ Notes: The supreme floating immortal city in the Northern Domain, whose City Lor
 | 养生壶 | Health-Preserving Kettle / Wellness Pot | Small automated alchemy kettle adapted from Zhou Hui's modern memories, automatically brewing medicinal tea to augment cultivation |
 | 模块拼装洞府 | Modular Assembly Cave-Dwelling | Standardized DIY cave-dwelling modular building block system developed by Ran Deng and commercialized by Mo Xi; inspired by a history of toy building blocks in the Library Pavilion |
 | 云车 | Cloud Chariot | Luxurious flying carriage cruising upon celestial clouds; pinnacle-tier travel conveyance in the cultivation world |
-
-
-
-
+| 《法术》 | *Arts & Sorcery* (*Spells & Sorcery*) | Academic journal founded and chief-edited by Untiring Immortal Venerable Zhou Hui, compiling high-level research papers and theses by Late Mahayana and Void Refinement grandmasters |
+| 《论灵力和仙力的不同》 | *On the Differences Between Spiritual Energy and Immortal Energy* | Academic thesis penned by Villa Master Qingyang published in *Arts & Sorcery*, elucidating practical methods to refine ancient Demon-God War relic shards and extract sealed immortal energy |
+| 仙人之骨 | Immortal's Bones | Combat arena map replicating Immortals' Chess terrain, featuring black sands, beast skeletons, shattered array remnants, and a colossal ancient immortal skeleton |
+| 断桥 | Broken Bridge | Qi Condensation stage arena map in the Immortal Arts Assembly corresponding to Hermit Zui Liu's academic paper *A Study on the History of White Jade Capital Folding Fans* |
+| 擂主 | Platform Master | Reigning champion of an arena platform in the Immortals' Gathering tournament holding ten consecutive victories |
+| 灵台 | Spirit Terrace | Elevated rest and recovery pavilion hovering above each tournament arena platform, equipped with defensive arrays, spirit food, and healing pills |
+| 彩虹软剑 | Flexible Sword (Rainbow Flexible Sword) | Boundless rainbow flexible sword crafted specially by Untiring Immortal Venerable Zhou Hui for sixth disciple Mo Bei; imbued with the rule of "weakening against the weak, strengthening against the strong" (遇弱则弱，越强则强), automatically scaling to drag all opponents down to the wielder's exact cultivation realm and enforcing a test of pure sword skill |
+| 剑心 | Sword Heart | Pure crystallization of martial intent and swordsmanship condensed from battle; golden light that manifests on the soul of a true sword cultivator |
+| 不定向传送阵 | Omni-Directional Spatial Teleportation Array | Ancient White Jade Capital spatial formation capable of teleporting targets to locations without fixed teleportation beacons, requiring massive spiritual energy and an intermediary spatial anchor |
+| 骨灰大饼渣渣 | Bone-Ash Patty Crumbs | Crumbs from the flatbread pancake baked with Yuwen Xuan's past reincarnations' cremated ashes; used by Yuwen Xuan as a visceral, indelible spatial anchor on targets |
+| 弑仙剑 | Immortal-Slaying Sword | Ancient weapon from the God-Demon War designed to slay True Immortals through stepped cultivator blood sacrifices |
+| 仙眷者 | Favored of the Immortals | Practitioners who cultivate by receiving direct empowerment and oracles from True Immortals via sacrificial rites |
+| 祀体 | Sacrificial Vessel | Human or beast selected as ritual blood food and vessel for deities or ferocious beasts |
+| 第八世 | The Eighth Life / Eighth Cycle | Shocking revelation from the Taotie white remnant soul that the current timeline is actually the eighth reincarnation, contradicting Zhou Hui's Seven Lives Transmigration count |
+| 司南 | Sinan (Sinan Ladle-Compass) | Lord Siwu's lifebound magical treasure refined over 999 years with 999 rare materials under True Immortal guidance; manipulated by heavenly barrier/script to attack its own master |
+| 白泽 | Baize | Omniscient mythical divine beast from antiquity capable of understanding all speech |
+| 真龙 | True Dragon | Primordial sacred dragon of the Upper Realm; Lu Shulong's true identity, possessing innate immunity to memory-wiping time reversals |
+| 锁龙鼎 | Dragon-Locking Cauldron | Ancient bronze cauldron passed down from True Immortals, forged specifically to restrain, siphon, and venomously pollute dragon power |
+| 丹毒药剂 | Pill Poison Agent | Pharmaceutical combat toxin distilled from alchemical impurities and pill dross, used strategically as an aerosolized weapon in enclosed arena environments |
+| 神树频道 | Sacred Tree Channel | Official Wood Spirit telecommunications and livestream broadcasting channel operating over the Sacred Tree root network |
+| 千种玉 | Thousand-Species Jade | Supreme structural jade material utilized for building the Ascension Terrace and later repurposed for the Palace of Silence and the Library Pavilion; renowned for its extraordinary resistance against heavenly tribulation lightning |
+| 任务面板 | Sect Quest Panel | System UI function in the Heavenly Spirit Sect unlocked for students in the Intermediate Class and above to view sect quests and disciple map locations in real time |
+| 散雷 | Scattered Lightning | Heavenly tribulation lightning deployed as a wide-area carpet bombardment of numerous slender lightning bolts rather than a single concentrated lightning strike |
+| 月相镜 | Moon Phase Mirror | Ancient divining mirror possessed by Fairy Ruopei of the Huanfei Sect, capable of peering into distant scenes and establishing communication across vast domains without spatial hindrance |
+| 拘灵阵 | Spirit-Binding Array | Defensive formation array given to Mo Bei by Ran Deng, sealing a target's spiritual meridians to prevent the circulation of any cultivation methods, rendering cultivators as powerless as mortals |
 
 ---
 
@@ -2808,6 +3209,210 @@ Notes: The supreme floating immortal city in the Northern Domain, whose City Lor
 | 文曲之资 | Talent of Wenqu | `"Literal CN: 文曲之资 (wénqū zhī zī) — innate destiny and intellectual talent aligned with the Wenqu Star, governing supreme scholarship, intellect, and imperial examination mastery"` |
 | 通天之路 / 登天梯 | Celestial Path / Stairway to Heaven | `"Literal CN: 通天之路 / 登天梯 (tōngtiān zhī lù / dēng tiāntī) — the mythological Path to Heaven / Stairway to Heaven connecting mortal earth directly to the celestial realm"` |
 | 老天爷赏饭吃 | heaven feeding one with a golden spoon | `"Literal CN: 老天爷赏饭吃 (lǎotiānyé shǎng fàn chī) — blessed with innate, effortless genius by the heavens"` |
+| 堵不如疏 | Channeling Is Better Than Blocking | `"Literal CN: 堵不如疏 (dǔ bùrú shū) — ancient Chinese wisdom from flood control: dredging and channeling a flood is far more effective than trying to erect dams to block it; addressing root causes rather than suppressing symptoms; chapter title"` |
+| 奇观 | grand monuments / Wonders | `"Literal CN: 奇观 (qíguān) — wonders / grand architectural monuments; also an allusion to civilization-building wonders"` |
+| 拍马屁拍到马腿上 | patting the horse's flank only to get kicked by its hoof / backfiring flattery | `"Literal CN: 拍马屁拍到马腿上 (pāi mǎpì pāi dào mǎtuǐ shàng) — backfiring flattery; buttering someone up inappropriately and receiving a harsh rebuff instead"` |
+| 教会徒弟饿死师父 | teach the apprentice and starve the master | `"Literal CN: 教会徒弟饿死师父 (jiāo huì túdì èsǐ shīfu) — common Chinese idiom warning that sharing trade secrets allows pupils to outcompete and displace their masters"` |
+| 有教无类 | education without discrimination | `"Literal CN: 有教无类 (yǒu jiào wú lèi) — famous Confucian principle from the Analects: providing education to all without distinction of social class or background"` |
+| 灵石宫殿 | Spirit Stone Palace | `"Literal CN: 灵石宫殿 (língshí gōngdiàn) — palace constructed of pure, solid spirit stones stacked atop a mineral vein to seal a Demon Eye"` |
+| 十年脑血栓 | ten years of cerebral thrombosis | `"Literal CN: 十年脑血栓 (shí nián nǎoxuèshuān) — modern Chinese internet slang denoting severe brain rot or utter insanity"` |
+| 暴发户 | gaudy nouveau riche / parvenu | `"Literal CN: 暴发户 (bàofāhù) — parvenu / nouveau riche who flaunts garish wealth without taste or restraint"` |
+| 魔眼 | Demon Eye | `"Literal CN: 魔眼 (móyǎn) — interdimensional rifts created during the ancient Demon-God War connecting to the demon realm"` |
+| 朴实无华 | unpretentious and simple | `"Literal CN: 朴实无华 (pǔshí wúhuá) — famous Chinese internet meme originating from the short video series 'The Boring Life of Uncle Zhu' (朱一旦的枯燥生活): 'The life of the rich is often so unpretentious, simple, and boring'"` |
+| 睡美人被纺锤刺死 | Sleeping Beauty being pricked by a spindle | `"Literal CN: 睡美人被纺锤刺死 — reference to the fairy tale Sleeping Beauty, where attempting to ban spindles only ensures the cursed event happens"` |
+| 中央处理器 | central processing unit / CPU | `"Literal CN: 中央处理器（CPU） — modern computing terminology used by Zhou Hui to explain array control nexuses"` |
+| 鼓成河豚 | puffed up like a pufferfish | `"Literal CN: 鼓成河豚 (gǔ chéng hétún) — modern Chinese meme for pouting or sulking furiously"` |
+| 塔防系统 | Tower Defense System | `"Literal CN: 塔防系统 (tǎfáng xìtǒng) — modern gaming genre adapted into sect defense architecture proposed by Zhou Hui"` |
+| 不可饶恕 | Unforgivable | `"Literal CN: 不可饶恕 (bù kě ráoshù) — unforgivable / unpardonable; here humorously referencing the ultimate sin of deleting someone's video game save file and clearing their high score; chapter title"` |
+| 棕翅蜚母 | Brown-Winged Fei Mother | `"Literal CN: 棕翅蜚母 (zōngchì fēimǔ) — ancient demon bug matriarch sealed near the Demon Eye"` |
+| 蜚虫 | Fei bugs / demon insects | `"Literal CN: 蜚虫 (fēichóng) — demon insects bred in the Demon Eye cavern"` |
+| 虫壶 | insect urn / Gu jar | `"Literal CN: 虫壶 (chóng hú) — an insect urn or Gu jar used to seal poisonous insects together to fight until only the deadliest survives"` |
+| 养料 | spiritual nourishment | `"Literal CN: 养料 (yǎngliào) — fertilizer / nutrients; demons view humans and their negative emotions as emotional nutrients"` |
+| 内卷 | involution | `"Literal CN: 内卷 (nèijuǎn) — hyper-competitive rat race / cutthroat internal zero-sum competition"` |
+| 金须大王 | King Golden Whiskers | `"Literal CN: 金须大王 (Jīnxū Dàwáng) — mutant Fei bug with majestic golden antennae"` |
+| 四足白色肉虫子 | four-legged white meat bug | `"Literal CN: 四足白色肉虫子 — how the insect demon perceives a human"` |
+| 人肉净化器 | human air purifier | `"Literal CN: 人肉净化器 (rénròu jìnghuàqì) — humorous metaphor for someone whose body passively cleanses toxins or demonic corruption"` |
+| 补偿十连，无事发生 | compensation ten-pull, nothing happened | `"Literal CN: 补偿十连，无事发生 — famous gacha gaming meme where developers give players 10 free gacha pulls as apology compensation for game-breaking bugs, acting as if nothing happened"` |
+| 内测 | closed beta | `"Literal CN: 内测 (nèicè) — closed beta testing"` |
+| 漏怪 | leaking monsters | `"Literal CN: 漏怪 (lòuguài) — tower defense gaming term for letting enemies slip past defenses"` |
+| 清零 | wiped to zero | `"Literal CN: 清零 (qīnglíng) — reset to zero / wiping save data and high scores; in gamer culture, deleting someone's save file and wiping their high scores is the ultimate unforgivable crime"` |
+| 休息日 | Day Off | `"Literal CN: 休息日 (xiūxirì) — day off / rest day; chapter title"` |
+| 糖葫芦 | candied hawthorn skewers / tanghulu | `"Literal CN: 糖葫芦 (tánghúlu) — traditional candied hawthorn skewers on a bamboo stick; experiencing a renaissance in the cultivation world after the Immortals' Gathering"` |
+| 考试不及格之神 | God of Failing Exams | `"Literal CN: 考试不及格之神 (kǎoshì bù jígé zhī shén) — disciples' superstitious moniker for the little black lamb (Yuwen Xuan) hung at the mountain gate"` |
+| 痴儿 | mentally impaired simpleton | `"Literal CN: 痴儿 (chī'ér) — mentally challenged simpleton / fool; Qingyang Qingyu's hilarious misunderstanding of Yuwen Xuan's true nature"` |
+| 撞形象 | aesthetic clash / copying one's look | `"Literal CN: 撞形象 (zhuàng xíngxiàng) — aesthetic/character design clash; Qu Qianxing's indignation at another cultivator sporting white hair and white robes like Zhou Hui"` |
+| 棉花糖似的屁股 | marshmallow-like rump | `"Literal CN: 棉花糖似的屁股 (miánhuātáng shì de pìgu) — fluffy white-tail sheep rump comparison; Yuwen Xuan pointing his rump at Qu Qianxing in protest"` |
+| 偷得浮生半日闲 | stealing half a day of leisure | `"Literal CN: 偷得浮生半日闲 — stealing half a day of leisure from this floating life; from Tang poet Li She; Zhou Hui's motive for taking a day off"` |
+| 挂在树枝上 | hung from the branches | `"Literal CN: 挂在树枝上 (guà zài shùzhī shàng) — Yuwen Xuan's punishment for losing bets and failing exams, suspended from the mountain gate peach tree"` |
+| 做报告 | scheduling an academic thesis presentation | `"Literal CN: 做报告 (zuò bàogào) — scheduling an academic thesis presentation; Qu Qianxing plotting to subject Lord Siwu to the same grueling academic defense as Su Xin"` |
+| 玩笑 | a joke / prank | `"Literal CN: 玩笑 (wánxiào) — a joke / jest / prank; chapter title"` |
+| 预告PV | promotional trailer / PV | `"Literal CN: 预告PV (yùgào PV) — promotional video / game trailer"` |
+| 拍成肉泥 | squashed into meat paste | `"Literal CN: 拍成肉泥 (pāi chéng ròuní) — smashed into mincemeat / squashed flat like a fly"` |
+| 葫芦娃救爷爷 | Calabash Brothers saving Grandpa | `"Literal CN: 葫芦娃救爷爷 (Húluwá jiù yéye) — Calabash Brothers saving Grandpa; classic Chinese animation meme referring to trickling in one by one and getting picked off sequentially"` |
+| 太菜 / 菜鸡 | total scrubs / utter noobs | `"Literal CN: 太菜 / 菜鸡 (tài cài / càijī) — gaming slang for being weak or an incompetent beginner"` |
+| 小孩子才做选择，成年人全都要 | adults don't make choices—I want both! | `"Literal CN: 小孩子才做选择，成年人全都要 — famous internet meme derived from Stephen Chow's movie 'Hail the Judge': only children make choices, adults want them all"` |
+| 那么勇 | suicidal courage / reckless audacity | `"Literal CN: 那么勇 (nàme yǒng) — so brave/bold; internet slang questioning someone's reckless audacity"` |
+| 洒家 | this grandfather / this monk | `"Literal CN: 洒家 (sǎjiā) — rustic self-reference used by burly warriors/monks in classical Chinese fiction"` |
+| 根正苗红 | pure, red-blooded locals | `"Literal CN: 根正苗红 (gēn zhèng miáo hóng) — roots straight and sprouts red; orthodox, bona fide locals"` |
+| 去过三趟渊海魔神遗迹的禁区，就是俺们中境人 | anyone who's braved the forbidden zones three times is one of our own | `"Literal CN: 去过三趟渊海魔神遗迹的禁区，就是俺们中境人 — humorous grassroots definition of Central Domain residency"` |
+| 一报还一报 | a tit for a tat / an eye for an eye | `"Literal CN: 一报还一报 (yī bào huán yī bào) — an eye for an eye / a tit for a tat / karmic retribution; chapter title"` |
+| 提词器 | teleprompter array / cue card array | `"Literal CN: 提词器 (tícíqì) — teleprompter / cue card array"` |
+| 吃了几个螺丝 | flubbing lines / choking on bolts | `"Literal CN: 吃了几个螺丝 (chīle jǐ gè luósī) — eating screws / choking on bolts; Chinese broadcast slang for flubbing lines, stuttering, or tongue-twisting on air"` |
+| 倒打一耙 | raking back in retaliation / counter-accusing | `"Literal CN: 倒打一耙 (dào dǎ yī pá) — counter-attacking with a rake like Zhu Bajie; turning around to counter-accuse or shift the blame"` |
+| 扎堆 | flocking together / congregating in a dense cluster | `"Literal CN: 扎堆 (zhāduī) — flocking together / congregating in a dense cluster"` |
+| 杀人偿命 | a life for a life | `"Literal CN: 杀人偿命 (shā rén cháng mìng) — a life must be paid for taking a life"` |
+| 破布娃娃 | patched-up ragdoll | `"Literal CN: 破布娃娃 (pòbù wáwá) — patched-up ragdoll; humorously describing Nie Tongzi's lumpy, poorly reassembled body"` |
+| 开玩笑的 | just kidding | `"Literal CN: 开玩笑的 (kāi wánxiào de) — just kidding; throwing Lord Siwu's own excuse back in his face"` |
+| 气运 | Karmic Fortune | `"Literal CN: 气运 (qì yùn) — destiny / heavenly fortune that converges around massive competitions and fateful figures; chapter title"` |
+| 气运法宝 | Karmic Fortune Artifact | `"Literal CN: 气运法宝 (qì yùn fǎ bǎo) — rare magical treasure capable of gathering, measuring, and directing heavenly destiny / karmic fortune (e.g. Zhou Hui's green jade gourd)"` |
+| 下次一定 | next time definitely | `"Literal CN: 下次一定 (xià cì yí dìng) — popular Chinese internet meme used when politely dodging an invitation or promising content 'next time for sure' without any real intention of doing it"` |
+| 空巢老人 | empty-nest elderly parent | `"Literal CN: 空巢老人 (kōng cháo lǎo rén) — empty-nest elderly parent; modern Chinese term for solitary elderly parents, humorously used to describe Fairy Xia playing the guilt-tripping grandma"` |
+| 盘子上的虫子 | bugs crawling on plates | `"Literal CN: 盘子上的虫子 (pánzi shàng de chóngzi) — Qu Qianxing's brutally unpoetic impression of contestants competing on the tiered arena platforms"` |
+| 此地无银三百两 | 'no 300 taels of silver buried here' / guilty over-explanation | `"Literal CN: 此地无银三百两 (cǐ dì wú yín sān bǎi liǎng) — a famous Chinese fable about someone posting a sign over buried silver claiming nothing is there, meaning a clumsy denial that exposes one's guilt"` |
+| 饼渣 | pastry crumbs | `"Literal CN: 饼渣 (bǐng zhā) — crumbs from a meat patty or pastry; secretly planted on Lord Siwu's robes by Yuwen Xuan, who compressed Taotie resentment into edible cakes"` |
+| 具体作用 | practical function / specific purpose | `"Literal CN: 具体作用 (jùtǐ zuòyòng) — specific purpose / concrete practical function; chapter title"` |
+| 肥缺 | lucrative sinecure / fat post | `"Literal CN: 肥缺 (féiquē) — fat post / lucrative sinecure; a comfortable position with high perks and profit"` |
+| 脑容量 | cranial volume / brain capacity | `"Literal CN: 脑容量 (nǎo róngliàng) — brain capacity / cranial volume"` |
+| 心头血 | essence heart-blood | `"Literal CN: 心头血 (xīntóu xuè) — blood from the tip of the heart, the purest vital essence of a cultivator or divine beast"` |
+| 叛逆期 | rebellious teenage phase | `"Literal CN: 叛逆期 (pànnì qī) — rebellious phase / adolescent defiance stage"` |
+| 烟熏羊肉干 | smoked mutton jerky | `"Literal CN: 烟熏羊肉干 (yānxūn yángròugān) — smoked dried mutton jerky"` |
+| 硬广 | shameless hard advert | `"Literal CN: 硬广 (yìng guǎng) — hard advertising / direct, blatant product placement"` |
+| 走量 | scaling through sheer volume | `"Literal CN: 走量 (zǒu liàng) — moving high volume; prioritizing sales/scale quantity over per-unit margin"` |
+| 收割 (割韭菜) | mass harvesting / shearing chives | `"Literal CN: 收割 (shōugē) — harvesting / shearing chives (割韭菜); internet slang for exploiting and milking a captive audience"` |
+| 造势 | generating hype | `"Literal CN: 造势 (zào shì) — generating momentum / whipping up publicity and hype"` |
+| 团灭 | total party kill | `"Literal CN: 团灭 (tuán miè) — total party kill / wiped out to the last man; gaming slang for an entire team being eliminated"` |
+| 举重若轻 | effortless mastery | `"Literal CN: 举重若轻 (jǔ zhòng ruò qīng) — handling heavy weights as if they were light; effortless composure and mastery"` |
+| 教会徒弟饿死师父 | teach the apprentice and starve the master | `"Literal CN: 教会徒弟饿死师父 (jiào huì túdì è sǐ shīfu) — common proverb warning that once disciples learn all the master's secrets, they put the master out of business"` |
+| 一些舆论 | Some Public Opinion | `"Literal CN: 一些舆论 (yīxiē yúlùn) — Some Public Opinion; chapter title"` |
+| 快刀斩乱麻 | cutting the Gordian knot with a swift blade | `"Literal CN: 快刀斩乱麻 (kuài dāo zhǎn luàn má) — slicing tangled hemp with a sharp blade; solving a complex, messy problem decisively"` |
+| 爽完就跑 | enjoy the thrill and dip | `"Literal CN: 爽完就跑 (shuǎng wán jiù pǎo) — modern slang: get one's kicks and run off / smash and dash without cleaning up the mess"` |
+| 纸上谈兵 | armchair theorizing | `"Literal CN: 纸上谈兵 (zhǐ shàng tán bīng) — discussing military tactics on paper; theoretical talk without practical execution"` |
+| 样刊 | proof copy / sample issue | `"Literal CN: 样刊 (yàngkān) — advance sample issue / proof copy printed before mass distribution"` |
+| 黑市打拳 | underground pit fighting / illegal cage matches | `"Literal CN: 黑市打拳 (hēishì dǎquán) — black-market underground bare-knuckle fighting / cage matches"` |
+| 从心 | following one's heart / gutless coward | `"Literal CN: 从心 (cóngxīn) — 'following one's heart'; homophonic pun for 怂 (sǒng), meaning a complete coward / gutless wimp"` |
+| 期中考试 | midterm exams | `"Literal CN: 期中考试 (qīzhōng kǎoshì) — midterm examination; Zhou Hui's standardized academic testing system striking even on external missions"` |
+| 多余 | Superfluous | `"Literal CN: 多余 (duōyú) — Superfluous / The Extras; chapter title referring both to ordinary background cultivators who feel like superfluous extras in the cultivation world and the extra audience tagging along"` |
+| 输不起 | sore losers | `"Literal CN: 输不起 (shū bù qǐ) — unable to afford losing; sore losers who cannot take a defeat gracefully"` |
+| 踢馆 | challenging a rival dojo | `"Literal CN: 踢馆 (tīguǎn) — kicking the dojo sign / gate; raiding or challenging a rival establishment"` |
+| 强度党 | meta slaves | `"Literal CN: 强度党 (qiángdù dǎng) — strength/power faction; players who pick characters purely based on top-tier combat stats and meta efficiency"` |
+| 期中考试实操部分 | practical exam portion of midterm examinations | `"Literal CN: 期中考试实操部分 (qīzhōng kǎoshì shícāo bùfen) — practical hands-on application section of midterm exams"` |
+| 留级 | repeating a grade / held back | `"Literal CN: 留级 (liújì) — repeating a grade / held back; Zhou Hui's modern schooling system introducing grade retention to cultivation sects"` |
+| 放心茶 | safe, certified tea | `"Literal CN: 放心茶 (fàngxīn chá) — reassuring/safe tea; referencing modern food safety standards and transparent consumer supply chains"` |
+| 剑程 | flying sword travel distance | `"Literal CN: 剑程 (jiànchéng) — sword-flight distance; distance measured by flying sword travel time"` |
+| 收甘蔗 | harvesting sugarcane | `"Literal CN: 收甘蔗 (shōu gānzhe) — harvesting sugarcane; manual agricultural labor as a practical sword cultivation exam"` |
+| 未遂 | Foiled / Attempted | `"Literal CN: 未遂 (wèisuì) — Unconsummated / Attempted (Unsuccessful) / Foiled; chapter title referring to Yuwen Xuan's botched plot to feed his other soul-half to Lord Siwu, caught red-handed by Zhou Hui"` |
+| 亿点点 | a 'billion' little tweaks / a hundred million | `"Literal CN: 亿点点 (yì diǎndiǎn) — internet slang pun on 'a tiny bit' (一点点, yī diǎndiǎn) replacing 一 (one) with 亿 (a hundred million / a billion), meaning an absurd, overwhelming amount of modifications"` |
+| 捉奸在床 | caught red-handed in bed | `"Literal CN: 捉奸在床 (zhuōjiān zài chuáng) — caught in the act / caught red-handed in bed committing adultery; humorous description of Yuwen Xuan catching Zhou Hui 'secretly raising' the other Taotie soul fragment"` |
+| 一些真相 | Some Truths | `"Literal CN: 一些真相 (yīxiē zhēnxiàng) — Some Truths / A Bit of Truth; chapter title revealing the heavenly conspiracy behind the Immortal-Slaying Sword and the hidden eighth reincarnation cycle"` |
+| 假酒 | fake liquor / counterfeit alcohol | `"Literal CN: 假酒 (jiǎjiǔ) — fake liquor / counterfeit alcohol; Yuwen Xuan's vivid analogy for an artificial, adulterated demon lacking authentic metaphysical resonance"` |
+| 暴击暴伤 | critical strike rate and critical damage | `"Literal CN: 暴击暴伤 (bàojī bàoshāng) — crit rate and crit damage; modern gaming terminology humorously applied to karmic buffs enhancing martial combat efficiency"` |
+| 气运黑洞 | karmic black hole | `"Literal CN: 气运黑洞 (qìyùn hēidòng) — karmic black hole; an entity that insatiably swallows astronomical amounts of cosmic destiny and providential fortune"` |
+| 认知 | Perception / Cognition | `"Literal CN: 认知 (rènzhī) — Perception / Cognition / Awareness; chapter title referring to differing perspectives on Zhou Hui's sacrifices and the hidden awareness carried across reincarnations"` |
+| 皱巴巴的球 | wrinkled ball | `"Literal CN: 皱巴巴的球 (zhòubābā de qiú) — a crumpled/wrinkled ball; Tao Zhu's irreverent visual comparison for Ancestor Jiuzhai's shriveled, diminutive physique"` |
+| 洗了六遍 | washed six times | `"Literal CN: 洗了六遍 (xǐle liù biàn) — washed six times; Jiuzhai's chilling cosmological term for resetting the world and reversing time across six cycles"` |
+| 肚子精 | belly spirit | `"Literal CN: 肚子精 (dùzi jīng) — belly spirit / potbelly monster; Zhou Hui's deadpan internal moniker for the round, fat Tao Zhu"` |
+| 路书泷的懊恼 | Lu Shulong's Regret | `"Literal CN: 路书泷的懊恼 (Lù Shūlóng de àonǎo) — Lu Shulong's Regret / Chagrin; chapter title revealing Lu Shulong's memories across all reincarnations and the truth behind the counterfeit world of the sixth cycle"` |
+| 失忆 | feigned amnesia | `"Literal CN: 失忆 (shīyì) — feigned amnesia across time reversals to avoid increased exam study and practice volumes"` |
+| 叛逆期 | rebellious phase | `"Literal CN: 叛逆期 (pànnìqī) — rebellious phase / adolescent defiance stage; Lu Shulong's rebellion against being adopted out to the Dragon King"` |
+| 修罗场 | field of carnage / shuraba | `"Literal CN: 修罗场 (xiūluóchǎng) — shuraba / scene of carnage; messy, chaotic interpersonal drama and mutual sabotage among the disciples in the fourth cycle"` |
+| 伪物 | counterfeit / fake | `"Literal CN: 伪物 (wěiwù) — fake / counterfeit / puppet impostor created from dust and Zhou Hui's residual aura to deceive the disciples in the sixth cycle"` |
+| 3D建模感觉的小积木 | 3D building blocks | `"Literal CN: 3D建模感觉的小积木 — miniature building blocks with the aesthetic of modern 3D digital modeling, manifested by Lu Shulong"` |
+| 天道脚本 | Heavenly Dao script | `"Literal CN: 天道脚本 (tiāndào jiǎoběn) — the dogblood harem cultivation novel plotline staged by the disciples in the counterfeit sixth cycle"` |
+| 装死 | playing dead | `"Literal CN: 装死 (zhuāng sǐ) — feigning death or unconsciousness to evade an awkward or terrifying situation"` |
+| 第六世的另外半边世界 | The Severed World / Counterfeit World of the Sixth Cycle | `"Literal CN: 第六世的另外半边世界 — The severed half of the world from the sixth cycle where the disciples staged the Heavenly Dao script to investigate the counterfeit puppet Master"` |
+| 见闻 | Observations and Impressions | `"Literal CN: 见闻 (jiànwén) — Observations and Impressions / Things Seen and Heard; chapter title referring to Shui Huang'er's hilarious and shocking discoveries upon visiting the Heavenly Spirit Sect"` |
+| 高岭之花 | flower on a high peak | `"Literal CN: 高岭之花 (gāolǐng zhī huā) — an aloof, unattainable beauty beyond reach"` |
+| 师尊控 | Master-simp / Master-complex | `"Literal CN: 师尊控 (shīzūn kòng) — Master-complex; someone hopelessly obsessed with and devoted to their master"` |
+| 贴贴 | stick close / cuddle with an idol | `"Literal CN: 贴贴 (tiētiē) — modern ACG slang for hugging, cuddling, or sticking close to someone you adore"` |
+| 公款追星 | fangirling on the company dime | `"Literal CN: 公款追星 (gōngkuǎn zhuīxīng) — pursuing one's celebrity idol using official public/sect expense accounts"` |
+| 玩得花 | playing wild and loose | `"Literal CN: 玩得花 (wán de huā) — indulged in wild, unconventional, or kinky romantic/sexual antics"` |
+| 树上挂羊 | hanging from the tree branch / self-hanging punishment | `"Literal CN: 树上挂羊 / 挂树上吊 — Yuwen Xuan hanging himself by his neck from the peach tree to preserve face and elicit pity for a sentence reduction after failing exams"` |
+| 没考好 | bombed the exam | `"Literal CN: 没考好 (méi kǎohǎo) — failed or underperformed on an examination"` |
+| 减刑 | sentence reduction | `"Literal CN: 减刑 (jiǎnxíng) — commutation of punishment / reduction of penal sentence"` |
+| 妖族三大修行途径 | Three Paths of Demon Cultivation | `"Literal CN: 妖族三大修行途径 — the three routes for demons: human transformation path (化形路线), spirit beast mount path (灵兽路线), and demonic corruption path (堕落成魔)"` |
+| 摸底考试 | diagnostic baseline assessment exam | `"Literal CN: 摸底考试 (mōdǐ kǎoshì) — diagnostic baseline assessment exam / placement test used to gauge a student's true level"` |
+| 先天优势 | Innate Advantage | `"Literal CN: 先天优势 (xiāntiān yōushì) — Innate Advantage / Natural Advantages; chapter title referring to the Southern Domain's unique telecommunication network infrastructure via the Wood Spirit Sacred Tree"` |
+| 妖族大礼 | complete grand demon salute | `"Literal CN: 妖族大礼 (yāozú dàlǐ) — formal grand etiquette / salute of the demon race"` |
+| 屈尊纡贵 | condescending to lower oneself | `"Literal CN: 屈尊纡贵 (qūzūn yūguì) — condescending to lower oneself; bestowing one's presence upon social inferiors"` |
+| 迟早药丸 | bound to go down in pills | `"Literal CN: 迟早药丸 (chízǎo yàowán) — internet pun on 迟早要完 (bound to be finished / doomed to collapse), swapping 要完 (doomed) with 药丸 (pills/medicine)"` |
+| 倒贴 | throwing oneself at someone | `"Literal CN: 倒贴 (dàotiē) — unrequited courting; giving away money or effort without reciprocation / humbling oneself for a partner who looks down on you"` |
+| 树上挂羊 | hanging from the peach tree | `"Literal CN: 树上挂羊 / 挂树上吊 — Yuwen Xuan hanging himself by his neck from the peach tree to preserve face and elicit pity for a sentence reduction after failing exams"` |
+| 网络 (木灵网络) | network (Wood Spirit Network) | `"Literal CN: 网络 (wǎngluò) — network / internet; Zhou Hui applying modern telecommunications infrastructure concepts to the Wood Spirit / Sacred Tree vascular channels"` |
+| 捡漏 | pick up leftovers / scavenge | `"Literal CN: 捡漏 (jiǎnlòu) — scavenge / pick up leftovers; profiting from someone else's missed opportunity or picking up scraps after a clash"` |
+| 截取 | tap into / intercept | `"Literal CN: 截取 (jiéqǔ) — intercept / tap into; demons tapping into the spiritual energy and neural thoughts flowing through the Wood Spirits"` |
+| 树冠 | canopy | `"Literal CN: 树冠 (shùguān) — tree canopy / treetop; where high-ranking avian demon aristocrats reside upon the Fire Abyss Sacred Tree"` |
+| 树干内部 | interior of the trunk | `"Literal CN: 树干内部 (shùgàn nèibù) — interior of the trunk; natural vascular fiber-optic channels of the Sacred Tree conveying thoughts and energy"` |
+| 直播 | live stream | `"Literal CN: 直播 (zhíbō) — live broadcast / streaming; modern telecommunications livestreaming over the Wood Spirit tree network"` |
+| 赤血 | Chi Xue / Scarlet Blood | `"Literal CN: 赤血 (Chì Xuè) — Scarlet Blood; a serpentine demon inhabiting the middle boughs of the Fire Abyss Sacred Tree"` |
+| 降维打击 | dimensional strike | `"Literal CN: 降维打击 (jiàngwéi dǎjī) — dimensional strike / outclassing by leagues; technological disruption from a higher dimension"` |
+| 示范效果 | Demonstration Effect | `"Literal CN: 示范效果 (shìfàn xiàoguǒ) — Demonstration Effect / Exemplary Effect; chapter title referring to Lu Shulong's textbook demonstration match at the tournament inspiring rival disciples to study academic papers"` |
+| 镣铐 | shackles / manacles | `"Literal CN: 镣铐 (liàokào) — shackles / manacles; forged by Guan Ye to suppress a cultivator's internal spiritual energy circulation"` |
+| 嘴铐 | muzzle | `"Literal CN: 嘴铐 (zuǐkào) — muzzle / mouth restraint; intricately etched with Taotie motifs to prevent speech or biting"` |
+| 及格线 (及格) | passing grade | `"Literal CN: 及格 (jígé) — passing grade / 60-point cutoff on exams"` |
+| 有机垃圾 | organic waste / bio-trash | `"Literal CN: 有机垃圾 (yǒujī lājī) — organic waste / bio-trash; Zhou Hui's deadpan classification for irredeemable slacker students"` |
+| 雾化 | aerosolization / atomization | `"Literal CN: 雾化 (wùhuà) — aerosolization / atomization; converting liquid or solid chemical compounds into fine airborne vapor"` |
+| 教科书级别的 | textbook-level / textbook demonstration | `"Literal CN: 教科书级别的 (jiàokēshū jíbíé de) — textbook-level / exemplary standard-setting demonstration"` |
+| 花痴 | starry-eyed swooning / fanboys | `"Literal CN: 花痴 (huāchī) — starry-eyed fanboys/fangirls / infatuated idolization"` |
+| 抄作业 | copy someone's homework | `"Literal CN: 抄作业 (chāo zuòyè) — copying homework; slang for replicating someone else's winning strategy or formula"` |
+| 功德 (大功德) | Merit (Colossal Cosmic Merit) | `"Literal CN: 功德 / 大功德 (gōngdé / dà gōngdé) — Karmic Merit / Colossal Cosmic Merit; astronomical celestial merit accumulated through teaching and elevating sentient beings, which forces an Ascension Heavenly Tribulation"` |
+| 白色麻袋 | white burlap sack | `"Literal CN: 白色麻袋 (báisè mádài) — white burlap sack; chosen specifically to match Qingyang Qingli's favorite color before bagging and thrashing him for secretly winning Immortals' Chess"` |
+| 稳坐钓鱼台 | sitting firmly on the fishing terrace | `"Literal CN: 稳坐钓鱼台 (wěn zuò diàoyútái) — sitting firmly on the fishing terrace / remaining calm, detached, and unruffled while watching events unfold"` |
+| 支教 | educational aid / supportive education | `"Literal CN: 支教 (zhījiào) — educational volunteer aid / teaching support program dispatched to underdeveloped regions; Zhou Hui's modern pedagogical outreach initiative for the demon race"` |
+| 妖口普查 | demon census | `"Literal CN: 妖口普查 (yāokǒu pǔchá) — demon demographic census; parody of the modern national population census (人口普查)"` |
+| 五色光芒 | five-colored divine radiance | `"Literal CN: 五色光芒 (wǔsè guāngmáng) — five-colored divine radiance; auspicious celestial light infused into heavenly clouds, signifying merit-based tribulations"` |
+| 旷世神作 | epoch-defining masterpiece | `"Literal CN: 旷世神作 (kuàngshì shénzuò) — epoch-defining masterpiece / once-in-an-epoch divine opus; Villa Master Qingyang's hyperbolic label for Zhou Hui's True Immortal paper"` |
+| 脑补 | wild headcanon / over-interpreting | `"Literal CN: 脑补 (nǎobǔ) — brain-filling / headcanon / fabricating elaborate internal explanations without basis"` |
+| 大佬的操作 | A Top Powerhouse's Playbook / Big Boss Moves | `"Literal CN: 大佬的操作 (dàlǎo de cāozuò) — A Big Boss / Top Powerhouse's Playbook / Flextastic Moves; chapter title referring to Zhou Hui casually capturing, milking, and chasing away the Ascension Heavenly Tribulation like helpless prey"` |
+| 薅羊毛 | fleecing the sheep / squeezing and milking resources | `"Literal CN: 薅羊毛 (hāo yángmáo) — fleecing sheep / squeezing and milking resources; Zhou Hui ruthlessly harvesting spatial heavenly lightning from the tribulation clouds like an aggressive resource farmer"` |
+| 骂街 | hurling profanities in the street / furious cursing | `"Literal CN: 骂街 (màjiē) — shouting curses in the street / hurling profanities; the indignant, humiliated bellow of the Heavenly Tribulation as it is hunted and fleeced like helpless prey"` |
+| 挽尊 | salvaging face / preserving one's dignity | `"Literal CN: 挽尊 (wǎnzūn) — salvaging face / preserving one's dignity after being humiliated"` |
+| 预习 | preview / pre-study / practice run | `"Literal CN: 预习 (yùxí) — preview / pre-study / practice run; academic slang for reading textbook material before class, here used for triggering a practice heavenly tribulation"` |
+| 有备而来 | Coming Fully Prepared | `"Literal CN: 有备而来 (yǒu bèi ér lái) — Coming Prepared / Arriving Fully Prepared; chapter title referring to Zhou Hui and Heavenly Spirit Sect's comprehensive infrastructure for harvesting heavenly tribulations and spiritual rain downpours"` |
+| 蓄灵池 | Spirit Storage Pool | `"Literal CN: 蓄灵池 (xùlíng chí) — Spirit Storage Pool; an engineered reservoir and irrigation-style catchment system constructed by the Heavenly Spirit Sect to buffer and store immense surges of spiritual rain and storm energy"` |
+| 灵力风车 | Spiritual Energy Windmills | `"Literal CN: 灵力风车 (línglì fēngchē) — Spiritual Energy Windmills; giant environmental regulation turbines installed across Heavenly Chasm Mountain that dynamically redirect, calibrate, and buffer turbulent atmospheric spiritual currents"` |
+| 灵坝 | Spiritual Dam | `"Literal CN: 灵坝 (língbà) — Spiritual Dam; hydrological-style defensive barrier—specifically the massive inverted mountain reflection suspended in the sky—that buffers and stores massive floods of spiritual energy"` |
+| 灵雨 | Spiritual Rain | `"Literal CN: 灵雨 (língyǔ) — Spiritual Rain; downpour of pure liquid spiritual energy resulting from purified demonic qi and shattered tribulation lightning, prone to causing ecological overgrowth and spiritual storms if unmanaged"` |
+| 盘 | kneaded / played with like walnuts | `"Literal CN: 盘 (pán) — kneaded / played with / rolled around in one's hands; cultural slang for obsessively rubbing, polishing, or playing with walnuts/beads until smooth, here referring to Zhou Hui casually compressing apocalyptic heavenly lightning into a ball"` |
+| 本垒打 | home run | `"Literal CN: 本垒打 (běnlěidǎ) — home run; modern baseball metaphor for hitting it out of the park, referring to Zhou Hui slingshotting the lightning ball back through the spatial rift"` |
+| 心得 | reflection essay / study insights | `"Literal CN: 心得 (xīndé) — reflection essay / insights / experiential study notes; mandatory academic reflection assignment assigned by Qu Qianxing to keep disciples from idling after tribulations"` |
+| 各人自扫门前雪 | each sweeps the snow before their own doorstep | `"Literal CN: 各人自扫门前雪 (gè rén zì sǎo mén qián xuě) — each sweeps the snow before their own doorstep; common idiom for minding one's own business and ignoring others' troubles"` |
+| 自己找糖吃 | finding candy for oneself / shipper candy | `"Literal CN: 自己找糖吃 (zìjǐ zhǎo táng chī) — finding sugar/candy for oneself; modern ACG/fandom slang for seeking out sweet romantic shipping moments between characters"` |
+| 师徒 | Master and Disciples | `"Literal CN: 师徒 (shītú) — Master and Disciples; chapter title referring to Zhou Hui and his disciples gathering warmly in the cave, contrasted with Northern Domain masters and disciples suffering academic peer-review trauma"` |
+| 遗照 | funeral portrait | `"Literal CN: 捧着遗照 (pěngzhe yízhào) — holding a deceased ancestor's funeral portrait; comedic exaggeration for Mo Xi's solemnity holding the mirror showing Mo Bei"` |
+| 暴风吸入 | hurricane inhalation / vacuuming down food | `"Literal CN: 暴风吸入 (bàofēng xīrù) — hurricane inhalation / vacuuming down food at gale-force speed; internet slang for ravenously inhaling food/drink"` |
+| 第二轮太阳 | second sun | `"Literal CN: 第二轮太阳 (dì-èr lún tàiyáng) — a second sun; referring to the blinding white light of the ascension tribulation visible across continents"` |
+| 改了十三遍 | revised thirteen times | `"Literal CN: 改了十三遍 (gǎi le shí-sān biàn) — revised thirteen times; the eternal graduate student nightmare of infinite peer review revisions and rejections"` |
+| 烧起来了 | Flaming Up / Heat is On | `"Literal CN: 烧起来了 (shāo qǐlái le) — Flaming Up / Things Are Heating Up / A Flame War Has Begun; chapter title referring to academic drama igniting in the press as rejected powerhouses publish scathing open flame-war exposes in the newspaper"` |
+| 导师代笔 | thesis advisor ghostwriting | `"Literal CN: 导师代笔 (dǎoshī dàibǐ) — thesis advisor / mentor ghostwriting for students; academic misconduct where senior masters write papers under their disciples' names"` |
+| 伪鱼 | Fake Fish | `"Literal CN: 伪鱼 (Wěi Yú) — Fake Fish; pen name adopted by Fairy Ruopei in White Jade Capital Weekly to flame reviewers and ghostwriters"` |
+| 扫射 | spraying / strafing everybody | `"Literal CN: 扫射 (sǎoshè) — strafing / spraying machine-gun fire; internet slang for attacking everybody indiscriminately without specific targets"` |
+| 看热闹 | watching the circus / front-row drama | `"Literal CN: 看热闹 (kàn rènao) — watching the bustling scene / spectator drama; enjoying chaotic conflict from a safe spectator seat with popcorn"` |
+| 没有营养的争论 | Pointless Arguments | `"Literal CN: 没有营养的争论 (méiyǒu yíngyǎng de zhēnglùn) — Pointless Arguments / Nutrition-less Squabbles; chapter title referring to the chaotic domain-wide flame war ignited in White Jade Capital Weekly"` |
+| 哗众取宠 | sensational grandstanding | `"Literal CN: 哗众取宠 (huázhòng-qǔchǒng) — seeking the clamor of the crowd to win favor; sensationalism / playing to the gallery"` |
+| 地图炮 | regional carpet-bombing | `"Literal CN: 地图炮 (dìtúpào) — map cannon / area-of-effect carpet-bombing; internet slang for indiscriminate attacks or generalizations targeting an entire group or region"` |
+| 宣传阵地 | propaganda battlefield | `"Literal CN: 宣传阵地 (xuānchuán zhèndì) — ideological/propaganda battleground; quoting Zhou Hui's modern library principles: 'If we do not occupy the propaganda battlefield, our enemies surely will'"` |
+| 修仙界周报 | Cultivation World Weekly | `"Literal CN: 《修仙界周报》 (Xiūxiān Jiè Zhōubào) — Cultivation World Weekly; knockoff copycat newspaper published by Carefree Palace mimicking White Jade Capital Weekly"` |
+| 抱残守缺 | clinging to antiquated relics | `"Literal CN: 抱残守缺 (bàocán-shǒuquē) — cherishing the broken and guarding the incomplete; stubborn conservatism / clinging to archaic ways"` |
+| 乐子人 | pure drama goblin / fun-seeker | `"Literal CN: 乐子人 (lèzǐrén) — fun-seeker / drama goblin; internet slang for someone who lives to watch chaos and drama for entertainment"` |
+| 吃瓜吃到自己身上 | melon-eating circus landing on oneself | `"Literal CN: 吃瓜吃到自己身上 (chīguā chīdào zìjǐ shēnshàng) — eating melons until one eats one's own melon; spectator drama unexpectedly landing on one's own doorstep"` |
+| 含饴弄子 | enjoying sweets with one's son | `"Literal CN: 含饴弄子 (hányí-nòngzǐ) — playing with children while eating candy; enjoying the peaceful idleness of domestic family life"` |
+| 潮流 | The Trend | `"Literal CN: 潮流 (cháoliú) — Trend / The Tide / New Fashion; chapter title referring to the unstoppable continental cultural and academic craze ignited by White Jade Capital Daily and the Immortal Arts Assembly"` |
+| 飞升可控论 | Controllable Ascension Theory | `"Literal CN: 飞升可控论 (fēishēng kěkòng lùn) — Controllable Ascension Theory; thesis proposing that ascension is an autonomous, controllable physical migration to higher-energy realms rather than divine judgment"` |
+| 飞升奖赏说 | Ascension Reward Hypothesis | `"Literal CN: 飞升奖赏说 (fēishēng jiǎngshǎng shuō) — Ascension Reward Hypothesis; traditional dogma asserting ascension is a moral and spiritual reward granted by True Immortals and the Heavenly Dao"` |
+| 修二代 | cultivation second-generation / scions | `"Literal CN: 修二代 (xiū-èrdài) — cultivation second-generation; the privileged, spoiled children of high-ranking immortal elders"` |
+| 狐朋狗友 | frivolous clique of fair-weather drinking buddies | `"Literal CN: 狐朋狗友 (húpéng-gǒuyǒu) — fox-friends and dog-pals; disreputable cronies / frivolous drinking companions"` |
+| 绝版 | discontinued collector's edition / out of print | `"Literal CN: 绝版 (juébǎn) — out of print / discontinued edition; highly sought-after rare collector's item"` |
+| 玩物丧志 | sapping one's willpower through idle trifles | `"Idiom: 玩物丧志 (wánwù-sàngzhì) — sapping one's lofty ambitions by dallying with frivolous toys/trifles"` |
+| 彼岸花 | Spider Lily (Equinox Flower) | `"Literal CN: 彼岸花 (bǐ'ànhuā) — Equinox Flower / Red Spider Lily (Lycoris radiata); mythical flower blooming along the underworld river in Buddhist and Chinese folklore"` |
+| 托儿 | shill / plant | `"Literal CN: 托儿 (tuōr) — shill / plant; someone planted to manipulate or bait targets"` |
+| 异火 (烛火) | exotic flame (Candle Fire) | `"Literal CN: 异火 (yìhuǒ) — exotic / primordial flame; heavenly or inherited spiritual flame possessing devastating properties, specifically Xin Zhu's Candle Fire"` |
+| 地形杀 | terrain kill / environmental kill | `"Literal CN: 地形杀 (dìxíngshā) — environmental kill / terrain kill; winning a duel by manipulating the map geography to eliminate an opponent"` |
+| 小爷 | this young master | `"Literal CN: 小爷 (xiǎoyé) — this young master; arrogant, entitled first-person pronoun used by pampered noble scions"` |
+
+
+
+
+
 
 
 

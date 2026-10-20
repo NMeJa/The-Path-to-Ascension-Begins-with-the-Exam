@@ -95,6 +95,35 @@
 | 090 | [Chapter 90: The Test (第90章 考验)](090_Chapter_090.md) | ✅ Translated |
 | 091 | [Chapter 91: Daily Life in the Heavenly Spirit Sect (第91章 天灵派的日常)](091_Chapter_091.md) | ✅ Translated |
 | 092 | [Chapter 92: Obsession (第92章 执念)](092_Chapter_092.md) | ✅ Translated |
+| 093 | [Chapter 93: Channeling Is Better Than Blocking (第93章 堵不如疏)](093_Chapter_093.md) | ✅ Translated |
+| 094 | [Chapter 94: Unforgivable (第94章 不可饶恕)](094_Chapter_094.md) | ✅ Translated |
+| 095 | [Chapter 95: Day Off (第95章 休息日)](095_Chapter_095.md) | ✅ Translated |
+| 096 | [Chapter 96: A Joke (第96章 玩笑)](096_Chapter_096.md) | ✅ Translated |
+| 097 | [Chapter 97: A Tit for a Tat (第97章 一报还一报)](097_Chapter_097.md) | ✅ Translated |
+| 098 | [Chapter 98: Karmic Fortune (第98章 气运)](098_Chapter_098.md) | ✅ Translated |
+| 099 | [Chapter 99: Nightmare (第99章 噩梦)](099_Chapter_099.md) | ✅ Translated |
+| 100 | [Chapter 100: Practical Function (第100章 具体作用)](100_Chapter_100.md) | ✅ Translated |
+| 101 | [Chapter 101: The Newspaper (第101章 报纸)](101_Chapter_101.md) | ✅ Translated |
+| 102 | [Chapter 102: Yin Spirit, Heroic Spirit (第102章 阴灵英灵)](102_Chapter_102.md) | ✅ Translated |
+| 103 | [Chapter 103: Simple (第103章 简单)](103_Chapter_103.md) | ✅ Translated |
+| 104 | [Chapter 104: Some Public Opinion (第104章 一些舆论)](104_Chapter_104.md) | ✅ Translated |
+| 105 | [Chapter 105: Superfluous (第105章 多余)](105_Chapter_105.md) | ✅ Translated |
+| 106 | [Chapter 106: Changing the Future (第106章 改变未来)](106_Chapter_106.md) | ✅ Translated |
+| 107 | [Chapter 107: Foiled (第107章 未遂)](107_Chapter_107.md) | ✅ Translated |
+| 108 | [Chapter 108: Some Truths (第108章 一些真相)](108_Chapter_108.md) | ✅ Translated |
+| 109 | [Chapter 109: Perception (第109章 认知)](109_Chapter_109.md) | ✅ Translated |
+| 110 | [Chapter 110: Lu Shulong's Regret (第110章 路书泷的懊恼)](110_Chapter_110.md) | ✅ Translated |
+| 111 | [Chapter 111: Observations and Impressions (第111章 见闻)](111_Chapter_111.md) | ✅ Translated |
+| 112 | [Chapter 112: Innate Advantage (第112章 先天优势)](112_Chapter_112.md) | ✅ Translated |
+| 113 | [Chapter 113: Demonstration Effect (第113章 示范效果)](113_Chapter_113.md) | ✅ Translated |
+| 114 | [Chapter 114: Merit (第114章 功德)](114_Chapter_114.md) | ✅ Translated |
+| 115 | [Chapter 115: A Top Powerhouse's Playbook (第115章 大佬的操作)](115_Chapter_115.md) | ✅ Translated |
+| 116 | [Chapter 116: Coming Fully Prepared (第116章 有备而来)](116_Chapter_116.md) | ✅ Translated |
+| 117 | [Chapter 117: Master and Disciples (第117章 师徒)](117_Chapter_117.md) | ✅ Translated |
+| 118 | [Chapter 118: Flaming Up (第118章 烧起来了)](118_Chapter_118.md) | ✅ Translated |
+| 119 | [Chapter 119: Pointless Arguments (第119章 没有营养的争论)](119_Chapter_119.md) | ✅ Translated |
+| 120 | [Chapter 120: The Trend (第120章 潮流)](120_Chapter_120.md) | ✅ Translated |
+
 
 
 
