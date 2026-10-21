@@ -123,6 +123,29 @@
 | 118 | [Chapter 118: Flaming Up (第118章 烧起来了)](118_Chapter_118.md) | ✅ Translated |
 | 119 | [Chapter 119: Pointless Arguments (第119章 没有营养的争论)](119_Chapter_119.md) | ✅ Translated |
 | 120 | [Chapter 120: The Trend (第120章 潮流)](120_Chapter_120.md) | ✅ Translated |
+| 121 | [Chapter 121: Marketing Strategy (第121章 营销手段)](121_Chapter_121.md) | ✅ Translated |
+| 122 | [Chapter 122: The Futile Backup Plan (第122章 无用的备用方案)](122_Chapter_122.md) | ✅ Translated |
+| 123 | [Chapter 123: Beneath the Abyssal Ocean (第123章 渊海下)](123_Chapter_123.md) | ✅ Translated |
+| 124 | [Chapter 124: The Motivation to Learn (第124章 学习动力)](124_Chapter_124.md) | ✅ Translated |
+| 125 | [Chapter 125: The Trial of Ascension (第125章 升仙考验)](125_Chapter_125.md) | ✅ Translated |
+| 126 | [Chapter 126: The Stairway (第126章 阶梯)](126_Chapter_126.md) | ✅ Translated |
+| 127 | [Chapter 127: Resolve (第127章 决意)](127_Chapter_127.md) | ✅ Translated |
+| 128 | [Chapter 128: The Ascension Stairway (第128章 升仙梯)](128_Chapter_128.md) | ✅ Translated |
+| 129 | [Chapter 129: Ten Thousand Years Ago (第129章 万年前)](129_Chapter_129.md) | ✅ Translated |
+| 130 | [Chapter 130: Divinity (第130章 神格)](130_Chapter_130.md) | ✅ Translated |
+| 131 | [Chapter 131: The Gamblers (第131章 赌狗们)](131_Chapter_131.md) | ✅ Translated |
+| 132 | [Chapter 132: Stirrings of Restlessness (第132章 蠢蠢欲动)](132_Chapter_132.md) | ✅ Translated |
+| 133 | [Chapter 133: Young Master Jian of Sky City (第133章 天上城的简公子)](133_Chapter_133.md) | ✅ Translated |
+| 134 | [Chapter 134: The Parents (第134章 家长们)](134_Chapter_134.md) | ✅ Translated |
+| 135 | [Chapter 135: Secrets of the Heavenly Dao (第135章 天道的秘密)](135_Chapter_135.md) | ✅ Translated |
+| 136 | [Chapter 136: The Challenge (第136章 挑战)](136_Chapter_136.md) | ✅ Translated |
+| 137 | [Chapter 137: A Curse from Ten Thousand Years Ago? (第137章 万年前的诅咒？)](137_Chapter_137.md) | ✅ Translated |
+| 138 | [Chapter 138: The Name List (第138章 名单)](138_Chapter_138.md) | ✅ Translated |
+| 139 | [Chapter 139: A Special Invitation (第139章 特别邀请)](139_Chapter_139.md) | ✅ Translated |
+| 140 | [Chapter 140: The Preparatory Bell (第140章 准备铃)](140_Chapter_140.md) | ✅ Translated |
+| 141 | [Chapter 141: Teaching Achievements (第141章 教学成果)](141_Chapter_141.md) | ✅ Translated |
+| 142 | [Chapter 142: Only Just Begun (第142章 才刚刚开始)](142_Chapter_142.md) | ✅ Translated |
+| 143 | [Chapter 143: Ascension? (第143章 飞升？)](143_Chapter_143.md) | ✅ Translated |
 
 
 

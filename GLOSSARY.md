@@ -187,11 +187,11 @@ Character Name: Ren Ran
 Chinese Name: 荏苒
 English Name (optional): 
 Sex: Female (she/her)
-Titles / Epithets: Immortal Official (仙官)
-Sect & Role: Immortal-Demon Realm — Immortal Official specializing in Time Magic (时间法术)
-Aliases & Forms of Address: Ren Ran
-Relationships: Disguised as a young girl traveling with Long Tianming in the mortal realm
-Speech Style & Personality: Observant, composed, dryly amused by the mortal realm's bizarre academic evolution.
+Titles / Epithets: Immortal Official (仙官), Goddess Ren Ran (荏苒神女)
+Sect & Role: Northern Domain / Immortal-Demon Realm — Living Deity & Tribulation Transcendence Titan (渡劫期大能)
+Aliases & Forms of Address: Ren Ran, Goddess Ren Ran
+Relationships: Disguised as a young girl traveling with Long Tianming in the mortal realm; living deity who sacrificed her physical body during the ancient Demon-God War to seal the Demon Sovereign's head, leaving her divine true soul stranded in the mortal world unable to ascend; invited by Carefree Palace to host a Grand Preaching Assembly on the Isle of No Return
+Speech Style & Personality: Observant, composed, aloof, dryly amused by the mortal realm's bizarre academic evolution.
 ```
 
 ```yaml
@@ -1421,10 +1421,10 @@ Chinese Name: 简诺
 English Name (optional): 
 Sex: Male (he/him)
 Titles / Epithets: Young Master Jian (简公子)
-Sect & Role: Sky City (天上城) — Son of the City Lord / Young Master
+Sect & Role: Sky City (天上城) — Great-grandson of City Lord Jian Haoge / Young Master (Nascent Soul Stage / 元婴期)
 Aliases & Forms of Address: Jian Nuo, Young Master Jian
-Relationships: Son of the City Lord of Sky City in the Northern Domain; fell in love with Qingyang Qingyu at first sight during her shopping trip to Sky City and aggressively courted her, sending dew-kissed Sky Lilies daily; disliked by Villa Master Qingyang as a debauched playboy who caroused with cultivation scions and had ties with Carefree Palace
-Speech Style & Personality: Exceptionally handsome ("the kind of handsome capable of making two-thirds of women with conventional aesthetics swoon"); wealthy, lavish, and persistent in courtship, though viewed with suspicion by Eternal Villa elders.
+Relationships: Great-grandson of City Lord Jian Haoge of Sky City in the Northern Domain; fell in love with Qingyang Qingyu at first sight during her shopping trip to Sky City and aggressively courted her, sending dew-kissed Sky Lilies daily; disliked by Villa Master Qingyang as a debauched playboy who caroused with cultivation scions and had ties with Carefree Palace; fiercely determined to travel to the Central Domain to pursue Qingyu despite his great-grandfather's furious opposition. In the third reincarnation, he and Qu Qianxing formed an exceptionally close partnership known as the "Qian-Nuo Young Masters of Sky City" (天上城千诺公子), with Jian Nuo as City Lord of Sky City and Qu Qianxing as Alliance Leader of the Heavenly Dao Alliance, expanding their factions across the cultivation realm to their absolute peak. Reveres the Untiring Immortal Venerable since childhood, modeling his daily routine after him. Traveled to the Central Domain bringing enlightened masters of worldly crafts ("Entering the Dao through Craftsmanship") to boost White Jade Capital's academic impact factor, and sought to take Heavenly Spirit Sect exams. Secretly investigating Carefree Palace as spokespersons for "Them" and believes Zhou Hui aims to break the ancient ten-thousand-year-old curse afflicting the Qingyang lineage and the True Dragon.
+Speech Style & Personality: Exceptionally handsome ("the kind of handsome capable of making two-thirds of women with conventional aesthetics swoon"); wealthy, lavish, and persistent in courtship, though viewed with suspicion by Eternal Villa elders; adheres to a strict daily morning walking routine around Sky City since Foundation Establishment.
 ```
 
 ```yaml
@@ -1677,6 +1677,186 @@ Sect & Role: Western Domain Blood Cliff Abyss — Ghost Emperor / Sovereign of t
 Aliases & Forms of Address: Your Majesty, Ruwang Ghost Emperor
 Relationships: Monarch reigning over the subterranean karst palace beneath the blood-red cliff in the Western Domain; master of numerous crimson skeletal retainers and demonic disciples; grower of the legendary Spider Lily (彼岸花); terrified of provoking Zhou Hui (Lord Untiring) after realizing an offending newspaper was backed by White Jade Capital, hastily pivoting to penning blistering counter-arguments under a pen name to preach his "Great Dao"
 Speech Style & Personality: Haughty, imperious, volatile, and deeply sensitive about his academic/cultivation legitimacy. Uses the imperial pronoun "Zhen" (朕). Flies into an incandescent rage when accused of ghostwriting or academic fraud in White Jade Capital Weekly, executing sycophants who dare suggest declaring war on the Untiring Immortal Venerable, but overjoyed when realizing public debate is the perfect platform to propagate his unorthodox Dao across the continent.
+```
+
+```yaml
+Character Name: Ah Huang
+Chinese Name: 阿黄
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: 
+Sect & Role: Palace of Carefree Wandering (逍遥宫) / Abyssal Ocean Facility — Laborer & Former Fallen Immortal Palace Gatekeeper (Foundation Establishment / 筑基期)
+Aliases & Forms of Address: Ah Huang, A-Huang
+Relationships: Former doorkeeper thug for Fallen Immortal Palace who slacked off during Zhou Hui's thunder strike; deemed "lucky" by Carefree Palace superiors and reassigned to the secret facility deep beneath the Abyssal Ocean; coworker of Number Three; encountered by Ran Deng in Chapter 125
+Speech Style & Personality: Timid, pragmatic, cautious, and deeply cynical about his own "good luck." Believes in following safety rules to the letter and avoiding trouble at all costs. After surviving Zhou Hui's heavenly lightning plowing Fallen Immortal Palace, he was exiled to the subterranean depths of the Abyssal Ocean to pour black water into feeding troughs; curled under a wash vat and prayed to the Untiring Immortal Venerable when thunder struck again, surviving once more. When the overseers were obliterated, he resolved to euthanize the horrific chimeric hybrid children bred in the caverns to spare them from a facility-wide slaughter fail-safe. Described by Ran Deng as a decent person when he chooses to remain behind to hold the line while she searches for the control hub.
+```
+
+```yaml
+Character Name: Little White Lamb
+Chinese Name: 小白羊
+English Name (optional): 
+Sex: Unknown / Male (it/he)
+Titles / Epithets: White Lamb (白羊), Fake Yuwen Xuan
+Sect & Role: Abyssal Ocean Subterranean Facility / Array Core — Imposter Entity / Guard Beast
+Aliases & Forms of Address: Little White Lamb, White Lamb
+Relationships: Malicious counterpart/rival to the Little Black Lamb (Yuwen Xuan); lurks near the Ascension Stairway array core in the subterranean ruins
+Speech Style & Personality: Deceptive, cunning, and sinister; speaks in a pinched falsetto. Impersonates Yuwen Xuan to trick Ran Deng into offering her soul flame to a life tablet, then shoves her down the Ascension Stairway to devour her from behind. Brawls with the real little black lamb in a kindergarten-style melee before Ran Deng impales it with a lantern pole, turning it into a flaming mutton kebab.
+```
+
+```yaml
+Character Name: Jian Haoge
+Chinese Name: 简皓歌
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: City Lord Jian (简城主), Young Master Jian (简公子)
+Sect & Role: Sky City (天上城) — Current City Lord (Tribulation Transcendence Stage / 渡劫期大能)
+Aliases & Forms of Address: Jian Haoge, City Lord Jian
+Relationships: Grandson of the architect and founder of Sky City; son of the former Alliance Leader of the Heavenly Dao Alliance; great-grandfather to Jian Nuo; born in the same year as Zhou Hui; lifelong unilateral rival and nemesis of Zhou Hui
+Speech Style & Personality: Proud, dignified, aristocratic cultivation scion of peerless pedigree who was destined to live bathed in praise, only to be perpetually overshadowed and suppressed by Zhou Hui across every single milestone—from Golden Core tournament duels to secret realm breakthroughs. Deeply resentful yet fiercely upright; acknowledges Zhou Hui pushed him to reach Tribulation Transcendence so swiftly. Utterly furious when Goddess Renran exposes his past defeats, and despite claiming he despises Zhou Hui, he unfurls Sky City's blueprints to block Goddess Renran and protect Zhou Hui's ascension attempt, insisting with heavy emphasis that he doesn't hold a grudge at all.
+```
+
+```yaml
+Character Name: City Spirit of Sky City
+Chinese Name: 天上城城灵 / 天上城土地神
+English Name (optional): 
+Sex: Female (she/her)
+Titles / Epithets: City Spirit of Sky City (天上城城灵), Land Deity (土地神)
+Sect & Role: Sky City (天上城) — City Spirit / Land Deity (土地神)
+Aliases & Forms of Address: City Spirit, Land Deity
+Relationships: Born after the God-Demon War as a new Land Deity manifesting from Sky City; irreverent companion to City Lord Jian Haoge
+Speech Style & Personality: Exquisite, pure white, holy, and divine in appearance (resembling Sky City perched high above glacial peaks), but completely irreverent and teasing toward Jian Haoge; sinks half her body into walls; loves laughing at Jian Haoge's tsundere temper and exposing his embarrassing youthful crush/obsession with Zhou Hui; worried that Sky City might be abandoned if cultivators migrate to White Jade Capital.
+```
+
+```yaml
+Character Name: Qingyang Clan Ancestor
+Chinese Name: 疑为青阳家祖先的修仙者
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Suspected Ancestor of the Qingyang Clan
+Sect & Role: Ancient White Jade Capital / Ancient Qingyang Clan Cultivator (10,000 Years Ago)
+Aliases & Forms of Address: Cultivator, Ancestor
+Relationships: Ancient cultivator who closely resembles Qingyang Qingyu in facial features; rode the True Dragon "Brother Lu" into battle against the Ascension Stairway 10,000 years ago; allied with demons and dragons to sever the Ascension Stairway and seal the mortal world from the Heavenly Court
+Speech Style & Personality: Bitingly sarcastic, courageous, and pragmatic ancient revolutionary who spent thousands of years researching how to disrupt the Ascension Stairway's mechanisms to end the parasitic siphoning of mortal realm resources by the upper realm; resolved alongside his dragon and demon allies to slay the rogue adult Taotie to protect future generations.
+```
+
+```yaml
+Character Name: Saint Lord Qingyang
+Chinese Name: 青阳圣主
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Saint Lord Qingyang (青阳圣主), Saint Lord of White Jade Capital
+Sect & Role: Ancient White Jade Capital (白玉京) — Supreme Sovereign / Leader (10,000 Years Ago)
+Aliases & Forms of Address: Saint Lord Qingyang, Saint Lord
+Relationships: Ancient sovereign of White Jade Capital ten thousand years ago; ancestor of the Qingyang lineage (the original main branch of which was exterminated after the God-Demon War, leaving only the branch family that became Eternal Villa); made the fateful decision to seal the mortal world from invading True Immortals and demons; the bloodlines of the Saint Lord and his companions were subsequently targeted for absolute extermination by defeated True Immortal generals
+Speech Style & Personality: Mythical ancient ruler and revolutionary sovereign who sacrificed cosmic ties and severed the Ascension Stairway to protect mortal reality from upper-realm parasitic exploitation.
+```
+
+```yaml
+Character Name: True Dragon Brother Lu
+Chinese Name: 真龙“路兄” / 路兄
+English Name (optional): 
+Sex: Male / True Dragon (he/it)
+Titles / Epithets: Brother Lu (路兄)
+Sect & Role: Ancient Dragon Race — True Dragon (10,000 Years Ago)
+Aliases & Forms of Address: Brother Lu, True Dragon
+Relationships: Ancient dragon ally to the suspected Qingyang ancestor and the antlered demon; spewed azure flames to incinerate the Ascension Stairway's protective barrier; detected the scent of his own bloodline on Ran Deng during the temporal flashback
+Speech Style & Personality: Boisterous, powerful, and deeply devoted to the survival of the mortal realm; despairing when thinking the passage to the upper realm had been reopened, but resolute in standing alongside mortal cultivators and demons to eliminate the starving adult Taotie.
+```
+
+```yaml
+Character Name: Antlered Demon Brother Bai
+Chinese Name: 鹿角魔物“白兄” / 白兄
+English Name (optional): 
+Sex: Male / Demon (he/it)
+Titles / Epithets: Brother Bai (白兄)
+Sect & Role: Ancient Demon Race — High-Tier Demon Beast (10,000 Years Ago)
+Aliases & Forms of Address: Brother Bai
+Relationships: Ancient demon ally who assaulted the Ascension Stairway alongside the dragon and cultivator 10,000 years ago
+Speech Style & Personality: Gruff, massive, yet surprisingly perceptive and rational; was the first to realize that Ran Deng had not ascended to the True Immortal Realm, but rather to the locus of new rules established by a modern powerhouse; resolved to face the adult Taotie to leave a viable world for posterity.
+```
+
+```yaml
+Character Name: Adult Taotie
+Chinese Name: 成体饕餮
+English Name (optional): 
+Sex: Male / Ferocious Beast (he/it)
+Titles / Epithets: Adult Taotie (成体饕餮), Final State Taotie
+Sect & Role: Ancient Calamity Beast / Gluttonous Fiend
+Aliases & Forms of Address: Taotie
+Relationships: A fully grown, apocalyptic Taotie summoned from beyond the celestial gate during the ancient war; swallowed a high-ranking True Immortal whole, crunched the Ascension Stairway like an ice pop, and pursued Ran Deng before turning to face the three ancient heroes
+Speech Style & Personality: Ravenous, terrifying, and operating in its "final state" of starving frenzy where it can devour entire worlds or even itself; temporarily halted its charge upon hearing the name "Yuwen Xuan."
+```
+
+```yaml
+Character Name: Ancestor of the Jian Clan
+Chinese Name: 简家老祖
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Ancestor of the Jian Clan (简家老祖), Founder of Sky City
+Sect & Role: Ancient White Jade Capital / Ancient Jian Clan Patriarch — Sound Cultivator (音修)
+Aliases & Forms of Address: Jian Ancestor, Grandfather
+Relationships: Grandfather of Jian Haoge; ancestor of Jian Nuo; renowned zither sound cultivator in White Jade Capital ten thousand years ago; commissioned the colossal flying vessel that became the foundation of Sky City
+Speech Style & Personality: Aloof, quiet, peace-loving, and conflict-averse; disliked political strife and resolved to migrate his clan and mortal refugees to the Northern Domain before the God-Demon War. Kept a candid, perceptive personal diary documenting the eerie events of the era, including a True Immortal's demand for an artisan's Dao Bone and the artisan leaping into the forging furnace.
+```
+
+```yaml
+Character Name: Ran Clan Ancestral Maiden
+Chinese Name: 冉家先祖女修
+English Name (optional): 
+Sex: Female (she/her)
+Titles / Epithets: Ancestress of the Ran Clan
+Sect & Role: Ancient Ran Clan — Formation Cultivator (10,000 Years Ago)
+Aliases & Forms of Address: Ancestress, Maiden of the Ran Clan
+Relationships: Ancient ancestor of Ran Zhen and Ran Deng; sole female cultivator of her generation during the God-Demon War
+Speech Style & Personality: Resolute, heroic, and self-sacrificing. When a prophecy foretold that a maiden of the Ran clan would alter the outcome of the war and hinder the True Immortals, she offered to die on the spot to save the cultivation world, on condition that the True Immortals grant a technique allowing her to pass all her cultivation directly to the next clan head. The pact cursed generations of Ran clan heads with shortened lifespans, while the foretold "maiden who alters the heavenly mandate" was actually Ran Deng traversing time ten thousand years later.
+```
+
+```yaml
+Character Name: Protector Qiu
+Chinese Name: 秋护法
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Protector Qiu (秋护法)
+Sect & Role: Yuke Xuan (羽客轩) — Protector (护法)
+Aliases & Forms of Address: Protector Qiu
+Relationships: Protector of the prominent Eastern Domain family-sect Yuke Xuan; colleague to the Sect Master of Yuke Xuan; senior to Shu Jiawen (Third Wen)
+Speech Style & Personality: Stern, righteous, and strictly traditionalist; initially instituted a draconian ban on disciples playing Immortal Chess in public to avoid provoking the Palace of Carefree Wandering and distracting disciples from cultivation, only to be caught privately playing and studying the chess pieces himself after the Ascension Stairway manifested.
+```
+
+```yaml
+Character Name: Sect Master of Yuke Xuan (Azure-Robed Daoist)
+Chinese Name: 羽客轩掌门 / 青衣道人
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Sect Master (掌门), Azure-Robed Daoist (青衣道人)
+Sect & Role: Yuke Xuan (羽客轩) — Sect Master
+Aliases & Forms of Address: Sect Master, Azure-Robed Daoist
+Relationships: Supreme leader of the Eastern Domain's premier family-sect Yuke Xuan; elder and master to Shu Jiawen
+Speech Style & Personality: Elegant, mild-mannered, and tactically prudent; wears azure Daoist robes; recognizes the immense geopolitical and educational value of Immortal Chess and the Ascension Stairway, choosing to avoid being the first bird to stick out against Carefree Palace by planning to 'hitch a ride' with the Northern Domain delegation's visit to Mount Tianling.
+```
+
+```yaml
+Character Name: Fairy Yutian
+Chinese Name: 羽恬仙子
+English Name (optional): 
+Sex: Female (she/her)
+Titles / Epithets: Fairy Yutian (羽恬仙子)
+Sect & Role: Sky City (天上城) — Daoist Partner of Castellan Jian Haoge
+Aliases & Forms of Address: Fairy Yutian, Yutian
+Relationships: Daoist partner and wife of Castellan Jian Haoge of Sky City; great-grandmother to Jian Nuo
+Speech Style & Personality: Celebrated ancient beauty; according to high-tier gossip shared by Fairy Xia, she originally harbored an unrequited crush on the Untiring Immortal Venerable (who never paid her any attention), and eventually bonded and coupled with Jian Haoge because both shared a common obsession with Zhou Hui.
+```
+
+```yaml
+Character Name: Jing Chenjun
+Chinese Name: 景宸君
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Instructor Jing (景教习), Prince Jingchen / Imperial Prince, Future Human Emperor Candidate (人皇候选)
+Sect & Role: Heavenly Spirit Sect — Disciple & White Jade Capital Academy Instructor; Mortal Empire — Imperial Prince (Mortal / Lacking Spirit Roots)
+Aliases & Forms of Address: Jing Chenjun, Jingchen, Prince
+Relationships: Imperial prince of the northern mortal dynasty; believed dead by his home empire after being tricked into "running away from home to seek immortality" by rival sects; joined Heavenly Spirit Sect and became a full disciple and academy instructor; instructor at White Jade Capital Northwest Sixth School; bearer of the mysterious Imperial Jade Seal (玉玺) that gathers "Human Ministers" (人臣) and reacts to high-achieving mortals like Eleventh Lady Qiao.
+Speech Style & Personality: Serious, protective of his students, conflicted about his own mortal limitations and legitimacy as a future "Human Emperor" when comparing himself to geniuses like Eleventh Lady Qiao and Eleventh Lady Mei.
 ```
 
 ---
@@ -2379,6 +2559,14 @@ Notes: The supreme floating immortal city in the Northern Domain, whose City Lor
 ```
 
 ```yaml
+Location Name: Pingkang Ward
+Location Chinese Name: 平康坊
+Location English Name (optional): 
+Type: Commercial & Entertainment District in Sky City (天上城城北最繁华坊区)
+Notes: The most bustling and prosperous commercial and entertainment district in the north of Sky City; home to popular entertainment venues and retail storefronts, including the newly opened Sky City Immortal Chess Hall.
+```
+
+```yaml
 Location Name: Spirit Palace Secret Realm / Spirit Stone Palace
 Location Chinese Name: 灵宫秘境 / 灵石宫殿
 Location English Name (optional): Spirit Palace Secret Realm
@@ -2474,6 +2662,46 @@ Type: Cultivation Sect (Western Domain / 西境)
 Notes: Prominent cultivation sect in the Western Domain; one of whose traveling disciples submitted an academic paper on the Central Domain's heavenly tribulation to the journal *Spells* that was blatantly ghostwritten by his sect master / elder.
 ```
 
+```yaml
+Location Name: Ascension Stairway
+Location Chinese Name: 升仙梯
+Location English Name (optional): 
+Type: Ancient Primeval Relic / Sacred Cosmic Staircase
+Notes: A mythical staircase connecting the mortal world to the upper immortal realm, dating back to the primeval wild era before cultivators existed when only Great Shamans walked the earth. In antiquity, mortals of great virtue, achievement, or courage could ascend by climbing its steps and withstanding the heavenly thunder trial. Destroyed during the Demon-God War, leaving ascension possible only through arduous cultivation. Unearthed by Zhou Hui beneath the Abyssal Ocean.
+```
+
+```yaml
+Location Name: Abyssal Ocean / Abyssal Ocean Ruins
+Location Chinese Name: 渊海 / 渊海遗迹
+Location English Name (optional): 
+Type: Ancient Battlefield Ruins / Subterranean Sea (Central Domain)
+Notes: A perilous subterranean ocean abyss and ancient God-Demon War battlefield filled with chaotic spiritual storms, corrupted demonic miasma, and ancient ruins. Houses Carefree Palace's covert biological/soul experimentation facility and the buried ruins of the Ascension Stairway.
+```
+
+```yaml
+Location Name: Boundless Sea
+Location Chinese Name: 无尽海
+Location English Name (optional): 
+Type: Vast Oceanic Region (Eastern Domain / 东境)
+Notes: A perilous, resource-rich primordial ocean covering nearly eighty percent of the Eastern Domain; teeming with floating island-sized tortoises, spirit beasts, demon beasts, and indigenous foreign races.
+```
+
+```yaml
+Location Name: Featherfolk
+Location Chinese Name: 羽民
+Location English Name (optional): 
+Type: Indigenous Foreign Race of the Eastern Domain (东境本土异族)
+Notes: An ancient non-human race native to the Boundless Sea of the Eastern Domain, inspired by the Classic of Mountains and Seas. Humanoid beings with feathered wings instead of arms, capable of long-distance flight; biologically distinct from demon beasts (possessing no demon cores). Enthusiastic players and puzzle-solvers of Immortal Chess, harboring quiet hopes that Zhou Hui's open Ascension Stairway and White Jade Capital will grant foreign races a legitimate seat in the realm's cosmic order.
+```
+
+```yaml
+Location Name: Ascension Terrace
+Location Chinese Name: 升仙台
+Location English Name (optional): 
+Type: Landmark Platform / Receiving Terrace of White Jade Capital (白玉京城外平台)
+Notes: An expansive platform adorned with exquisite engravings protruding outward beyond the city gates of White Jade Capital into the open void above the Abyssal Ocean ruins. Historically modeled after the upper realm to receive all seeking living beings without discrimination; connects directly to the uppermost segment of the Ascension Stairway, which assesses cultivators' spirit root development, potential, and spiritual energy pathways.
+```
+
 ---
 
 
@@ -2527,6 +2755,8 @@ Notes: Prominent cultivation sect in the Western Domain; one of whose traveling 
 
 | Chinese Term | English Translation | Notes |
 | :--- | :--- | :--- |
+| 道骨 | Dao Bone | Supreme innate physiological talent found in certain mortals or artisans; incorporating an artisan's Dao Bone into an artifact fuses it with the artisan's essence, allowing the vessel to upgrade, evolve, and grow on its own as an eternal creation |
+| 真仙诅咒 | Curse of the True Immortals | Retributive curses placed by upper-realm True Immortals upon the bloodlines of Saint Lord Qingyang, his mortal companions, and rebellious mortal cultivators who severed the Ascension Stairway 10,000 years ago; targets specific bloodlines (such as the Ran clan with abbreviated lifespans, the True Dragon bloodline, and Blood Demon Hall) in the Heavenly Dao's karmic script |
 | 笔猴 | Brush Monkey | Spiritual beast raised by Zhou Hui whose shed hair is used to craft talisman brushes; used in Exam 1's math/alchemy word problem |
 | 筑基丹 | Foundation Establishment Pill | Expensive pill required by ordinary disciples to break through to Foundation Establishment |
 | 赤精丹 | Crimson Essence Pill | Basic Qi-replenishing medicinal pill |
@@ -2694,6 +2924,7 @@ Notes: Prominent cultivation sect in the Western Domain; one of whose traveling 
 | 散雷 | Scattered Lightning | Heavenly tribulation lightning deployed as a wide-area carpet bombardment of numerous slender lightning bolts rather than a single concentrated lightning strike |
 | 月相镜 | Moon Phase Mirror | Ancient divining mirror possessed by Fairy Ruopei of the Huanfei Sect, capable of peering into distant scenes and establishing communication across vast domains without spatial hindrance |
 | 拘灵阵 | Spirit-Binding Array | Defensive formation array given to Mo Bei by Ran Deng, sealing a target's spiritual meridians to prevent the circulation of any cultivation methods, rendering cultivators as powerless as mortals |
+| 五驭 / 五驭课 | Five Charioteering Arts / Five Charioteering Arts Class | White Jade Capital academy curriculum based on the classic Six Arts, utilizing body-refinement manuals provided by Shen Qingqian to teach mortals posture, breathing, and physical conditioning |
 
 ---
 
@@ -3408,6 +3639,74 @@ Notes: Prominent cultivation sect in the Western Domain; one of whose traveling 
 | 异火 (烛火) | exotic flame (Candle Fire) | `"Literal CN: 异火 (yìhuǒ) — exotic / primordial flame; heavenly or inherited spiritual flame possessing devastating properties, specifically Xin Zhu's Candle Fire"` |
 | 地形杀 | terrain kill / environmental kill | `"Literal CN: 地形杀 (dìxíngshā) — environmental kill / terrain kill; winning a duel by manipulating the map geography to eliminate an opponent"` |
 | 小爷 | this young master | `"Literal CN: 小爷 (xiǎoyé) — this young master; arrogant, entitled first-person pronoun used by pampered noble scions"` |
+| 无用的备用方案 | The Futile Backup Plan | `"Literal CN: 无用的备用方案 (wúyòng de bèiyòng fāng'àn) — The Futile Backup Plan; chapter title referring to Carefree Palace's backup plan to invite Goddess Ren Ran being instantly rendered completely irrelevant by Zhou Hui's excavation of the Ascension Stairway"` |
+| 一周八卦 | Weekly Gossip | `"Literal CN: 《一周八卦》 (Yī Zhōu Bāguà) — Weekly Gossip; sensational investigative gossip tabloid founded by Mahayana powerhouse Fairy Xia with Ran Deng's guidance, taking in the fugitive former editor of Cultivation World Weekly"` |
+| 天盟周报 | Tianmeng Weekly | `"Literal CN: 《天盟周报》 (Tiānméng Zhōubào) — Tianmeng Weekly; official weekly newspaper launched by the Northern Domain Heavenly Dao Alliance, surging in circulation by feeding on the Spells supplement controversy"` |
+| 升仙梯 (登天梯) | Ascension Stairway / Stairway to Heaven | `"Literal CN: 升仙梯 / 登天梯 (shēngxiāntī / dēngtiāntī) — ancient mythical celestial stairway connecting mortal reality to the upper realm; buried beneath the Abyssal Ocean and excavated by Zhou Hui, causing a continental earthquake"` |
+| 不归岛 | Isle of No Return | `"Literal CN: 不归岛 (Bùguī Dǎo) — Isle of No Return; mysterious island situated in the Boundless Sea where Carefree Palace planned to host the Grand Preaching Assembly"` |
+| 无尽海 | Boundless Sea | `"Literal CN: 无尽海 (Wújìn Hǎi) — Boundless Sea; expansive primordial sea realm where the Isle of No Return is located"` |
+| 月相镜 | Lunar Phase Mirror | `"Literal CN: 月相镜 (yuèxiàngjìng) — supreme scrying mirror artifact belonging to Huanfei Sect, renowned across the cultivation realm as the finest tool under heaven for peeping"` |
+| 烦恼根 | root of earthly vexation | `"Literal CN: 烦恼根 (fánnǎogēn) — Buddhist term for the root of earthly vexations / mortal desires; double-entendre slang for male genitalia or worldly hair; used by Fairy Ruopei as a scathing insult against mortal-minded cultivators"` |
+| 差异化 | product differentiation | `"Literal CN: 差异化 (chāyìhuà) — modern business/marketing terminology for product differentiation / niche positioning; taught by Zhou Hui to Fairy Xia to develop unique publications"` |
+| 地龙翻身 | subterranean dragon turning over / earthquake | `"Literal CN: 地龙翻身 (dìlóng fānshēn) — the earth dragon rolling over; ancient Chinese folkloric idiom for an earthquake"` |
+| 学习动力 | The Motivation to Learn | `"Literal CN: 学习动力 (xuéxí dònglì) — The Motivation to Learn; chapter title referring to Zhou Hui using the threat of a diagnostic baseline exam to force slacker Ran Deng to maintain the palace lantern and refine her divine sense/spiritual energy"` |
+| 贝戋 | shameless / cheeky rascal | `"Literal CN: 贝戋 (bèi-jiān) — split glyph for 贱 (jiàn), meaning shameless, cheeky, or rascal; self-censored split character describing Yuwen Xuan's smug face as the black lamb"` |
+| 掩耳盗铃 | plugging one's ears while stealing a bell | `"Idiom: 掩耳盗铃 (yǎn'ěr-dàolíng) — plugging one's ears to steal a bell; self-deception / burying one's head in the sand; referring to Yuwen Xuan pretending nobody knows he's the black lamb"` |
+| 死遁 | faking death to escape | `"Literal CN: 死遁 (sǐdùn) — death escape; literary/trope term for faking one's death to escape a fatal plot or danger; Zhou Hui's contingency plan for Ran Deng"` |
+| 填鸭教育 | force-feeding education / cramming | `"Literal CN: 填鸭教育 (tiányā jiàoyù) — duck-stuffing / cramming education; force-feeding students facts without comprehension; Zhou Hui's fallback pedagogical method for Ran Deng"` |
+| 阶梯 | The Stairway | `"Literal CN: 阶梯 (jiētī) — The Stairway; chapter title referring to the Ascension Stairway trials and psychological traps"` |
+| 决意 | Resolve | `"Literal CN: 决意 (juéyì) — Resolve / Determination; chapter title referring to Ran Deng recovering memories of seven lifetimes and choosing to ignite her soul fire to refine the Thousand-Year Yarrow palace lantern for 9,999 days to score full marks"` |
+| 哭成了狗 | crying like a dog / weeping uncontrollably | `"Literal CN: 哭成了狗 (kū chéng le gǒu) — crying like a dog; modern Chinese slang for weeping hysterically and shedding uncontrollable tears"` |
+| 蒸汽修仙 | steampunk cultivation | `"Literal CN: 蒸汽修仙 (zhēngqì xiūxiān) — steampunk cultivation; Zhou Hui's description of Carefree Palace's industrial-style pipes and cauldron engineering"` |
+| 千岁蓍 | Thousand-Year Yarrow / Divine Milfoil | `"Literal CN: 千岁蓍 (qiānsuì shī) — divine yarrow stalks gathered and refined by Patriarch Jiuzhai using Heavenly Dao power over 9,999 days, used to weave the disguise palace lantern"` |
+| 五境六渊 | Five Domains and Six Abysses | `"Literal CN: 五境六渊 (wǔjìng liùyuān) — the five mortal continental domains and the six subterranean abysses comprising the known cosmos"` |
+| 万年前 | Ten Thousand Years Ago | `"Literal CN: 万年前 (wàn nián qián) — Ten Thousand Years Ago; chapter title referring to Ran Deng's temporal flashback to the God-Demon War 10,000 years ago when ancient cultivators, demons, and dragons severed the Ascension Stairway"` |
+| 神魔战场 (神魔战争) | God-Demon Battlefield / God-Demon War | `"Literal CN: 神魔战场 / 神魔战争 (shén-mó zhànchǎng / shén-mó zhànzhēng) — the ancient cataclysmic conflict 10,000 years ago where Immortals, cultivators, dragons, and demons clashed, culminating in the severing of the Ascension Stairway and sealing of the Demon Realm"` |
+| 金仙印 | Golden Immortal Seal | `"Literal CN: 金仙印 (jīnxiānyìn) — Golden Immortal Seal; supreme celestial mark of an immortal appearing as a shimmering golden-red auspicious cloud on the forehead, guaranteeing progress to True Immortal without bottlenecks or tribulations, which inadvertently multiplies Ran Deng's soul-flame homework"` |
+| 记忆回溯 | memory regression / chronological playback | `"Literal CN: 记忆回溯 (jìyì huísù) — memory regression / chronological playback; temporal echo preserved in the Ascension Stairway capturing the moment of its destruction"` |
+| 知其然不知其所以然 | knowing the what without knowing the why | `"Literal CN: 知其然不知其所以然 (zhī qí rán bù zhī qí suǒyǐ rán) — knowing what happens without understanding the underlying principles; Zhou Hui's clinical critique of Goddess Renran's shallow foreign-volunteer-style worldview"` |
+| 太超纲了 | wildly beyond the syllabus | `"Literal CN: 太超纲了 (tài chāogāng le) — completely out-of-syllabus / beyond exam scope; Ran Deng's panicked academic grievance upon being thrown into a life-or-death battle against a full-grown Taotie"` |
+| 犯贱 | cheap servility / glutton for punishment | `"Literal CN: 犯贱 (fànjiàn) — asking for trouble / cheap servility / groveling self-debasement; ancient cultivator's self-deprecating description of mortal cultivators draining their world's vitality to serve the Heavenly Court"` |
+| 神格 | Divinity / Divine Spark / Godhood | `"Literal CN: 神格 (shéngé) — Divinity / Divine Spark / Godhood; chapter title referring to the authority and administrative control over the Ascension Stairway rules acquired by Zhou Hui"` |
+| 满是槽点 | practically begging to be roasted | `"Literal CN: 满是槽点 (mǎn shì cáodiǎn) — completely riddled with points to roast / full of comedic flaws"` |
+| 扫榻恭候 (扫榻以待) | sweeping the couch in anticipation of guests | `"Literal CN: 扫榻以待 (sǎotà yǐdài) — an ancient idiom meaning to sweep clean a guest couch/bed in eager anticipation of welcoming esteemed guests"` |
+| 十二楼五城 | Twelve Towers and Five Cities | `"Literal CN: 十二楼五城 (shí'èr lóu wǔ chéng) — Twelve Towers and Five Cities of the White Jade Capital, from Li Bai's famous poem: 'In the heavenly White Jade Capital, twelve towers and five cities'"` |
+| 才疏学浅 | modest learning / sparse talent | `"Literal CN: 才疏学浅 (cáishū xuéqiǎn) — sparse talent and shallow learning; a traditional self-deprecating modesty formula"` |
+| 赌狗们 (赌狗) | The Gamblers / gacha addicts | `"Literal CN: 赌狗 (dǔgǒu) — gambling dogs; slang for gacha addicts / booster pack ripping gamblers betting on rare rate-up pulls"` |
+| 笔猴 | Brush Monkeys | `"Literal CN: 笔猴 (bǐhóu) — miniature primate spirits with enlightened spiritual intelligence, wearing crystal spectacles and working with movable type to print newspapers and academic journals"` |
+| 四宝台 | Four Treasures Terrace | `"Literal CN: 四宝台 (Sìbǎotái) — Four Treasures Terrace; newly constructed printing administration terrace in Heavenly Spirit Sect connected to the giant gold-flecked inkstone and peach tree brush pot"` |
+| 仙人棋·第一届仙法大会补充包 | Immortal Chess: 1st Immortal Arts Assembly Expansion Pack | `"Literal CN: 《仙人棋·第一届仙法大会补充包》 — official expansion pack of Immortal Chess featuring dedicated pieces for tournament finalists and popular regional contenders"` |
+| 影响因子 (X) | Impact Factor ($X$) | `"Literal CN: 影响因子 (yǐngxiǎng yīnzǐ) — academic impact factor established by Zhou Hui for the journal Spells, determining eligibility for entry into the White Jade Capital based on citation counts and real-world user base"` |
+| 书同文，车同轨 | standardized scripts and axle widths | `"Literal CN: 书同文，车同轨 (shū tóng wén, chē tóng guǐ) — Emperor Qin Shi Huang's policy of unifying written script and carriage axle widths across China, here meaning standardized educational curricula and foundational textbooks"` |
+| 对策卡 | tech cards / counter cards | `"Literal CN: 对策卡 (duìcè kǎ) — situational counter cards or tech pieces in card and board games designed to counter specific meta threats"` |
+| 主输出 | main DPS / carry | `"Literal CN: 主输出 (zhǔ shūchū) — primary damage carry / main DPS in gaming terminology; applied to Mo Bei's piece in Immortal Chess"` |
+| 寻仙客 | Seekers of Immortality | `"Literal CN: 寻仙客 (xúnxiān kè) — Seekers of Immortality; the traditional title used by indigenous foreign races in the Eastern Domain to describe foreign human cultivators seeking karmic encounters"` |
+| 蠢蠢欲动 | stirring with restlessness | `"Literal CN: 蠢蠢欲动 (chǔnchǔn yù dòng) — restless and eager to move / stirring into action"` |
+| 左右逢源 | reap advantages from all sides | `"Literal CN: 左右逢源 (zuǒyòuféngyuán) — smoothly navigating all directions to gain favor and benefits from both sides"` |
+| 做出头鸟 | be the bird that sticks out | `"Literal CN: 做出头鸟 (zuò chūtóuniǎo) — act as the leading bird that gets shot; sticking one's neck out"` |
+| 搭个便车 | hitch a ride | `"Literal CN: 搭个便车 (dā gè biànchē) — hitch a ride / join the bandwagon"` |
+| 细思恐极 | terrifying upon deeper reflection | `"Literal CN: 细思恐极 (xì sī kǒng jí) — thinking carefully about it induces absolute terror"` |
+| 虾兵蟹将 | shrimp soldiers and crab generals | `"Literal CN: 虾兵蟹将 (xiābīng xièjiàng) — worthless minions / low-level lackeys"` |
+| 天道的秘密 | Secrets of the Heavenly Dao | `"Literal CN: 天道的秘密 (tiāndào de mìmì) — chapter title referring to Zhou Hui demonstrating the high-dimensional geometry and invasive parasite threads of the Heavenly Dao to Lu Shulong"` |
+| 简蛾子 | Young Moth / demonic trickster | `"Literal CN: 简蛾子 (Jiǎn ézi) — Lu Shulong's pun swapping 'gong' (公) in 简公子 for 'e' (蛾, moth), rhyming with 出幺蛾子 (stirring up demonic tricks / shenanigans)"` |
+| 敷张扬厉 | gaudy ostentation | `"Literal CN: 敷张扬厉 (fūzhāng-yánglì) — ancient idiom meaning to flaunt brazenly with excessive fanfare and theatrical display"` |
+| 挑战 | The Challenge | `"Literal CN: 挑战 (tiǎozhàn) — The Challenge; chapter title referring to Jian Nuo challenging Heavenly Spirit Sect examinations and Lu Shulong, seeking to participate in White Jade Capital's spirit root assessment"` |
+| 千诺公子 | Qian-Nuo Young Masters | `"Literal CN: 千诺公子 (Qiān-Nuò Gōngzǐ) — compound honorific combining Qu Qianxing and Jian Nuo in the third reincarnation, where they ruled the cultivation realm as Sky City Lord and Heavenly Dao Alliance Leader"` |
+| “他们”的代言人 | spokespersons of "Them" | `"Literal CN: “他们”的代言人 (“tāmen” de dàiyánrén) — spokespersons / earthly proxies of 'Them'; Jian Nuo's secret intelligence term for Carefree Palace acting on behalf of mysterious higher-realm entities"` |
+| 青阳家与真龙的诅咒 | curse of the Qingyang clan and the True Dragon | `"Literal CN: 青阳家和真龙身上的诅咒 — the ancient secret curse from ten thousand years ago afflicting the Qingyang lineage and the Dragon race, which Jian Nuo believes Zhou Hui is preparing to break"` |
+| 万年前的诅咒？ | A Curse from Ten Thousand Years Ago? | `"Literal CN: 万年前的诅咒？ (wàn nián qián de zǔzhòu?) — A Curse from Ten Thousand Years Ago?; chapter title referring to the ten-thousand-year vendetta sworn by defeated True Immortal invaders against the bloodlines of Saint Lord Qingyang and the ancient heroes who severed the Ascension Stairway"` |
+| 真神神格 | True God Godhood / Divine Spark | `"Literal CN: 真神神格 (zhēnshén shéngé) — the authentic, permanent divine spark and rule authority over the Ascension Stairway acquired by Zhou Hui, which Jian Haoge and other titans previously mistook for a temporary boon"` |
+| 青阳圣主 | Saint Lord Qingyang | `"Literal CN: 青阳圣主 (Qīngyáng Shèngzhǔ) — Saint Lord Qingyang; the ancient ruler of White Jade Capital ten thousand years ago who made the fateful decision to seal the mortal world from invading True Immortals and demons during the God-Demon War"` |
+| 名单 | The Name List | `"Literal CN: 名单 (míngdān) — The Name List / The Blacklist; chapter title referring to the jade slip compiled by Jian Haoge detailing the True Immortals' curses and targeted bloodlines"` |
+| 道骨 | Dao Bone | `"Literal CN: 道骨 (dàogǔ) — Dao Bone; innate supreme talent possessed by rare mortals, incorporated into spiritual artifacts by artisans sacrificing themselves to create self-evolving eternal artifacts like the flying vessel prototype of Sky City"` |
+| 真仙诅咒 | Curse of the True Immortals | `"Literal CN: 真仙诅咒 (zhēnxīan zǔzhòu) — generational vendetta and curses placed by True Immortals upon mortal lineages who resisted or hindered them in the ancient God-Demon War"` |
+| 特别邀请 | A Special Invitation | `"Literal CN: 特别邀请 (tèbié yāoqǐng) — chapter title referring to Zhou Hui inviting Blood Demon Hall to inspect White Jade Capital Academy under the pretext of pedagogical evaluations to verify karmic bloodlines"` |
+| 五驭 | Five Arts of Charioteering (P.E.) | `"Literal CN: 五驭 (wǔyù) — the Five Arts of Charioteering from the classical Six Arts; adapted by Zhou Hui and Shen Qingqian into the foundational physical education and body-refinement curriculum for female students at White Jade Capital Academy"` |
+| 大招之年 | Grand Recruitment Year | `"Literal CN: 大招之年 (dàzhāo zhī nián) — a major recruitment year when sects prioritize inducting new disciples from affiliated mortal settlements"` |
+| 劝学 | Exhortation to Learning | `"Literal CN: 劝学 (quànxué) — 'Encouraging Study' / Exhortation to Learning, alluding to Xunzi's classical treatise; used ironically for Eleventh Lady Mei's aggressive academic drill-sergeant methods in the Sixth Academy"` |
+| 教学成果 | Teaching Achievements | `"Literal CN: 教学成果 (jiàoxué chéngguǒ) — Teaching Achievements / Educational Outcomes; chapter title referring to the mortal students proving the efficacy of White Jade Capital Academy's physical education and cultivation curriculum on the Ascension Stairway"` |
+| 才刚刚开始 | Only Just Begun | `"Literal CN: 才刚刚开始 (cái gānggāng kāishǐ) — Only Just Begun; chapter title referring to Zhou Hui and Lu Shulong noting that the trials of the students, the spread of the modern curriculum, and the political awakening of mortals have only just begun"` |
+
 
 
 
