@@ -1428,6 +1428,18 @@ Speech Style & Personality: Exceptionally handsome ("the kind of handsome capabl
 ```
 
 ```yaml
+Character Name: Liu Xuenian
+Chinese Name: 柳雪念 / 雪念
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Xuenian (雪念)
+Sect & Role: Sky City (天上城) — Cultivation Second-Generation Scion (修二代)
+Aliases & Forms of Address: Liu Xuenian, Xuenian
+Relationships: Traveling companion among the cultivation second-generation scions from Sky City who came to the Central Domain with Jian Nuo; heavily pampered and protected by fellow scions due to frail health
+Speech Style & Personality: Strikingly alluring young man with a delicate, frail physique and paper-white complexion who coughs violently. Speaks with gentle, polite deference, constantly acting as the sweet peacemaker standing up for Jian Nuo. Beneath his innocent, coughing exterior, however, he conceals a sinister, calculating agenda—harboring meta-awareness of Jian Nuo's original "character settings" (崇拜不倦仙尊是原来就有的‘设定’) and covertly nudging the idiot scions to kidnap Qingyang Qingyu. Employs insidious subconscious "hints" (暗示) that amplify pre-existing emotions like protective affection; deeply connected to the Carefree Palace elder who previously attempted to claim Qu Qianxing's peerless physical vessel; secretly branded with a tracking spark of golden lightning by Qu Qianxing; shocked when the scions' obsessive gaming addiction to the Spirit Stone Secret Realm overpowers his mental control.
+```
+
+```yaml
 Character Name: Brown-Winged Fei Mother
 Chinese Name: 棕翅蜚母
 English Name (optional): 
@@ -1857,6 +1869,126 @@ Sect & Role: Heavenly Spirit Sect — Disciple & White Jade Capital Academy Inst
 Aliases & Forms of Address: Jing Chenjun, Jingchen, Prince
 Relationships: Imperial prince of the northern mortal dynasty; believed dead by his home empire after being tricked into "running away from home to seek immortality" by rival sects; joined Heavenly Spirit Sect and became a full disciple and academy instructor; instructor at White Jade Capital Northwest Sixth School; bearer of the mysterious Imperial Jade Seal (玉玺) that gathers "Human Ministers" (人臣) and reacts to high-achieving mortals like Eleventh Lady Qiao.
 Speech Style & Personality: Serious, protective of his students, conflicted about his own mortal limitations and legitimacy as a future "Human Emperor" when comparing himself to geniuses like Eleventh Lady Qiao and Eleventh Lady Mei.
+```
+
+```yaml
+Character Name: Ancestor Wushan
+Chinese Name: 吴山老祖
+English Name (optional): 
+Sex: Female (she/her)
+Titles / Epithets: Ancestor Wushan (吴山老祖), Ancestor (老祖 / 祖宗)
+Sect & Role: Red Maple Cave (红枫洞) — Founding Ancestor / Matriarch (Void Refinement Stage / 炼虚期)
+Aliases & Forms of Address: Ancestor Wushan, Ancestor
+Relationships: Supreme matriarch and ancestor of Red Maple Cave in the southwestern Central Domain; ancestor and master to Wu Xian and Wu Xiang; contemporary of Shen Qingqian and La Jiu
+Speech Style & Personality: Pragmatic, blunt, sharp, and physically formidable artifact cultivator blessed with innate Herculean strength; unbothered by orthodox sycophancy. Regularly reads the academic journal *Spells* to track industry advances. Decisively overturns patriarchal recruitment dogma in her sect by adopting Shen Qingqian's Blood Demon Art to train young girls and save her sect from demographic decline.
+```
+
+```yaml
+Character Name: Wu Xian
+Chinese Name: 乌限
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Cave Master Wu (乌洞主)
+Sect & Role: Red Maple Cave (红枫洞) — Cave Master (洞主)
+Aliases & Forms of Address: Wu Xian
+Relationships: Direct descendant and disciple of Ancestor Wushan; elder brother to Vice Cave Master Wu Xiang
+Speech Style & Personality: Burly, muscle-bound artifact cultivator capable of swinging multi-thousand-pound purple gold warhammers, yet slow-witted and stubborn regarding paperwork and traditions. Prejudiced against body cultivators and terrified of demonic arts until Ancestor Wushan literally slams his head into *Spells* to experience the technique firsthand.
+```
+
+```yaml
+Character Name: Wu Xiang
+Chinese Name: 乌乡
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Vice Cave Master Wu (乌副洞主)
+Sect & Role: Red Maple Cave (红枫洞) — Vice Cave Master (副洞主)
+Aliases & Forms of Address: Wu Xiang
+Relationships: Direct descendant and disciple of Ancestor Wushan; younger brother to Cave Master Wu Xian
+Speech Style & Personality: Slightly more flexible, articulate, and observant than his brother; quick to defuse tension and shift topics when his brother gets punished by Ancestor; relishes domain gossip and watching political rivals like the Peerless Alliance burn.
+```
+
+```yaml
+Character Name: La Jiu
+Chinese Name: 腊九
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Alliance Leader La (腊盟主), Leader La Jiu
+Sect & Role: Peerless Alliance (无双盟) — Alliance Leader
+Aliases & Forms of Address: La Jiu, Alliance Leader
+Relationships: Daoist partner of Lu Ningning; schemed to swallow White Egret Valley and annex neighboring sects; slandered Shen Qingqian as a demonic apostate after she defected with her loyal disciples
+Speech Style & Personality: Ambitious, calculating, hypocritical, and violent; possesses high sensitivity to public perception and political threat. Relies secretly on Lu Ningning's divination rituals with her mysterious 'god' to safeguard his leadership while brutalizing her in private when crises arise.
+```
+
+```yaml
+Character Name: Lu Ningning
+Chinese Name: 路宁宁
+English Name (optional): 
+Sex: Female (she/her)
+Titles / Epithets: Daoist Partner of the Alliance Leader (盟主道侣), Former Valley Master of White Egret Valley (白鹭谷谷主)
+Sect & Role: Peerless Alliance (无双盟) — Alliance Leader's Daoist Partner; Former White Egret Valley Master (Void Refinement Stage / 炼虚期)
+Aliases & Forms of Address: Lu Ningning, Senior Sister Lu
+Relationships: Senior martial sister to Shen Qingqian; former Valley Master of White Egret Valley who surrendered her entire sect as a wedding dowry to marry La Jiu; worshipper and medium of a mysterious eldritch 'god' (神灵)
+Speech Style & Personality: Meek, weeping, passive-aggressive, and hopelessly dependent on her abusive partner and her mysterious 'god'. Relies on incense divination to foresee the future, but cowers in terror when the divine idol fractures and bleeds under cosmic interference.
+```
+
+```yaml
+Character Name: Xun Zhou
+Chinese Name: 寻周
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Gatekeeper Heavenly General (守门天将)
+Sect & Role: Upper Realm / Heavenly Court — Heavenly General guarding the 67th Southern Heavenly Gate (True Immortal / 真仙)
+Aliases & Forms of Address: Xun Zhou
+Relationships: Colleague of Fei Huo and other True Immortals stationed at the 67th Southern Heavenly Gate; subordinate to the radiant humanoid "god"
+Speech Style & Personality: Cynical, observant, sloppy, and unbothered by decorum; slouches at his post like a street beggar despite his golden heavenly general armor. Possesses extraordinary ocular powers and sharp premonitions. Disillusioned with the Heavenly Court's rigid yet pointless regulations, viewing them with dry pragmatism; reluctant to inflict senseless slaughter. Sucked into Zhou Hui's sleeve and later impersonated by Zhou Hui to greet lower-realm ascenders.
+```
+
+```yaml
+Character Name: Fei Huo
+Chinese Name: 飞霍
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: 
+Sect & Role: Upper Realm / Heavenly Court — True Immortal Inspector (真仙)
+Aliases & Forms of Address: Fei Huo
+Relationships: Colleague of Xun Zhou; subordinate to the radiant humanoid "god"
+Speech Style & Personality: Boastful, callous, and opportunistic; frequently descends to lower realms on patrol and smuggles treasures back as "New Year gifts" to curry favor with superiors. Snatched a living miniature pocket world, indifferent to the catastrophic deaths of its tiny inhabitants, caring only about its novelty value. Sucked into Zhou Hui's sleeve when Zhou Hui wiped out the gate's garrison.
+```
+
+```yaml
+Character Name: Kong Xiangfei
+Chinese Name: 孔向非
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: 
+Sect & Role: Upper Realm / Minor World Ascender — Newly Ascended Rogue Immortal (散仙 / Tribulation Transcendence Peak / 渡劫期圆满)
+Aliases & Forms of Address: Kong Xiangfei, Junior Brother
+Relationships: Junior martial brother to Xiang Fudou; disciple of an ancient lower-realm sect unravaged by the God-Demon War; newly arrived at the 67th Southern Heavenly Gate
+Speech Style & Personality: Earnest, naive, and dutiful, bearing the "pure, sparkling innocence of a fresh graduate" (清澈的愚蠢); resolved to ascend despite personal preference for a leisurely life to find Heavenly Court resources to purge demonic incursions threatening his home world; reveres exalted immortals, only to be browbeaten by "Education Official Yuwen Xuan" into filling out exam questionnaires.
+```
+
+```yaml
+Character Name: Xiang Fudou
+Chinese Name: 项付都
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Senior Brother Xiang (项师兄)
+Sect & Role: Upper Realm / Minor World Ascender — Rogue Immortal without Official Post (没有编制的散仙)
+Aliases & Forms of Address: Xiang Fudou, Senior Brother
+Relationships: Senior martial brother to Kong Xiangfei; arrived earlier in the Upper Realm; failed the Heavenly Court civil service examination (考编) twice in two years
+Speech Style & Personality: World-weary, anxious, and deeply disillusioned by the harsh bureaucratic reality of the Upper Realm; understands that unestablished rogue immortals are essentially exploited for their spiritual energy and cannon fodder. Tried to subtly warn his junior brother not to ascend, only for his vague advice to backfire; terrified of offending True Immortals and celestial generals like Xun Zhou; browbeaten by Yuwen Xuan into taking and distributing Zhou Hui's exam questionnaires.
+```
+
+```yaml
+Character Name: Liu Xuenian
+Chinese Name: 柳雪念 / 雪念
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Young Master Xuenian (雪念公子), Brother Xuenian
+Sect & Role: Sky City (天上城) — Cultivation Scion / Follower of Jian Nuo
+Aliases & Forms of Address: Liu Xuenian, Xuenian, Xue Nian
+Relationships: One of the spoiled second-generation cultivation scions following Jian Nuo from Sky City to the Central Domain; secretly holds meta-knowledge about Jian Nuo's "original character setting" and plots against Heavenly Spirit Sect
+Speech Style & Personality: Breathtakingly alluring, delicate, and frail with paper-white skin, frequently coughing like an invalid to elicit sympathy and protectiveness from his peers. Feigns innocence, humility, and gentle diplomacy while subtly planting toxic suggestions—such as casually suggesting the second-generation brats kidnap Qingyang Qingyu to force a fait accompli with Jian Nuo. Harbors a sinister, calculating hidden agenda.
 ```
 
 ---
@@ -2700,6 +2832,30 @@ Location Chinese Name: 升仙台
 Location English Name (optional): 
 Type: Landmark Platform / Receiving Terrace of White Jade Capital (白玉京城外平台)
 Notes: An expansive platform adorned with exquisite engravings protruding outward beyond the city gates of White Jade Capital into the open void above the Abyssal Ocean ruins. Historically modeled after the upper realm to receive all seeking living beings without discrimination; connects directly to the uppermost segment of the Ascension Stairway, which assesses cultivators' spirit root development, potential, and spiritual energy pathways.
+```
+
+```yaml
+Location Name: Red Maple Cave
+Location Chinese Name: 红枫洞
+Location English Name (optional): 
+Type: Cultivation Sect in Southwestern Central Domain (中境西南炼器门派)
+Notes: An artifact refinement sect located in the southwestern Central Domain, founded by Ancestor Wushan. Specializes in forging heavy weapons using a masculine fire-attribute technique that is physically detrimental to female cultivators. Historically suffered severe disciple shortages due to recurring beast tides wiping out young male cultivators.
+```
+
+```yaml
+Location Name: White Egret Valley
+Location Chinese Name: 白鹭谷
+Location English Name (optional): Bailu Valley
+Type: Former Cultivation Sect in Southwestern Central Domain (中境西南古门派)
+Notes: The original sect of Shen Qingqian and Lu Ningning in the southwestern Central Domain. After its male lineage withered, it appointed Lu Ningning as Valley Master, whose muddle-headed father never properly trained her and focused only on marrying her off. Following the father's death in a beast tide, Lu Ningning surrendered the entire valley as a wedding dowry to La Jiu, allowing it to be absorbed into the Peerless Alliance while Shen Qingqian defected to found Blood Demon Hall.
+```
+
+```yaml
+Location Name: The 67th Southern Heavenly Gate
+Location Chinese Name: 第六十七扇南天门
+Location English Name (optional): 
+Type: Celestial Gateway / Heavenly Court Administrative Outpost (上界天门)
+Notes: One of numerous celestial gates in the upper realm connecting to lower minor worlds; despite being designated as a "Southern" gate, it does not actually face south. Positioned on lower cloud tiers near an Ascension Platform beneath the radiant humanoid "god," functioning as an administrative branch for lower-realm governance and ascender processing.
 ```
 
 ---
@@ -3706,6 +3862,41 @@ Notes: An expansive platform adorned with exquisite engravings protruding outwar
 | 劝学 | Exhortation to Learning | `"Literal CN: 劝学 (quànxué) — 'Encouraging Study' / Exhortation to Learning, alluding to Xunzi's classical treatise; used ironically for Eleventh Lady Mei's aggressive academic drill-sergeant methods in the Sixth Academy"` |
 | 教学成果 | Teaching Achievements | `"Literal CN: 教学成果 (jiàoxué chéngguǒ) — Teaching Achievements / Educational Outcomes; chapter title referring to the mortal students proving the efficacy of White Jade Capital Academy's physical education and cultivation curriculum on the Ascension Stairway"` |
 | 才刚刚开始 | Only Just Begun | `"Literal CN: 才刚刚开始 (cái gānggāng kāishǐ) — Only Just Begun; chapter title referring to Zhou Hui and Lu Shulong noting that the trials of the students, the spread of the modern curriculum, and the political awakening of mortals have only just begun"` |
+| 飞升？ | Ascension? | `"Literal CN: 飞升？ (fēishēng?) — Ascension?; chapter title referring to Zhou Hui temporarily ascending to the upper realm to inspect conditions, leaving Qu Qianxing in charge of the sect"` |
+| 世界尽头…… | The End of the World... | `"Literal CN: 世界尽头…… (shìjiè jìntóu……) — The End of the World... / The Edge of the World; chapter title referring to Zhou Hui finding the Door God at the boundary of the upper realm and discovering that the end of the universe is taking civil service exams"` |
+| 门神 | Door God | `"Literal CN: 门神 (ménshén) — Door God; divine guardian stationed at the Ascension Platform to monitor minor worlds and enforce Heavenly Court mandates"` |
+| 妖肉计算机 | demon-flesh computer | `"Literal CN: 妖肉计算机 (yāoròu jìsuànjī) — demon-flesh computer; Zhou Hui's clinical analysis of orthodox gods who discarded their emotions to become mindless command-executing biological processors"` |
+| 种植蘑菇 | cultivate mushrooms | `"Literal CN: 种植蘑菇 (zhòngzhí mógu) — popular Chinese internet slang for developing nuclear weapons (mushroom clouds)"` |
+| 人工智障 | artificial retards | `"Literal CN: 人工智障 (réngōng zhìzhàng) — humorous Chinese internet pun on artificial intelligence (人工智能 / AI), mocking glitchy or clumsy algorithms"` |
+| S山代码 (屎山代码) | mountain of shitcode | `"Literal CN: 屎山代码 (shǐshān dàimǎ) — mountain of shitcode / spaghetti code; modern software engineering slang for horrific legacy code that crashes upon slightest alteration, describing the Heavenly Dao after Zhou Hui rebooted the world multiple times"` |
+| 蛊王 | poison-jar champions | `"Literal CN: 蛊王 (gǔwáng) — King of Gu; the sole surviving venomous insect from a battle royale jar / brutal battle-hardened survivors from ruthless lower worlds"` |
+| 考编 | taking the civil service exam | `"Literal CN: 考编 (kǎobiān) — taking the competitive public examination to secure an official government establishment post (编制 / biānzhì); modern Chinese cultural meme 'the end of the universe is the civil service' (宇宙的尽头是考编)"` |
+| 真仙的日常 | The Daily Life of a True Immortal | `"Literal CN: 真仙的日常 (zhēnxīan de rìcháng) — The Daily Life of a True Immortal; chapter title describing the daily routines, gatekeeper duties, and corruption of True Immortals in the upper realm"` |
+| 黄花菜都凉了 | the daylilies have gone stone-cold | `"Literal CN: 等得黄花菜都凉了 (děng de huánghuācài dōu liáng le) — waiting so long the food has gone cold / far too late"` |
+| 弼马温 | Protector of the Horses | `"Literal CN: 弼马温 (Bìmǎwēn) — the menial post given to Sun Wukong in Journey to the West; keeper of the heavenly stables"` |
+| 没有编制的那种 | lacking an official quota / unestablished | `"Literal CN: 没有编制的那种 (méiyǒu biānzhì de nà zhǒng) — those without an official government quota / lacking a civil service establishment post"` |
+| 问卷 | The Questionnaire | `"Literal CN: 问卷 (wènjuàn) — The Questionnaire; chapter title referring to Zhou Hui drafting a survey questionnaire about past Heavenly Court civil service examinations and using Yuwen Xuan to distribute them to unestablished rogue immortals"` |
+| 威杀棒 (杀威棒) | the customary opening thrashing | `"Literal CN: 威杀棒 / 杀威棒 (shāwēibàng) — the customary fifty blows administered to new prisoners upon entry to break their spirit; an opening intimidation display by divine pressure upon ascenders"` |
+| 清澈的愚蠢 | sparkling innocence of fresh foolishness | `"Literal CN: 清澈的愚蠢 (qīngchè de yúchǔn) — clear stupidity / pure, unadulterated foolishness, a modern popular meme describing naive college graduates entering society"` |
+| 吹两句彩虹屁 | blow a few rainbow farts | `"Literal CN: 吹两句彩虹屁 (chuī liǎng jù cǎihóng pì) — over-the-top sycophantic flattery / fan praise"` |
+| 一些甩锅 | Passing the Buck | `"Literal CN: 一些甩锅 (yīxiē shuǎiguō) — Passing the Buck / Shifting Blame; chapter title referring to Lu Shulong, Jian Nuo, and Qu Qianxing trading blame over the demonic fissure and visiting the Spirit Stone Secret Realm"` |
+| 和稀泥 | smoothing things over / mixing mud | `"Literal CN: 和稀泥 (hé xīní) — mixing mud; muddling through or playing mediator to gloss over conflicts"` |
+| 卖课 | peddling courses | `"Literal CN: 卖课 (mài kè) — modern internet slang for selling commercial courses/educational packages, here describing Qu Qianxing promoting Heavenly Spirit Sect's educational textbooks and pedagogy"` |
+| 我花开后百花杀 | bloodbath dominance | `"Literal CN: 我花开后百花杀 (wǒ huā kāi hòu bǎi huā shā) — 'When my flower blooms, all other blossoms wither' — famous line by Huang Chao denoting ruthless dominance"` |
+| 入侵者 | The Invaders | `"Literal CN: 入侵者 (rùqīnzhě) — The Invaders; chapter title referring to Zhou Hui finding Qu Qianxing and the disciples turning the Demon Realm into an automated mob farming maze, effectively invading the demons rather than the other way around"` |
+| 火力不足恐惧症 | firepower deficiency phobia / insufficient firepower anxiety | `"Literal CN: 火力不足恐惧症 (huǒlì bùzú kǒngjùzhèng) — firepower deficiency phobia; modern military meme describing the pathological urge to hoard overwhelming firepower, here applied to Qingyang Qingyu over-preparing items and heroes for her tower defense secret realm"` |
+| 压力测试 | stress test | `"Literal CN: 压力测试 (yālì cèshì) — stress test; modern software engineering and systems testing term used by Qu Qianxing to justify mobilizing Heavenly Spirit Sect disciples into the Demon Realm rift"` |
+| 蛇蝎美人 | femme fatale / snake-and-scorpion beauty | `"Literal CN: 蛇蝎美人 (shéxiē měirén) — deadly, ruthlessly alluring figure; Yuwen Xuan's comedic description of Qu Qianxing cold-bloodedly harvesting demon parts in the Demon Realm"` |
+| 嘤 | Ying | `"Literal CN: 嘤 (yīng) — Ying / Whimper; chapter title referring to Yuwen Xuan's whimpering cry and the comedic academic trauma of Heavenly Spirit Sect disciples frantically writing theses and reports to keep up with Qu Qianxing"` |
+| 堵不如疏 | channeling is superior to damming | `"Literal CN: 堵不如疏 (dǔ bù rú shū) — ancient proverb from Yu the Great taming the floods: diverting/dredging water is far better than building blockades"` |
+| 卷不过 | unable to out-involute | `"Literal CN: 卷不过 (juǎn bùguò) — unable to compete in the cutthroat academic rat race / involution (neijuan)"` |
+| 生米煮成熟饭 | cook the raw rice into porridge | `"Literal CN: 生米煮成熟饭 (shēngmǐ zhǔchéng shúfàn) — create a fait accompli; make it an irreversible done deal"` |
+| 暗示 | The Hint / Suggestion | `"Literal CN: 暗示 (ànshì) — The Hint / Suggestion; chapter title referring to Liu Xuenian using subtle mental suggestions to manipulate Northern Domain scions, only to find their addictive MMO gaming drive overpowering his mind control"` |
+| 魔尘 | Demon Dust | `"Literal CN: 魔尘 (mó chén) — Demon Dust; crafting/upgrade material dropped by demons in the Spirit Stone Secret Realm used to level up equipment and gear"` |
+| 安全房 | Safe Room | `"Literal CN: 安全房 (ānquán fáng) — Safe Room; heavily fortified bunker inside the command tower protected by fifty formations to isolate demonic qi"` |
+| 魔界哨所 | Demon Realm Outpost | `"Literal CN: 魔界哨所 (mójiè shàosuǒ) — Demon Realm Outpost; advanced frontline raid milestone in the Spirit Stone Secret Realm accessible to high-level players"` |
+| 我见犹怜 | heart-melting vulnerability / so lovely that even I feel pity | `"Idiom: 我见犹怜 (wǒjiàn-yóulián) — 'even I feel pity upon seeing her/him' — ancient idiom expressing irresistible, protective tenderness toward fragile beauty"` |
+| 乐不思蜀 | so much fun they forgot home entirely / indulging in pleasure | `"Idiom: 乐不思蜀 (lèbùsīshǔ) — enjoying oneself so much as to forget home; historical idiom from Liu Shan in the Three Kingdoms"` |
 
 
 

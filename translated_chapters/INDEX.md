@@ -146,6 +146,13 @@
 | 141 | [Chapter 141: Teaching Achievements (第141章 教学成果)](141_Chapter_141.md) | ✅ Translated |
 | 142 | [Chapter 142: Only Just Begun (第142章 才刚刚开始)](142_Chapter_142.md) | ✅ Translated |
 | 143 | [Chapter 143: Ascension? (第143章 飞升？)](143_Chapter_143.md) | ✅ Translated |
+| 144 | [Chapter 144: The End of the World... (第144章 世界尽头……)](144_Chapter_144.md) | ✅ Translated |
+| 145 | [Chapter 145: The Daily Life of a True Immortal (第145章 真仙的日常)](145_Chapter_145.md) | ✅ Translated |
+| 146 | [Chapter 146: The Questionnaire (第146章 问卷)](146_Chapter_146.md) | ✅ Translated |
+| 147 | [Chapter 147: Passing the Buck (第147章 一些甩锅)](147_Chapter_147.md) | ✅ Translated |
+| 148 | [Chapter 148: The Invaders (第148章 入侵者)](148_Chapter_148.md) | ✅ Translated |
+| 149 | [Chapter 149: Ying (第149章 嘤)](149_Chapter_149.md) | ✅ Translated |
+| 150 | [Chapter 150: The Hint (第150章 暗示)](150_Chapter_150.md) | ✅ Translated |
 
 
 
