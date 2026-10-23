@@ -1436,7 +1436,7 @@ Titles / Epithets: Xuenian (雪念)
 Sect & Role: Sky City (天上城) — Cultivation Second-Generation Scion (修二代)
 Aliases & Forms of Address: Liu Xuenian, Xuenian
 Relationships: Traveling companion among the cultivation second-generation scions from Sky City who came to the Central Domain with Jian Nuo; heavily pampered and protected by fellow scions due to frail health
-Speech Style & Personality: Strikingly alluring young man with a delicate, frail physique and paper-white complexion who coughs violently. Speaks with gentle, polite deference, constantly acting as the sweet peacemaker standing up for Jian Nuo. Beneath his innocent, coughing exterior, however, he conceals a sinister, calculating agenda—harboring meta-awareness of Jian Nuo's original "character settings" (崇拜不倦仙尊是原来就有的‘设定’) and covertly nudging the idiot scions to kidnap Qingyang Qingyu. Employs insidious subconscious "hints" (暗示) that amplify pre-existing emotions like protective affection; deeply connected to the Carefree Palace elder who previously attempted to claim Qu Qianxing's peerless physical vessel; secretly branded with a tracking spark of golden lightning by Qu Qianxing; shocked when the scions' obsessive gaming addiction to the Spirit Stone Secret Realm overpowers his mental control.
+Speech Style & Personality: Strikingly alluring young man with a delicate, frail physique and paper-white complexion who coughs violently. Speaks with gentle, polite deference, constantly acting as the sweet peacemaker standing up for Jian Nuo. Beneath his innocent, coughing exterior, however, he conceals a sinister, calculating agenda—harboring meta-awareness of Jian Nuo's original "character settings" (崇拜不倦仙尊是原来就有的‘设定’) and covertly nudging the idiot scions to kidnap Qingyang Qingyu. Employs insidious subconscious "hints" (暗示) that amplify pre-existing emotions like protective affection; deeply connected to the Carefree Palace elder who previously attempted to claim Qu Qianxing's peerless physical vessel; secretly branded with a tracking spark of golden lightning by Qu Qianxing; shocked when the scions' obsessive gaming addiction to the Spirit Stone Secret Realm overpowers his mental control. In Chapter 151, when Zhou Hui inspects him using the godhead, his true form is revealed: his physical vessel is a hollowed-out cadaver specimen inhabited by a grotesque, gore-dripping abomination / "immortal" entity with dangling intestinal puppet strings extending outward to manipulate others, bearing a brand identical to the ones on Yuwen Xuan, Mengshan Old Freak, and the divine flame.
 ```
 
 ```yaml
@@ -1988,7 +1988,19 @@ Titles / Epithets: Young Master Xuenian (雪念公子), Brother Xuenian
 Sect & Role: Sky City (天上城) — Cultivation Scion / Follower of Jian Nuo
 Aliases & Forms of Address: Liu Xuenian, Xuenian, Xue Nian
 Relationships: One of the spoiled second-generation cultivation scions following Jian Nuo from Sky City to the Central Domain; secretly holds meta-knowledge about Jian Nuo's "original character setting" and plots against Heavenly Spirit Sect
-Speech Style & Personality: Breathtakingly alluring, delicate, and frail with paper-white skin, frequently coughing like an invalid to elicit sympathy and protectiveness from his peers. Feigns innocence, humility, and gentle diplomacy while subtly planting toxic suggestions—such as casually suggesting the second-generation brats kidnap Qingyang Qingyu to force a fait accompli with Jian Nuo. Harbors a sinister, calculating hidden agenda.
+Speech Style & Personality: Breathtakingly alluring, delicate, and frail with paper-white skin, frequently coughing like an invalid to elicit sympathy and protectiveness from his peers. Feigns innocence, humility, and gentle diplomacy while subtly planting toxic suggestions—such as casually suggesting the second-generation brats kidnap Qingyang Qingyu to force a fait accompli with Jian Nuo. Harbors a sinister, calculating hidden agenda. In Chapter 151, Zhou Hui inspects him with the godhead, revealing his vessel is an eviscerated corpse puppet housing a grotesque cosmic entity with intestinal puppet strings. In Chapter 152, he monitors the scions via a paper doll, driving himself to the brink of madness trying to micromanage their brain-dead bride-kidnapping scheme.
+```
+
+```yaml
+Character Name: Xiao Geng
+Chinese Name: 小庚
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Xiao Geng (小庚)
+Sect & Role: Sky City (天上城) — Cultivation Second-Generation Scion (修二代) / Secret Realm QA Playtester
+Aliases & Forms of Address: Xiao Geng
+Relationships: Traveling companion among the cultivation second-generation scions from Sky City who accompanied Jian Nuo and Liu Xuenian; conspirator with Xiao Jia (numerical balancer), Xiao Yi (narrative writer), and Xiao Bing
+Speech Style & Personality: Resentful, easily frustrated, and chronically competitive with his fellow scion buddies. Following Liu Xuenian's scheme to infiltrate the secret realm management team under a Heavenly Stem pseudonym, he sat through over a dozen technical examinations in a single day (failing numerical balance, level design, combat systems, and narrative writing). Deeply jealous when his peers were hired and forgot their kidnapping mission to make games, he rejoiced at being recruited by the "Testing Department"—only to find himself clad in demonic monster gear dodging barrage attacks as a live QA test mob.
 ```
 
 ---
@@ -3897,6 +3909,23 @@ Notes: One of numerous celestial gates in the upper realm connecting to lower mi
 | 魔界哨所 | Demon Realm Outpost | `"Literal CN: 魔界哨所 (mójiè shàosuǒ) — Demon Realm Outpost; advanced frontline raid milestone in the Spirit Stone Secret Realm accessible to high-level players"` |
 | 我见犹怜 | heart-melting vulnerability / so lovely that even I feel pity | `"Idiom: 我见犹怜 (wǒjiàn-yóulián) — 'even I feel pity upon seeing her/him' — ancient idiom expressing irresistible, protective tenderness toward fragile beauty"` |
 | 乐不思蜀 | so much fun they forgot home entirely / indulging in pleasure | `"Idiom: 乐不思蜀 (lèbùsīshǔ) — enjoying oneself so much as to forget home; historical idiom from Liu Shan in the Three Kingdoms"` |
+| 仙的研究 | Research on Immortals | `"Literal CN: 仙的研究 (xiān de yánjiū) — Research on Immortals; chapter title referring to Zhou Hui studying the properties of the godhead, immortal power, and Immortal Roots, while testing True Immortal Blood with Villa Master Qingyang"` |
+| 仙根 | Immortal Root | `"Literal CN: 仙根 (xiāngēn) — Immortal Root; legendary unified spiritual root formed upon ascension when all of a cultivator's elemental spirit roots fuse into one to synthesize pure immortal qi"` |
+| 狗狗祟祟 | skulking about sneakily | `"Literal CN: 狗狗祟祟 (gǒugou-suìsuì) — a humorous pun on 鬼鬼祟祟 (guǐguǐ-suìsuì), meaning shady or skulking around like guilty dogs; describing Jian Nuo's scion companions plotting trouble"` |
+| 金主爸爸 | corporate sponsor / financial sugar daddy | `"Literal CN: 金主爸爸 (jīnzhǔ bàba) — modern Chinese business slang for investor / funding sponsor; Villa Master Qingyang viewing Zhou Hui as his primary research benefactor"` |
+| 榨汁 | self-juicing grind / extracting maximum productivity | `"Literal CN: 榨汁 (zhàzhī) — juicing / extracting every drop of productivity from oneself; Villa Master Qingyang desperately driving his own research to keep up with the youth"` |
+| 大冤种 | the ultimate sucker / colossal chump | `"Literal CN: 大冤种 (dàyuānzhǒng) — internet slang for a colossal chump / aggrieved patsy taken advantage of by others; describing the fate of the Red Rose in the Heavenly Dao's original novel script"` |
+| 马赛克物体 | pixelated tendrils / censored cosmic horror | `"Literal CN: 马赛克物体 (mǎsàikè wùtǐ) — mosaic/pixelated censored objects; comedic authorial description of cosmic horror tendrils dangling like puppet strings from the immortal parasite inside Liu Xuenian"` |
+| 丁字号安全屋 | Safe Room Ding | `"Literal CN: 丁字号安全屋 (dīng zì hào ānquán wū) — Safe Room Ding; heavily fortified isolation chamber inside the secret realm command tower where Liu Xuenian rested"` |
+| 愚蠢的阴谋 | A Foolish Conspiracy | `"Literal CN: 愚蠢的阴谋 (yúchǔn de yīnmóu) — A Foolish Conspiracy; chapter title referring to the brain-dead bride-kidnapping plot cooked up by Sky City scions and micromanaged by a despairing Liu Xuenian, which instantly derails into taking game-dev job exams"` |
+| 抢婚 | bride kidnapping | `"Literal CN: 抢婚 (qiǎnghūn) — bride kidnapping / abducting the bride; the scions' harebrained scheme to snatch Qingyang Qingyu for Jian Nuo"` |
+| 纸人偶 | paper talisman doll | `"Literal CN: 纸人偶 (zhǐ rén'ǒu) — paper talisman doll; miniature paper construct infused with divine sense used by Liu Xuenian to monitor and communicate with the scions"` |
+| 混在狼群中的哈士奇 | huskies blending in among wolves | `"Literal CN: 混在狼群中的哈士奇 — internet meme describing goofy, oblivious individuals standing out glaringly among professionals, describing the scions attempting to infiltrate the Heavenly Spirit Sect"` |
+| 测试部门 | Testing Department / QA | `"Literal CN: 测试部门 (cèshì bùmén) — Testing / Quality Assurance Department; the department tasked with testing secret realm combat mechanics, which drafts Xiao Geng to act as a live combat-dummy test mob"`
+| 重色轻友 | bros before hoes in reverse | `"Literal CN: 重色轻友 (zhòngsè-qīngyǒu) — prioritizing romance over friendship / abandoning friends for a romantic interest; describing Jian Nuo's predictable reaction if disturbed"` |
+| 一时技痒 | fingers itching to try one's hand | `"Literal CN: 一时技痒 (yīshí jìyǎng) — itching to show off one's skills; the scions impulsively taking game design exams"` |
+| 打退堂鼓 | beating the retreat drum | `"Literal CN: 打退堂鼓 (dǎ tuìtánggǔ) — backing out / getting cold feet"` |
+| 放鸽子 | standing someone up / flaking | `"Literal CN: 放鸽子 (fàng gēzi) — releasing pigeons / standing someone up / flaking on an agreement"` |
 
 
 

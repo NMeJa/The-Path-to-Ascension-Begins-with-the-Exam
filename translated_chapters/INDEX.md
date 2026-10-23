@@ -153,6 +153,8 @@
 | 148 | [Chapter 148: The Invaders (第148章 入侵者)](148_Chapter_148.md) | ✅ Translated |
 | 149 | [Chapter 149: Ying (第149章 嘤)](149_Chapter_149.md) | ✅ Translated |
 | 150 | [Chapter 150: The Hint (第150章 暗示)](150_Chapter_150.md) | ✅ Translated |
+| 151 | [Chapter 151: Research on Immortals (第151章 仙的研究)](151_Chapter_151.md) | ✅ Translated |
+| 152 | [Chapter 152: A Foolish Conspiracy (第152章 愚蠢的阴谋)](152_Chapter_152.md) | ✅ Translated |
 
 
 
