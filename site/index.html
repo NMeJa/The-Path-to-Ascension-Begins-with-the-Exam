@@ -428,14 +428,65 @@
           ← Previous
         </button>
 
-        <div class="flex items-center gap-2">
-          <span class="opacity-70">Jump to:</span>
-          <select
-            id="chapter-select"
-            onchange="selectChapter(parseInt(this.value, 10))"
-            style="background-color: var(--reader-card); border-color: var(--reader-border); color: var(--reader-fg);"
-            class="px-2.5 py-1.5 rounded-lg border font-medium max-w-[260px] truncate"
-          ></select>
+        <div class="relative flex items-center gap-2">
+          <span class="opacity-70 font-medium">Jump to:</span>
+
+          <!-- Custom Hard-Width Chapter Dropdown with Full Multi-line Text Wrapping -->
+          <div class="relative inline-block text-left" id="chapter-dropdown-wrapper">
+            <!-- Hard-Width Trigger Button -->
+            <button
+              id="chapter-dropdown-btn"
+              type="button"
+              onclick="toggleChapterDropdown(event)"
+              style="background-color: var(--reader-card); border-color: var(--reader-border); color: var(--reader-fg);"
+              class="w-64 sm:w-80 flex items-center justify-between gap-2 px-3 py-1.5 rounded-lg border text-xs font-medium hover:opacity-90 transition shadow-sm"
+              aria-haspopup="listbox"
+              aria-expanded="false"
+            >
+              <span id="chapter-dropdown-label" class="truncate text-left flex-1 font-semibold">
+                Select chapter...
+              </span>
+              <svg id="chapter-dropdown-arrow" class="w-3.5 h-3.5 opacity-60 transition-transform duration-200 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+
+            <!-- Hard-Width Dropdown Popover Menu with Word-Wrap Options -->
+            <div
+              id="chapter-dropdown-menu"
+              style="background-color: var(--reader-card); border-color: var(--reader-border); color: var(--reader-fg);"
+              class="hidden absolute left-0 sm:left-auto sm:right-0 mt-1.5 w-72 sm:w-96 rounded-xl border shadow-2xl z-50 overflow-hidden flex flex-col"
+            >
+              <!-- Live Search Filter -->
+              <div class="p-2 border-b" style="border-color: var(--reader-border);">
+                <input
+                  id="chapter-dropdown-search"
+                  type="text"
+                  placeholder="🔍 Search # or title..."
+                  oninput="filterChapterDropdown(this.value)"
+                  style="background-color: var(--reader-bg); border-color: var(--reader-border); color: var(--reader-fg);"
+                  class="w-full px-2.5 py-1.5 rounded-lg border text-xs outline-none focus:ring-1 focus:ring-blue-500"
+                />
+              </div>
+
+              <!-- Scrollable Option List with Natural Multi-line Wrapping -->
+              <div
+                id="chapter-dropdown-list"
+                class="max-h-80 overflow-y-auto divide-y"
+                style="border-color: var(--reader-border);"
+                role="listbox"
+              ></div>
+            </div>
+
+            <!-- Hidden native select for backwards compatibility -->
+            <select
+              id="chapter-select"
+              onchange="selectChapter(parseInt(this.value, 10))"
+              class="sr-only"
+              aria-hidden="true"
+              tabindex="-1"
+            ></select>
+          </div>
         </div>
 
         <button
@@ -616,7 +667,10 @@
     <div id="tooltip-body"></div>
   </div>
 
-  <script src="chapters_data.js"></script>
+  <script>
+    // Bust browser cache dynamically so new chapters and live rebuilds appear immediately
+    document.write('<script src="chapters_data.js?v=' + Date.now() + '"><\/script>');
+  </script>
   <script>
     const GLOSSARY_ENTRIES = window.READER_DATA.glossaryEntries || [];
     const TRANSLATED_CHAPTERS = window.READER_DATA.translatedChapters || [];
@@ -638,6 +692,16 @@
     let currentGlossaryTab = "all";
     let highlightedGlossaryId = null;
     let saveTimer = null;
+
+    function escapeHtml(str) {
+      if (!str) return "";
+      return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
 
     async function fetchLatestProgressFromServer() {
       let serverLoaded = false;
@@ -683,21 +747,140 @@
 
     async function triggerLiveRebuild() {
       const btn = document.getElementById("rebuild-btn");
+      btn.textContent = "⏳ Syncing...";
       if (!window.location.protocol.startsWith("http")) {
-        window.location.reload();
+        const url = new URL(window.location.href);
+        url.searchParams.set("t", Date.now());
+        window.location.href = url.toString();
         return;
       }
-      btn.textContent = "⏳ Syncing...";
       try {
-        const resp = await fetch("/api/rebuild", { method: "POST" });
-        if (resp.ok) {
-          window.location.reload();
-        } else {
-          window.location.reload();
+        await fetch("/api/rebuild", { method: "POST" });
+      } catch (_) {}
+      // Force hard refresh with cache-busting timestamp
+      const url = new URL(window.location.href);
+      url.searchParams.set("t", Date.now());
+      window.location.href = url.toString();
+    }
+
+    /* --- Custom Hard-Width Chapter Dropdown Logic --- */
+    function toggleChapterDropdown(event) {
+      if (event) event.stopPropagation();
+      const menu = document.getElementById("chapter-dropdown-menu");
+      const arrow = document.getElementById("chapter-dropdown-arrow");
+      const btn = document.getElementById("chapter-dropdown-btn");
+      if (!menu) return;
+
+      const isHidden = menu.classList.contains("hidden");
+      if (isHidden) {
+        menu.classList.remove("hidden");
+        if (arrow) arrow.classList.add("rotate-180");
+        if (btn) btn.setAttribute("aria-expanded", "true");
+        const searchInput = document.getElementById("chapter-dropdown-search");
+        if (searchInput) {
+          searchInput.value = "";
+          setTimeout(() => searchInput.focus(), 50);
         }
-      } catch (_) {
-        window.location.reload();
+        renderChapterDropdownList();
+        scrollActiveDropdownItemIntoView();
+      } else {
+        closeChapterDropdown();
       }
+    }
+
+    function closeChapterDropdown() {
+      const menu = document.getElementById("chapter-dropdown-menu");
+      const arrow = document.getElementById("chapter-dropdown-arrow");
+      const btn = document.getElementById("chapter-dropdown-btn");
+      if (menu) menu.classList.add("hidden");
+      if (arrow) arrow.classList.remove("rotate-180");
+      if (btn) btn.setAttribute("aria-expanded", "false");
+    }
+
+    function renderChapterDropdownList(filterQuery = "") {
+      const listEl = document.getElementById("chapter-dropdown-list");
+      if (!listEl) return;
+      const q = filterQuery.trim().toLowerCase();
+
+      const items = TRANSLATED_CHAPTERS.map((ch, idx) => ({ ch, idx })).filter(({ ch }) => {
+        if (!q) return true;
+        return (
+          ch.code.toLowerCase().includes(q) ||
+          (ch.titleEn && ch.titleEn.toLowerCase().includes(q)) ||
+          (ch.titleZh && ch.titleZh.toLowerCase().includes(q))
+        );
+      });
+
+      if (items.length === 0) {
+        listEl.innerHTML = `<div class="p-4 text-center text-xs opacity-60">No chapters found for "${escapeHtml(q)}"</div>`;
+        return;
+      }
+
+      listEl.innerHTML = items.map(({ ch, idx }) => {
+        const isActive = idx === currentChapterIdx;
+        const isRead = readChaptersSet.has(ch.code);
+        const isLast = ch.code === progressDB.last_read_code;
+
+        const badgeIcon = isLast ? "📍" : isRead ? "✓" : "○";
+        const badgeColor = isLast
+          ? "color: var(--reader-accent);"
+          : isRead
+          ? "color: #10b981;"
+          : "opacity: 0.5;";
+
+        const activeBg = isActive ? "background-color: var(--reader-monologue-bg);" : "";
+        const activeText = isActive ? "color: var(--reader-accent); font-weight: 700;" : "";
+
+        return `
+          <div
+            id="dropdown-opt-${idx}"
+            onclick="onSelectDropdownChapter(${idx})"
+            class="px-3.5 py-2.5 cursor-pointer text-left transition hover:opacity-80 flex items-start gap-2.5 text-xs"
+            style="${activeBg} border-color: var(--reader-border); word-break: break-word; overflow-wrap: break-word; white-space: normal;"
+            role="option"
+            aria-selected="${isActive}"
+          >
+            <span class="shrink-0 mt-0.5 text-xs font-semibold" style="${badgeColor}">${badgeIcon}</span>
+            <div class="flex-1 min-w-0" style="word-break: break-word; overflow-wrap: break-word; white-space: normal;">
+              <div class="font-semibold leading-snug" style="${activeText} word-break: break-word; overflow-wrap: break-word; white-space: normal;">
+                <span class="opacity-60 text-[11px] font-mono mr-1">#${ch.code}</span>
+                <span>${escapeHtml(ch.titleEn)}</span>
+              </div>
+              ${ch.titleZh ? `<div class="opacity-60 text-[11px] mt-0.5" style="word-break: break-word; overflow-wrap: break-word; white-space: normal;">${escapeHtml(ch.titleZh)}</div>` : ''}
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function scrollActiveDropdownItemIntoView() {
+      setTimeout(() => {
+        const activeItem = document.getElementById(`dropdown-opt-${currentChapterIdx}`);
+        if (activeItem) {
+          activeItem.scrollIntoView({ block: "nearest", behavior: "smooth" });
+        }
+      }, 50);
+    }
+
+    function filterChapterDropdown(text) {
+      renderChapterDropdownList(text);
+    }
+
+    function onSelectDropdownChapter(idx) {
+      selectChapter(idx);
+      closeChapterDropdown();
+    }
+
+    function updateChapterDropdownLabel() {
+      const labelEl = document.getElementById("chapter-dropdown-label");
+      const ch = TRANSLATED_CHAPTERS[currentChapterIdx];
+      if (!labelEl || !ch) return;
+
+      const isRead = readChaptersSet.has(ch.code);
+      const isLast = ch.code === progressDB.last_read_code;
+      const prefix = isLast ? "📍 " : isRead ? "✓ " : "○ ";
+
+      labelEl.textContent = `${prefix}#${ch.code} — ${ch.titleEn}`;
     }
 
     async function initReader() {
@@ -761,14 +944,21 @@
       document.getElementById("last-read-banner-text").textContent =
         lastMeta ? `#${lastMeta.code} — ${lastMeta.titleEn} (${lastMeta.titleZh})` : `#${lastCode}`;
 
-      // Update Top Chapter Select Dropdown with ✓ Read and 📍 Last Read markers
+      // Update Top Chapter Dropdown & label
+      updateChapterDropdownLabel();
+      renderChapterDropdownList();
+
+      // Keep hidden native select in sync for API compatibility
       const selectEl = document.getElementById("chapter-select");
-      selectEl.innerHTML = TRANSLATED_CHAPTERS.map((ch, idx) => {
-        const isRead = readChaptersSet.has(ch.code);
-        const isLast = ch.code === progressDB.last_read_code;
-        const prefix = isLast ? "📍 " : isRead ? "✓ " : "○ ";
-        return `<option value="${idx}" ${idx === currentChapterIdx ? 'selected' : ''}>${prefix}${ch.code} — ${ch.titleEn}</option>`;
-      }).join("");
+      if (selectEl) {
+        selectEl.innerHTML = TRANSLATED_CHAPTERS.map((ch, idx) => {
+          const isRead = readChaptersSet.has(ch.code);
+          const isLast = ch.code === progressDB.last_read_code;
+          const prefix = isLast ? "📍 " : isRead ? "✓ " : "○ ";
+          return `<option value="${idx}" ${idx === currentChapterIdx ? 'selected' : ''}>${prefix}${ch.code} — ${ch.titleEn}</option>`;
+        }).join("");
+        selectEl.value = String(currentChapterIdx);
+      }
     }
 
     function toggleChapterReadStatus(code, event) {
@@ -892,6 +1082,7 @@
     function selectChapter(tIdx) {
       if (tIdx === null || tIdx === undefined) return;
       currentChapterIdx = tIdx;
+      updateChapterDropdownLabel();
       if (scrollMode !== "paginated") {
         setScrollMode("paginated");
       } else {
@@ -904,6 +1095,7 @@
       const next = currentChapterIdx + delta;
       if (next >= 0 && next < TRANSLATED_CHAPTERS.length) {
         currentChapterIdx = next;
+        updateChapterDropdownLabel();
         renderViewport();
         window.scrollTo({ top: 0, behavior: "smooth" });
       }
@@ -1253,7 +1445,17 @@
       }
     });
 
+    document.addEventListener("click", (e) => {
+      const wrapper = document.getElementById("chapter-dropdown-wrapper");
+      if (wrapper && !wrapper.contains(e.target)) {
+        closeChapterDropdown();
+      }
+    });
+
     window.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        closeChapterDropdown();
+      }
       const indexHidden = document.getElementById("index-modal").classList.contains("hidden");
       const glossaryHidden = document.getElementById("glossary-modal").classList.contains("hidden");
       if (scrollMode === "paginated" && indexHidden && glossaryHidden) {

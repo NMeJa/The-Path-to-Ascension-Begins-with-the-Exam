@@ -183,6 +183,20 @@
 | 178 | [Chapter 178: The Trial of Desires (第178章 欲念考验)](178_Chapter_178.md) | ✅ Translated |
 | 179 | [Chapter 179: The Demon Race's Educational Reform (第179章 妖族的教育改革)](179_Chapter_179.md) | ✅ Translated |
 | 180 | [Chapter 180: Not Swayed by External Gains (第180章 不以物喜)](180_Chapter_180.md) | ✅ Translated |
+| 181 | [Chapter 181: Nor Grieved by Personal Sorrows (第181章 不以己悲)](181_Chapter_181.md) | ✅ Translated |
+| 182 | [Chapter 182: Phantasm (第182章 幻形)](182_Chapter_182.md) | ✅ Translated |
+| 183 | [Chapter 183: The Demon Realm (第183章 魔域)](183_Chapter_183.md) | ✅ Translated |
+| 184 | [Chapter 184: Karmic Ties (第184章 因缘)](184_Chapter_184.md) | ✅ Translated |
+| 185 | [Chapter 185: If You're Going to Use Someone, at Least Tell Them First (第185章 利用至少要先说)](185_Chapter_185.md) | ✅ Translated |
+| 186 | [Chapter 186: Fourth Senior Brother (第186章 四师兄)](186_Chapter_186.md) | ✅ Translated |
+| 187 | [Chapter 187: Invoking the Deities (第187章 请神)](187_Chapter_187.md) | ✅ Translated |
+| 188 | [Chapter 188: Specific Methods for Slacking Off (第188章 偷懒的具体方法)](188_Chapter_188.md) | ✅ Translated |
+| 189 | [Chapter 189: Dao Bones (第189章 道骨)](189_Chapter_189.md) | ✅ Translated |
+| 190 | [Chapter 190: Ran Deng's Plan (第190章 冉灯的计划)](190_Chapter_190.md) | ✅ Translated |
+| 191 | [Chapter 191: Diverse Manifestations of PTSD (第191章 多种多样的ptsd)](191_Chapter_191.md) | ✅ Translated |
+| 192 | [Chapter 192: Path of Retreat (第192章 退路)](192_Chapter_192.md) | ✅ Translated |
+| 193 | [Chapter 193: Continuous 'Surprises' (第193章 连续‘惊喜’)](193_Chapter_193.md) | ✅ Translated |
+| 194 | [Chapter 194: The Tribulation Transcendents (第194章 渡劫们)](194_Chapter_194.md) | ✅ Translated |
 
 
 

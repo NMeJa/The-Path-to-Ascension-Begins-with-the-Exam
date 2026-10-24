@@ -497,6 +497,26 @@ class InlineProcessor:
         return escaped
 
 
+def extract_clean_title(raw_title: str) -> str:
+    """
+    Strips markdown tooltips, links, formatting, and trailing quotes from chapter headings.
+    Handles nested parentheses cleanly:
+    e.g. '# Chapter 180: [Not Swayed by External Gains](# "Literal CN: 不以物喜 (bù yǐ wù xǐ)...")'
+    -> 'Chapter 180: Not Swayed by External Gains'
+    """
+    clean = raw_title.strip()
+    # Strip markdown link [Anchor](Tooltip/URL with possible nested parens)
+    clean = re.sub(r'\[([^\[\]]+)\]\((?:[^()]*|\([^()]*\))*\)', r'\1', clean)
+    # If any unclosed or deeper nested brackets remain
+    if "[" in clean and "](" in clean:
+        clean = re.sub(r'\[([^\[\]]+)\]\(.*?\)', r'\1', clean)
+    # Strip markdown emphasis or backticks
+    clean = re.sub(r'[`*_]', '', clean)
+    # Strip accidental unclosed quotes or parens at end
+    clean = clean.strip().rstrip('"\') ')
+    return clean
+
+
 def convert_markdown_chapter_to_html(
     md_text: str,
     processor: InlineProcessor,
@@ -537,7 +557,7 @@ def convert_markdown_chapter_to_html(
             flush_para()
             flush_blockquote()
             raw_title = stripped[2:].strip()
-            title_en = re.sub(r'\[([^\[\]\r\n]+?)\]\([^\)]*\)', r'\1', raw_title).strip()
+            title_en = extract_clean_title(raw_title)
             continue
 
         if stripped.startswith(">"):
@@ -676,24 +696,36 @@ def convert_markdown_chapter_to_html(
     return title_en, "\n".join(html_blocks), plain_words
 
 
+def parse_chapter_sort_key(path: Path) -> tuple[int, int, str]:
+    prefix = path.stem.split("_", 1)[0]
+    if prefix.isdigit():
+        return (0, int(prefix), path.stem)
+    return (1, 999999, path.stem)
+
+
 def collect_all_chapters(
     raw_dir: Path,
     translated_dir: Path,
     processor: InlineProcessor,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     raw_files = sorted(
-        p for p in raw_dir.glob("*.md") if p.name.upper() != "INDEX.MD"
+        (p for p in raw_dir.glob("*.md") if p.name.upper() != "INDEX.MD"),
+        key=parse_chapter_sort_key,
     )
     translated_map: dict[str, Path] = {}
+    translated_num_map: dict[int, Path] = {}
     if translated_dir.exists():
-        for tp in sorted(translated_dir.glob("*.md")):
+        for tp in sorted(translated_dir.glob("*.md"), key=parse_chapter_sort_key):
             if tp.name.upper() == "INDEX.MD":
                 continue
             prefix = tp.stem.split("_", 1)[0]
             translated_map[prefix] = tp
+            if prefix.isdigit():
+                translated_num_map[int(prefix)] = tp
 
     all_chapters_meta: list[dict[str, Any]] = []
     translated_chapters: list[dict[str, Any]] = []
+    processed_translated_paths: set[Path] = set()
 
     for idx, rf in enumerate(raw_files):
         prefix = rf.stem.split("_", 1)[0]
@@ -702,12 +734,17 @@ def collect_all_chapters(
         title_zh = raw_lines[0].lstrip("#").strip() if raw_lines else rf.stem
         char_count = sum(len(ln) for ln in raw_lines[1:])
 
-        if prefix in translated_map:
-            tp = translated_map[prefix]
+        # Match either exact string prefix or normalized integer
+        tp = translated_map.get(prefix)
+        if not tp and prefix.isdigit():
+            tp = translated_num_map.get(int(prefix))
+
+        if tp:
+            processed_translated_paths.add(tp.resolve())
             md_text = tp.read_text(encoding="utf-8")
             title_en, body_html, word_count = convert_markdown_chapter_to_html(md_text, processor)
             if not title_en:
-                title_en = f"Chapter {prefix}"
+                title_en = f"Chapter {int(prefix) if prefix.isdigit() else prefix}"
             t_idx = len(translated_chapters)
             translated_chapters.append(
                 {
@@ -753,6 +790,42 @@ def collect_all_chapters(
                     "words": 0,
                     "status": "raw",
                     "tIdx": None,
+                }
+            )
+
+    # In case any translated chapter was not matched to a raw file, append it safely
+    if translated_dir.exists():
+        for tp in sorted(translated_dir.glob("*.md"), key=parse_chapter_sort_key):
+            if tp.name.upper() == "INDEX.MD" or tp.resolve() in processed_translated_paths:
+                continue
+            prefix = tp.stem.split("_", 1)[0]
+            md_text = tp.read_text(encoding="utf-8")
+            title_en, body_html, word_count = convert_markdown_chapter_to_html(md_text, processor)
+            if not title_en:
+                title_en = f"Chapter {int(prefix) if prefix.isdigit() else prefix}"
+            t_idx = len(translated_chapters)
+            translated_chapters.append(
+                {
+                    "tIdx": t_idx,
+                    "rawIdx": len(all_chapters_meta),
+                    "code": prefix,
+                    "filename": tp.name,
+                    "titleEn": title_en,
+                    "titleZh": title_en,
+                    "words": f"{word_count:,} words",
+                    "html": body_html,
+                }
+            )
+            all_chapters_meta.append(
+                {
+                    "idx": len(all_chapters_meta),
+                    "code": prefix,
+                    "titleZh": title_en,
+                    "titleEn": title_en,
+                    "chars": 0,
+                    "words": word_count,
+                    "status": "translated",
+                    "tIdx": t_idx,
                 }
             )
 
@@ -1189,14 +1262,65 @@ READER_HTML_TEMPLATE = """<!DOCTYPE html>
           ← Previous
         </button>
 
-        <div class="flex items-center gap-2">
-          <span class="opacity-70">Jump to:</span>
-          <select
-            id="chapter-select"
-            onchange="selectChapter(parseInt(this.value, 10))"
-            style="background-color: var(--reader-card); border-color: var(--reader-border); color: var(--reader-fg);"
-            class="px-2.5 py-1.5 rounded-lg border font-medium max-w-[260px] truncate"
-          ></select>
+        <div class="relative flex items-center gap-2">
+          <span class="opacity-70 font-medium">Jump to:</span>
+
+          <!-- Custom Hard-Width Chapter Dropdown with Full Multi-line Text Wrapping -->
+          <div class="relative inline-block text-left" id="chapter-dropdown-wrapper">
+            <!-- Hard-Width Trigger Button -->
+            <button
+              id="chapter-dropdown-btn"
+              type="button"
+              onclick="toggleChapterDropdown(event)"
+              style="background-color: var(--reader-card); border-color: var(--reader-border); color: var(--reader-fg);"
+              class="w-64 sm:w-80 flex items-center justify-between gap-2 px-3 py-1.5 rounded-lg border text-xs font-medium hover:opacity-90 transition shadow-sm"
+              aria-haspopup="listbox"
+              aria-expanded="false"
+            >
+              <span id="chapter-dropdown-label" class="truncate text-left flex-1 font-semibold">
+                Select chapter...
+              </span>
+              <svg id="chapter-dropdown-arrow" class="w-3.5 h-3.5 opacity-60 transition-transform duration-200 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+
+            <!-- Hard-Width Dropdown Popover Menu with Word-Wrap Options -->
+            <div
+              id="chapter-dropdown-menu"
+              style="background-color: var(--reader-card); border-color: var(--reader-border); color: var(--reader-fg);"
+              class="hidden absolute left-0 sm:left-auto sm:right-0 mt-1.5 w-72 sm:w-96 rounded-xl border shadow-2xl z-50 overflow-hidden flex flex-col"
+            >
+              <!-- Live Search Filter -->
+              <div class="p-2 border-b" style="border-color: var(--reader-border);">
+                <input
+                  id="chapter-dropdown-search"
+                  type="text"
+                  placeholder="🔍 Search # or title..."
+                  oninput="filterChapterDropdown(this.value)"
+                  style="background-color: var(--reader-bg); border-color: var(--reader-border); color: var(--reader-fg);"
+                  class="w-full px-2.5 py-1.5 rounded-lg border text-xs outline-none focus:ring-1 focus:ring-blue-500"
+                />
+              </div>
+
+              <!-- Scrollable Option List with Natural Multi-line Wrapping -->
+              <div
+                id="chapter-dropdown-list"
+                class="max-h-80 overflow-y-auto divide-y"
+                style="border-color: var(--reader-border);"
+                role="listbox"
+              ></div>
+            </div>
+
+            <!-- Hidden native select for backwards compatibility -->
+            <select
+              id="chapter-select"
+              onchange="selectChapter(parseInt(this.value, 10))"
+              class="sr-only"
+              aria-hidden="true"
+              tabindex="-1"
+            ></select>
+          </div>
         </div>
 
         <button
@@ -1377,7 +1501,10 @@ READER_HTML_TEMPLATE = """<!DOCTYPE html>
     <div id="tooltip-body"></div>
   </div>
 
-  <script src="chapters_data.js"></script>
+  <script>
+    // Bust browser cache dynamically so new chapters and live rebuilds appear immediately
+    document.write('<script src="chapters_data.js?v=' + Date.now() + '"><\\/script>');
+  </script>
   <script>
     const GLOSSARY_ENTRIES = window.READER_DATA.glossaryEntries || [];
     const TRANSLATED_CHAPTERS = window.READER_DATA.translatedChapters || [];
@@ -1399,6 +1526,16 @@ READER_HTML_TEMPLATE = """<!DOCTYPE html>
     let currentGlossaryTab = "all";
     let highlightedGlossaryId = null;
     let saveTimer = null;
+
+    function escapeHtml(str) {
+      if (!str) return "";
+      return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
 
     async function fetchLatestProgressFromServer() {
       let serverLoaded = false;
@@ -1444,21 +1581,140 @@ READER_HTML_TEMPLATE = """<!DOCTYPE html>
 
     async function triggerLiveRebuild() {
       const btn = document.getElementById("rebuild-btn");
+      btn.textContent = "⏳ Syncing...";
       if (!window.location.protocol.startsWith("http")) {
-        window.location.reload();
+        const url = new URL(window.location.href);
+        url.searchParams.set("t", Date.now());
+        window.location.href = url.toString();
         return;
       }
-      btn.textContent = "⏳ Syncing...";
       try {
-        const resp = await fetch("/api/rebuild", { method: "POST" });
-        if (resp.ok) {
-          window.location.reload();
-        } else {
-          window.location.reload();
+        await fetch("/api/rebuild", { method: "POST" });
+      } catch (_) {}
+      // Force hard refresh with cache-busting timestamp
+      const url = new URL(window.location.href);
+      url.searchParams.set("t", Date.now());
+      window.location.href = url.toString();
+    }
+
+    /* --- Custom Hard-Width Chapter Dropdown Logic --- */
+    function toggleChapterDropdown(event) {
+      if (event) event.stopPropagation();
+      const menu = document.getElementById("chapter-dropdown-menu");
+      const arrow = document.getElementById("chapter-dropdown-arrow");
+      const btn = document.getElementById("chapter-dropdown-btn");
+      if (!menu) return;
+
+      const isHidden = menu.classList.contains("hidden");
+      if (isHidden) {
+        menu.classList.remove("hidden");
+        if (arrow) arrow.classList.add("rotate-180");
+        if (btn) btn.setAttribute("aria-expanded", "true");
+        const searchInput = document.getElementById("chapter-dropdown-search");
+        if (searchInput) {
+          searchInput.value = "";
+          setTimeout(() => searchInput.focus(), 50);
         }
-      } catch (_) {
-        window.location.reload();
+        renderChapterDropdownList();
+        scrollActiveDropdownItemIntoView();
+      } else {
+        closeChapterDropdown();
       }
+    }
+
+    function closeChapterDropdown() {
+      const menu = document.getElementById("chapter-dropdown-menu");
+      const arrow = document.getElementById("chapter-dropdown-arrow");
+      const btn = document.getElementById("chapter-dropdown-btn");
+      if (menu) menu.classList.add("hidden");
+      if (arrow) arrow.classList.remove("rotate-180");
+      if (btn) btn.setAttribute("aria-expanded", "false");
+    }
+
+    function renderChapterDropdownList(filterQuery = "") {
+      const listEl = document.getElementById("chapter-dropdown-list");
+      if (!listEl) return;
+      const q = filterQuery.trim().toLowerCase();
+
+      const items = TRANSLATED_CHAPTERS.map((ch, idx) => ({ ch, idx })).filter(({ ch }) => {
+        if (!q) return true;
+        return (
+          ch.code.toLowerCase().includes(q) ||
+          (ch.titleEn && ch.titleEn.toLowerCase().includes(q)) ||
+          (ch.titleZh && ch.titleZh.toLowerCase().includes(q))
+        );
+      });
+
+      if (items.length === 0) {
+        listEl.innerHTML = `<div class="p-4 text-center text-xs opacity-60">No chapters found for "${escapeHtml(q)}"</div>`;
+        return;
+      }
+
+      listEl.innerHTML = items.map(({ ch, idx }) => {
+        const isActive = idx === currentChapterIdx;
+        const isRead = readChaptersSet.has(ch.code);
+        const isLast = ch.code === progressDB.last_read_code;
+
+        const badgeIcon = isLast ? "📍" : isRead ? "✓" : "○";
+        const badgeColor = isLast
+          ? "color: var(--reader-accent);"
+          : isRead
+          ? "color: #10b981;"
+          : "opacity: 0.5;";
+
+        const activeBg = isActive ? "background-color: var(--reader-monologue-bg);" : "";
+        const activeText = isActive ? "color: var(--reader-accent); font-weight: 700;" : "";
+
+        return `
+          <div
+            id="dropdown-opt-${idx}"
+            onclick="onSelectDropdownChapter(${idx})"
+            class="px-3.5 py-2.5 cursor-pointer text-left transition hover:opacity-80 flex items-start gap-2.5 text-xs"
+            style="${activeBg} border-color: var(--reader-border); word-break: break-word; overflow-wrap: break-word; white-space: normal;"
+            role="option"
+            aria-selected="${isActive}"
+          >
+            <span class="shrink-0 mt-0.5 text-xs font-semibold" style="${badgeColor}">${badgeIcon}</span>
+            <div class="flex-1 min-w-0" style="word-break: break-word; overflow-wrap: break-word; white-space: normal;">
+              <div class="font-semibold leading-snug" style="${activeText} word-break: break-word; overflow-wrap: break-word; white-space: normal;">
+                <span class="opacity-60 text-[11px] font-mono mr-1">#${ch.code}</span>
+                <span>${escapeHtml(ch.titleEn)}</span>
+              </div>
+              ${ch.titleZh ? `<div class="opacity-60 text-[11px] mt-0.5" style="word-break: break-word; overflow-wrap: break-word; white-space: normal;">${escapeHtml(ch.titleZh)}</div>` : ''}
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function scrollActiveDropdownItemIntoView() {
+      setTimeout(() => {
+        const activeItem = document.getElementById(`dropdown-opt-${currentChapterIdx}`);
+        if (activeItem) {
+          activeItem.scrollIntoView({ block: "nearest", behavior: "smooth" });
+        }
+      }, 50);
+    }
+
+    function filterChapterDropdown(text) {
+      renderChapterDropdownList(text);
+    }
+
+    function onSelectDropdownChapter(idx) {
+      selectChapter(idx);
+      closeChapterDropdown();
+    }
+
+    function updateChapterDropdownLabel() {
+      const labelEl = document.getElementById("chapter-dropdown-label");
+      const ch = TRANSLATED_CHAPTERS[currentChapterIdx];
+      if (!labelEl || !ch) return;
+
+      const isRead = readChaptersSet.has(ch.code);
+      const isLast = ch.code === progressDB.last_read_code;
+      const prefix = isLast ? "📍 " : isRead ? "✓ " : "○ ";
+
+      labelEl.textContent = `${prefix}#${ch.code} — ${ch.titleEn}`;
     }
 
     async function initReader() {
@@ -1522,14 +1778,21 @@ READER_HTML_TEMPLATE = """<!DOCTYPE html>
       document.getElementById("last-read-banner-text").textContent =
         lastMeta ? `#${lastMeta.code} — ${lastMeta.titleEn} (${lastMeta.titleZh})` : `#${lastCode}`;
 
-      // Update Top Chapter Select Dropdown with ✓ Read and 📍 Last Read markers
+      // Update Top Chapter Dropdown & label
+      updateChapterDropdownLabel();
+      renderChapterDropdownList();
+
+      // Keep hidden native select in sync for API compatibility
       const selectEl = document.getElementById("chapter-select");
-      selectEl.innerHTML = TRANSLATED_CHAPTERS.map((ch, idx) => {
-        const isRead = readChaptersSet.has(ch.code);
-        const isLast = ch.code === progressDB.last_read_code;
-        const prefix = isLast ? "📍 " : isRead ? "✓ " : "○ ";
-        return `<option value="${idx}" ${idx === currentChapterIdx ? 'selected' : ''}>${prefix}${ch.code} — ${ch.titleEn}</option>`;
-      }).join("");
+      if (selectEl) {
+        selectEl.innerHTML = TRANSLATED_CHAPTERS.map((ch, idx) => {
+          const isRead = readChaptersSet.has(ch.code);
+          const isLast = ch.code === progressDB.last_read_code;
+          const prefix = isLast ? "📍 " : isRead ? "✓ " : "○ ";
+          return `<option value="${idx}" ${idx === currentChapterIdx ? 'selected' : ''}>${prefix}${ch.code} — ${ch.titleEn}</option>`;
+        }).join("");
+        selectEl.value = String(currentChapterIdx);
+      }
     }
 
     function toggleChapterReadStatus(code, event) {
@@ -1653,6 +1916,7 @@ READER_HTML_TEMPLATE = """<!DOCTYPE html>
     function selectChapter(tIdx) {
       if (tIdx === null || tIdx === undefined) return;
       currentChapterIdx = tIdx;
+      updateChapterDropdownLabel();
       if (scrollMode !== "paginated") {
         setScrollMode("paginated");
       } else {
@@ -1665,6 +1929,7 @@ READER_HTML_TEMPLATE = """<!DOCTYPE html>
       const next = currentChapterIdx + delta;
       if (next >= 0 && next < TRANSLATED_CHAPTERS.length) {
         currentChapterIdx = next;
+        updateChapterDropdownLabel();
         renderViewport();
         window.scrollTo({ top: 0, behavior: "smooth" });
       }
@@ -2014,7 +2279,17 @@ READER_HTML_TEMPLATE = """<!DOCTYPE html>
       }
     });
 
+    document.addEventListener("click", (e) => {
+      const wrapper = document.getElementById("chapter-dropdown-wrapper");
+      if (wrapper && !wrapper.contains(e.target)) {
+        closeChapterDropdown();
+      }
+    });
+
     window.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        closeChapterDropdown();
+      }
       const indexHidden = document.getElementById("index-modal").classList.contains("hidden");
       const glossaryHidden = document.getElementById("glossary-modal").classList.contains("hidden");
       if (scrollMode === "paginated" && indexHidden && glossaryHidden) {
@@ -2084,18 +2359,42 @@ def serve_site(port: int = 8080) -> None:
             # Keep console output clean; only log rebuilds or errors
             pass
 
+        def end_headers(self) -> None:
+            # Prevent browser caching of any served files so fresh chapters and live rebuilds are always seen
+            self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
+            self.send_header("Pragma", "no-cache")
+            self.send_header("Expires", "0")
+            super().end_headers()
+
         def _send_json(self, status: int, payload: dict[str, Any]) -> None:
             body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
             self.send_response(status)
             self.send_header("Content-Type", "application/json; charset=utf-8")
             self.send_header("Content-Length", str(len(body)))
-            self.send_header("Cache-Control", "no-store")
             self.end_headers()
             self.wfile.write(body)
 
         def do_GET(self) -> None:
             if self.path.startswith("/api/progress"):
                 self._send_json(200, load_progress_db())
+                return
+            if self.path.startswith("/api/rebuild"):
+                try:
+                    t_count, total_count, g_count = build_site()
+                    print(
+                        f"[Sync] Rebuilt site: {t_count}/{total_count} chapters, {g_count} glossary entries."
+                    )
+                    self._send_json(
+                        200,
+                        {
+                            "ok": True,
+                            "translated": t_count,
+                            "total": total_count,
+                            "glossary": g_count,
+                        },
+                    )
+                except Exception as exc:
+                    self._send_json(500, {"error": str(exc)})
                 return
             super().do_GET()
 
