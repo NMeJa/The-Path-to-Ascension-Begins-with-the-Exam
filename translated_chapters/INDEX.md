@@ -197,6 +197,12 @@
 | 192 | [Chapter 192: Path of Retreat (第192章 退路)](192_Chapter_192.md) | ✅ Translated |
 | 193 | [Chapter 193: Continuous 'Surprises' (第193章 连续‘惊喜’)](193_Chapter_193.md) | ✅ Translated |
 | 194 | [Chapter 194: The Tribulation Transcendents (第194章 渡劫们)](194_Chapter_194.md) | ✅ Translated |
+| 195 | [Chapter 195: Accidents Will Always Happen (第195章 意外总会发生)](195_Chapter_195.md) | ✅ Translated |
+| 196 | [Chapter 196: Before the Exam (第196章 考前)](196_Chapter_196.md) | ✅ Translated |
+| 197 | [Chapter 197: Misfortune and Fortune (第197章 不运和有运)](197_Chapter_197.md) | ✅ Translated |
+| 198 | [Chapter 198: The Fall (第198章 落)](198_Chapter_198.md) | ✅ Translated |
+| 199 | [Chapter 199: Reputation (第199章 名声)](199_Chapter_199.md) | ✅ Translated |
+| 200 | [Chapter 200: Offense and Defense of the Spiritual Energy Field (第200章 灵力场攻防战)](200_Chapter_200.md) | ✅ Translated |
 
 
 
