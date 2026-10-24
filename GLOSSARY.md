@@ -32,12 +32,12 @@ Chinese Name: 宇文轩
 English Name (optional): 
 Sex: Male (he/him)
 Titles / Epithets: Eldest Senior Brother (大师兄)
-Sect & Role: Heavenly Spirit Sect — 1st Direct Disciple of Zhou Hui (Soul Formation Peak / 化神期大圆满)
+Sect & Role: Heavenly Spirit Sect — 1st Direct Disciple of Zhou Hui (Void Refining Stage / 洞虚期 / 炼虚期; formerly Soul Formation Peak / 化神期大圆满)
 Aliases & Forms of Address: 
   - Called "Yuwen" (宇文) by Zhou Hui
   - Called "Eldest Senior Brother" (大师兄) by junior disciples
   - Later cursed/transformed form: Black Lamb (黑羊)
-Relationships: 1st Direct Disciple of Zhou Hui; senior brother to Qu Qianxing, Ran Deng, Guan Ye, Lu Shulong, Mo Bei, and Mo Xi; forged a temporary master-servant contract with the former female sect master of Thousand Beasts Hall 200 years ago to sneak into their Beast Soul Tower ("neighbor's cafeteria")
+Relationships: 1st Direct Disciple of Zhou Hui; senior brother to Qu Qianxing, Ran Deng, Guan Ye, Lu Shulong, Mo Bei, and Mo Xi; forged a temporary master-servant contract with the former female sect master of Thousand Beasts Hall 200 years ago to sneak into their Beast Soul Tower ("neighbor's cafeteria"). In Chapter 159, overeats divine remnants, dreams into the higher dimension and bites the bound Taotie true form, reclaiming 7 lifetimes of devoured memories and cultivation base via Zhou Hui's Heavenly Dao aura tether, triggering his Void Refining breakthrough. In Chapter 160, his origin is revealed: 200 years ago, Zhou Hui and Tao Zhu rescued him as an infant from an artificial hell beneath the Abyssal Ocean designed to breed a Taotie soul, where dozens of pregnant women had been devoured by their unborn fetuses; born to a dying madwoman who stubbornly loved him as her own child; Zhou Hui insisted on raising the silent, weeping infant despite Tao Zhu and others believing it far safer to kill it. In Chapter 161, adopts an impeccably modest, polite "model youth" persona to appease the Immortal Arts Assembly into letting him enter the Void Refinement bracket (baiting Void Refinement powerhouses into underestimating him), then sweet-talks Tao Zhu into taking him to the Abyssal Ocean Society, while Peilan suspects he is eyeing Tao Zhu's symbiotic golden toad to make 'stir-fried bullfrog'. In Chapter 163, his ancient origin is further unveiled: the original feral Taotie was born near the Heavenly Court, ate a squad of celestial soldiers, and hid at the confluence of the Immortal and Demon Realms for millennia; suffering from demonic qi corruption, it deliberately let itself be captured by a True Immortal as an invasion weapon and orchestrated its own death and soul-splitting to cleanse itself in a new body; however, it miscalculated when its soul was adopted and domesticated by Zhou Hui, overwriting its old memories; terrified that Zhou Hui will discover it fed intel to the Heavenly Scripture writer and wrote itself into the plot, Yuwen Xuan tricks Tao Zhu into helping him breach the Langhuan library under the pretext of a Tenth Month Festival gift, secretly plotting to alter the records and destroy all evidence. In Chapter 165, breaches the heart of Langhuan with Tao Zhu to find the Heavenly Scripture manifested as a withered ancient tree with a struggling newborn bough; continuously devours its leaves until Zhou Hui channels power through the Heavenly Scripture Pagoda to counter-hack it; devours a glowing silver leaf, tastes Zhou Hui's spiritual energy, and freezes in absolute terror; caught red-handed when Zhou Hui steps out of the torn space, and is subsequently hung from the ancient peach tree at the mountain gate during the sect's grand recruitment day. In Chapter 166, is impaled by a spear of light and hung from the highest bough of the ancient peach tree draped in a school opening banner ("New Academic Year, New Starting Point, New Endeavor, New Harvest!") to publicly greet incoming recruits, causing domain-wide rumors that Zhou Hui is an impossibly demanding master who hangs even newly minted Void Refinement powerhouses for poor academic marks, paradoxically elevating his public reputation and garnering widespread sympathy from outside sect leaders.
 Speech Style & Personality: Loud, impulsive, dramatic, battle-maniac who would rather fight ten lightning tribulations than sit through one written exam. Frequently puts his foot in his mouth and gets his lifespan/cultivation docked by Zhou Hui. In Chapter 85, codifies his "Five Principles of Being Human": (1) Master is paramount—rather eat himself than Master; (2) Siblings are important—eating them loses Master; (3) Don't eat humanoid intellect or beings in human form to avoid Master's wrath; (4) Eat rare items quickly before they turn into junior brothers or sisters; (5) Eat just enough to sustain bodily functions—overeating looks like a glutton (rice bucket) and is less cute than troublesome siblings.
 ```
 
@@ -47,12 +47,12 @@ Chinese Name: 曲千星
 English Name (optional): 
 Sex: Male (he/him)
 Titles / Epithets: Second Senior Brother (二师兄), Sect Master Qu (曲掌门), Imperial Third Scholar / Tanhua (探花)
-Sect & Role: Heavenly Spirit Sect — 2nd Direct Disciple of Zhou Hui & Acting/Future Sect Master (Golden Core Late Stage / 金丹后期)
+Sect & Role: Heavenly Spirit Sect — 2nd Direct Disciple of Zhou Hui & Acting/Future Sect Master (Nascent Soul Stage / 元婴期; formerly Golden Core Late Stage)
 Aliases & Forms of Address: 
   - Called "Qianxing" (千星) by Zhou Hui and Yuwen Xuan
   - Called "Second Senior Brother" (二师兄) by junior direct disciples
   - Called "Sect Master Qu" (曲掌门) by regular disciples and outsiders
-Relationships: 2nd Direct Disciple of Zhou Hui; fiercely protective of the sect and his junior brothers/sisters; former mortal civil service examinee appointed as Tanhua due to his striking looks and intellect. When mortals attempted to sacrifice him to a "great demon," he researched ancient texts while engineering irrigation canals and enacted an archaic sacrificial rite, burning his own flesh and blood to drag the demon down, which accidentally summoned Zhou Hui. Observed Zhou Hui in disguise at the base of the sect before formally kneeling as his disciple. Possesses the "Talent of Wenqu" (文曲之资). Deeply obsessed with Zhou Hui's ascension ("wishing for one's master to become a dragon" / 望师成龙) because mortal folklore claimed the severed Celestial Path prevented someone with the Talent of Wenqu from ascending, leading him to dedicate everything so his master could achieve it in his stead. Traded to Eternal Villa as an exchange student, effortlessly mastering their True Immortal Blood refinement.
+Relationships: 2nd Direct Disciple of Zhou Hui; fiercely protective of the sect and his junior brothers/sisters; former mortal civil service examinee appointed as Tanhua due to his striking looks and intellect. When mortals attempted to sacrifice him to a "great demon," he researched ancient texts while engineering irrigation canals and enacted an archaic sacrificial rite, burning his own flesh and blood to drag the demon down, which accidentally summoned Zhou Hui. Observed Zhou Hui in disguise at the base of the sect before formally kneeling as his disciple. Possesses the "Talent of Wenqu" (文曲之资). Deeply obsessed with Zhou Hui's ascension ("wishing for one's master to become a dragon" / 望师成龙) because mortal folklore claimed the severed Celestial Path prevented someone with the Talent of Wenqu from ascending, leading him to dedicate everything so his master could achieve it in his stead. Traded to Eternal Villa as an exchange student, effortlessly mastering their True Immortal Blood refinement. In Chapter 155, converts his Nascent Soul breakthrough tribulation lightning and Villa Master Qingyang's refined True Immortal Blood to refine the 'True Immortal' bloody tumor into a multicolored Heavenly Robe (天衣), breaking through to Nascent Soul and awakening the mark of an astral constellation (星宿印记) upon his forehead.
 Speech Style & Personality: Sharp-tongued, sarcastic, deeply responsible, overworked administrator energy. Constantly stressed about the sect's survival and his siblings' antics, yet deeply loyal to Zhou Hui. Possesses a Gold Heavenly Spirit Root (金系天灵根); excels in Astromancy (观星) and Mathematics (算学). Terrifyingly utilitarian with a rock-bottom moral baseline, yet holds Master's opinion as his ultimate moral anchor.
 ```
 
@@ -110,7 +110,7 @@ Aliases & Forms of Address:
   - Called "Mo Bei" (莫悲) by Zhou Hui
   - Called "Youngest Junior Sister" (小师妹) by her senior brothers and sister
   - Public tournament alias of Mo Xi (莫喜) in the Immortal Arts Assembly (Chapter 100)
-Relationships: 6th Direct Disciple of Zhou Hui; older twin sister of Mo Xi (dragon-phoenix twins / 龙凤胎); former high-grade cultivation furnace captive in Fallen Immortal Palace alongside Mo Xi, rescued and taken in as a disciple by Zhou Hui when he annihilated the palace
+Relationships: 6th Direct Disciple of Zhou Hui; older twin sister of Mo Xi (dragon-phoenix twins / 龙凤胎); former high-grade cultivation furnace captive in Fallen Immortal Palace alongside Mo Xi, rescued and taken in as a disciple by Zhou Hui when he annihilated the palace. In Chapter 171, watches over Mo Xi during his breakthrough at the Sun Wheel Palace with hand on hilt; when a sinister demonic whisper attempts to sow discord and jealousy, she dryly deadpans that while she should logically envy her idiot brother for condensing a core before her, she is unmistakably proud of his flawless golden core. In Chapter 173, undergoes the Sacred Tree's trial of desire, battling continuously in a branch labyrinth for 79 days of subjective time; exhausts her stamina and fasting pills but reaches the brink of breakthrough in her sword Dao, driven by latent envy of Mo Xi's earlier breakthrough; when a handsome white-robed youth appears as her 'fated lover' to dramatically rescue her by slaying the giant lizard demon, she is so furious that his interference ruined her breakthrough opportunity that she instantly bisects him with her sword, shocking Shui Huang'er (who fears her idol has fallen into senseless slaughter) and bickering with Mo Xi who reappears disguised in her form. In Chapter 174, hears Mo Xi's accusations about her past-life self backstabbing Master in the counterfeit cycle and bursts into unprecedented, uncontrollable tears of profound agony and sorrow; when the bisected lover's corpse attempts to detonate, she reflexes with exquisite swordsmanship to dice it into frozen minced meat, which Mo Xi feeds into Yuwen Xuan's Taotie book artifact; teases Mo Xi when he differentiates once more into an alluring, slender feminine beauty. In Chapter 178, follows Mo Xi into his desire-constructed illusion of a magnificent treasure vault, relentlessly bantering with him and admiring an Ice Feather Orchid; attempts to meditate to recapture her lost breakthrough state; quickly detects something amiss when Mo Xi mentions Master assigned him a task, pointing out that Master prioritizes disciples' cultivation over busywork. In Chapter 180, manipulates Mo Xi into testing his simulation program against his Void Refinement future self while agreeing to monitor and maintain the system; while seated cross-legged before the screen, her unique constitution draws the heavy karma and entanglements of past cycles, causing vibrant Snow Glow Grass to sprout and envelop her as she enters a profound meditative breakthrough, with Zhou Hui proud of her stubborn resolve to face it alone.
 Speech Style & Personality: Spirited, mischievous, and fond of storybooks featuring handsome young swordsmen coming to save the damsel; quick to banter and tease her twin brother Mo Xi. Possesses an easygoing mindset, content to enjoy life and tasty immortal peaches while teasing her stressed brother.
 ```
 
@@ -125,7 +125,7 @@ Aliases & Forms of Address:
   - Called "Mo Xi" (莫喜) by Zhou Hui
   - Called "Youngest Junior Brother" (小师弟) by his seniors
   - Registered for the Immortal Arts Assembly under the public tournament alias "Mo Bei" (莫悲) as the sixth disciple (Chapter 100)
-Relationships: 7th Direct Disciple of Zhou Hui; younger twin brother of Mo Bei; former high-grade cultivation furnace captive in Fallen Immortal Palace alongside Mo Bei, rescued by Zhou Hui
+Relationships: 7th Direct Disciple of Zhou Hui; younger twin brother of Mo Bei; former high-grade cultivation furnace captive in Fallen Immortal Palace alongside Mo Bei, rescued by Zhou Hui. In Chapter 169, visits the Fire Abyss Sacred Tree with Zhou Hui, where he is assaulted by visceral, terrifying illusions and past-life/original Heavenly Dao script memories of the Sacred Tree burning to ashes and dying demons wailing, feeling overwhelming destructive malice and terror as the 'culprit'. Upon hearing of the Sun Wheel Palace, slips into fragmented memories of having failed to enter it even as the Saintess's lover and having used a desperate measure (burning the tree). Encouraged by Zhou Hui, who has faith in his strength, to step into the Sun Wheel Palace without external protection to confront and fight those illusions. In Chapter 170, steps into the Sun Wheel Palace's demon fire without external protection. Overcoming the excruciating spiritual agony and fiendish demonic qi stemming from past-life/script memories as the regional final boss who once burned the Sacred Tree, he is galvanized by Mo Bei's warning that failure means "failing an exam" and by Zhou Hui's faith that Master never assigns questions beyond a disciple's syllabus. Channeling his golden-crimson dragon markings and molten-iron Yang spiritual energy refined from the mine spirit, he dissolves the surrounding demon fire and initiates a cultivation breakthrough inside the flames under Zhou Hui's protective matrix. In Chapter 171, completes refining the pure demon fire, harmonizing his masculine Extreme Yin Constitution with the flame's pure Yang, and successfully condenses a supreme-grade golden core, opening the gates of the Sun Wheel Palace. In Chapter 173, reappears inside the Sacred Tree's illusion realm disguised as Mo Bei, teasing her for ruthlessly bisecting her 'fated lover', and jumps up in indignant outrage when Mo Bei teases him about finally differentiating into a male. In Chapter 174, chases a treasure-stealing thief into the branch maze and brings the stolen 'fated lover' to Mo Bei, only for his consciousness to be clouded by lingering cycle memories, angrily accusing Mo Bei of abandoning the sect and backstabbing Master; upon realizing Master's supreme power makes such a betrayal absurd, he regains lucidity and is terrified to see Mo Bei weeping for the first time in their lives; after having his Taotie book artifact consume the diced corpse, his body undergoes another differentiation into a tall, breathtakingly slender feminine figure. In Chapter 178, brings Mo Bei into his desire-manifested grand treasure vault front hall (filled with ancient Human Sovereign relics like the Five Emperors Silk-Bound Gold-Jade Coiled Dragon Seal and an Ice Feather Orchid from cycle echoes); feels secure solely because Master is near; taps into Zhou Hui's pedagogical system to work on his "homework" which his desire frames as "controlling the demon race" to pull them into their camp, broadcasting provocative gamified anti-schooling slogans across the Sacred Tree that encourage demon students to drop out to win freedom. In Chapter 180, tests his Exhortation to Learning simulation program against his Void Refinement future self; subjected to grueling Yang fire attacks deliberately designed around his hatred of physical agony, he initially expends top-grade spirit stones and draws from the sect's mineral vein via his mine spirit; realizing his future self feeds on external spiritual energy and refusing to leave a failure record in the database before Master, he decisively severs his tether to the mineral vein, enduring the inferno purely through his own Golden Core and iron will; successfully withstands the trial, absorbing Void Refinement fire qi to differentiate into a tall, handsome, valiant young man while his future self reverts to an effeminate form.
 Speech Style & Personality: Playful, restless, and calculating on the surface, yet harbors deep-seated trauma from his past as a furnace slave; terrified of being deemed "useless" and discarded or recaptured once Zhou Hui ascends. Possesses an Extreme Yin Constitution (极阴之体) and originally practiced a pure Yin technique (纯阴功法). Driven by an obsessive need to amass spirit stones and prove his utility, even exhausting his spiritual energy to near-death. Deeply touched when Zhou Hui gifts him the sect's entire spirit stone vein and tells him he never needed him to be useful, only wanting him to have a dignified future.
 ```
 
@@ -860,8 +860,8 @@ English Name (optional):
 Sex: Male (he/him)
 Titles / Epithets: Boss Tao (陶老板), Old Tao (老陶)
 Sect & Role: Abyssal Ocean Society (渊海会) — Secret Boss / Artifact Trade Syndicate Leader (Mahayana Stage / 大乘期)
-Aliases & Forms of Address: Tao Zhu, Boss Tao, Old Tao
-Relationships: Millennia-old acquaintance of Zhou Hui (dating back to when Zhou Hui was Golden Core); warned Zhou Hui against adopting brats; secret leader of the Abyssal Ocean Society; joined Zhang Hongjing's "Persuasion Delegation" to curse at Zhou Hui before his presumed demise
+Aliases & Forms of Address: Tao Zhu, Boss Tao, Old Tao, Toad Immortal (蛤蟆仙君)
+Relationships: Millennia-old acquaintance of Zhou Hui (dating back to when Zhou Hui was Golden Core); warned Zhou Hui against adopting brats; secret leader of the Abyssal Ocean Society; joined Zhang Hongjing's "Persuasion Delegation" to curse at Zhou Hui before his presumed demise. In Chapter 165, enters the Langhuan Forbidden Grounds with Yuwen Xuan, marveling at the endless books while calculating their resale value in spirit stones; attempts to refine and subjugate the ancient Heavenly Scripture tree by binding it in copper coins and spewing toxic green mist via his symbiotic golden toad; unknowingly clashes spells against Zhou Hui, gets struck in the belly and coughs blood, and is left utterly shocked when Zhou Hui rips open space right out of the tree trunk. In Chapter 166, watches outside cultivators commiserate over Yuwen Xuan's punishment; still unaware that he was played as a tool by Yuwen Xuan, he indignantly pities the boy for trying to give Zhou Hui a "surprise". Terrified of being implicated and hung from the peach tree alongside Yuwen Xuan through collective guilt, he hastily passes the buck when Qu Qianxing summons him, only to be bewildered when told Zhou Hui wishes to discuss traveling to the Southern Domain. In Chapter 167, visits Zhou Hui's immortal cave alongside Mo Bei and Mo Xi; dreading being implicated in Yuwen Xuan's punishment, he preemptively refuses to travel to the Southern Domain to seek medicine for the Heavenly Scripture, yet his stomach injury (from the Golden Toad damaged by Zhou Hui) tempts him; when Mo Xi sweet-talks him into accompanying him to vet a business deal in the Southern Domain using the exact same tone Yuwen Xuan previously used, Tao Zhu bristles in paranoid panic that he is walking straight into another trap. In Chapter 172, walks along the Sun Wheel Palace corridor suspecting the demons of treachery; spots a spiritual energy loophole and attempts a secret trick to snatch the Supreme Treasure first, failing the treasure's trial of desire due to his greed and getting locked inside a constricting bird cage like a chicken while Shui Huang'er mocks him as "Toad Immortal"; tries to bluff that harming Untiring will provoke human-demon war; is flabbergasted and murderous when discovering Zhou Hui could see him the entire time and simply ignored his cries to study the Heavenly Dao threads. In Chapter 173, reflects on Zhou Hui's millennia-old habit of meditating anywhere oblivious to the world (recalling how Jian Haoge had to scrub him for three days after digging him out of an ancient beast's stomach in the Abyssal Ocean, and how Peilan had to constantly rescue victims from infant Yuwen's mouth); wonders why Mo Bei and Mo Xi haven't been disqualified yet, getting mocked by Shui Huang'er.
 Speech Style & Personality: Gruff, rotund, calculating, and candid veteran merchant powerhouse; sports a round belly and suffers from old internal injuries; numb to the world's cruelties after millennia in the harsh Central Domain; deeply regrets failing to recruit young Zhou Hui into the Abyssal Ocean Society after seeing Qianxing Hall's booming tourism economy.
 ```
 
@@ -918,11 +918,11 @@ Character Name: Jiuzhai
 Chinese Name: 九斋
 English Name (optional): 
 Sex: Male (he/him)
-Titles / Epithets: Old Charlatan (老神棍), Master Jiuzhai
-Sect & Role: Altar of Divine Decrees (神旨坛) — Diviner / Foremost Prophetic Astrologer
-Aliases & Forms of Address: Jiuzhai, Old Charlatan Jiuzhai
-Relationships: Acquaintance of Tao Zhu, Lan Pei, and Ran Zhen; esoteric diviner who analyzed Zhou Hui's karmic accumulation and deduced he would become a permanent qi-generating fixture of the world like Zhujiuyin or Jianmu
-Speech Style & Personality: Prophetic, cynical, and candid; delivers blunt cosmological calculations that rattle even Mahayana powerhouses.
+Titles / Epithets: Old Charlatan (老神棍), Master Jiuzhai, Ancestor Jiuzhai (九斋老祖)
+Sect & Role: Altar of Divine Decrees (神旨坛) — Diviner / Foremost Prophetic Astrologer (Tribulation Transcendence Stage / 渡劫期)
+Aliases & Forms of Address: Jiuzhai, Old Charlatan Jiuzhai, Ancestor Jiuzhai
+Relationships: Acquaintance of Tao Zhu, Lan Pei, and Ran Zhen; esoteric diviner who analyzed Zhou Hui's karmic accumulation and deduced he would become a permanent qi-generating fixture of the world like Zhujiuyin or Jianmu. In Chapter 161, reveals that Zhou Hui rewound/washed the world's timeline six times in previous cycles before exercising restraint, and that in one timeline Tao Zhu passed the Abyssal Ocean Society to Yuwen Xuan, who built it into a titan rivaling the Northern Domain Alliance and Sky City; recalculates the Heavenly Dao using a massive Chart of Heaven and Earth and the Eight Trigrams.
+Speech Style & Personality: Prophetic, cynical, and candid; speaks in an agonizingly slow, sluggish drawl unique to diviners that makes listeners itch to punch him; delivers blunt cosmological calculations that rattle even Mahayana powerhouses.
 ```
 
 ```yaml
@@ -1507,7 +1507,7 @@ Sex: Female (she/her)
 Titles / Epithets: Saintess of the Azure Phoenix Clan (青凰族圣女)
 Sect & Role: Azure Phoenix Clan (青凰族) — Young Saintess
 Aliases & Forms of Address: Shui Huang'er
-Relationships: Saintess of the Azure Phoenix Clan from the Southern Realm; accompanied telepathically by Elder Tong Ling; ran away from home to the Middle Realm for her trial
+Relationships: Saintess of the Azure Phoenix Clan from the Southern Realm; accompanied telepathically by Elder Tong Ling; ran away from home to the Middle Realm for her trial; in Chapter 169–170, escorts Zhou Hui's entourage up the Fire Abyss Sacred Tree to the Sun Wheel Palace, defending her "idol" Mo Bei and worrying about Mo Xi facing the demon flame, but is ultimately left in awestruck terror by Zhou Hui's casual power that completely envelops the Sun Wheel Palace, wondering if this presents an opportunity for the Sacred Tree to be "saved". In Chapter 171, reveals her grand strategic vision during a telepathic debate with the Wood Spirit Elders: recognizing that Zhou Hui is a sage who will clash with the Heavenly Court by refusing to ascend, she aims to secure an allied sanctuary for the dwindling demon race before his new world order forms; secures permission to offer the demon race's "Supreme Treasure" to Zhou Hui to help consolidate Mo Xi's cultivation base. In Chapter 172, leads Zhou Hui's group toward the forbidden grounds; perches on a bird rack watching Tao Zhu get trapped in a cage after he fails the Supreme Treasure's trial of desires, mocking him as "Toad Immortal" and admiring Zhou Hui whose foremost desire appears to be protecting his disciples and studying the Heavenly Dao. In Chapter 173, mocks Tao Zhu for comparing himself to Mo Bei; worries privately that Mo Bei and Mo Xi remain trapped by deeper obsessions; observes through her phoenix vision that Mo Bei is standing amidst a mountain of corpses and sea of blood, terrified that her idol's inner desire is senseless slaughter. In Chapter 177, struggles between demon race interests and gratitude upon witnessing the Sacred Tree gift the Primordial Sun without preconditions; is moved to boundless veneration and tears of joy when Zhou Hui plants Langhuan right there to construct a Virtual Experimental Teaching Center, enthusiastically volunteering to cooperate in his educational reforms.
 Speech Style & Personality: Cheerful, curious, naive, and idealistic; possesses an azure feathered crest, feathered ears, and long tail feathers. Equipped with the innate "Heavenly Eye" (天目) spiritual vision of the Azure Phoenix Clan that can see through soul essence. Enthusiastic about "exterminating demons and defending the Dao" with zero worldly malice or cynicism, readily persuaded to cheer for Mo Bei.
 ```
 
@@ -1723,7 +1723,7 @@ Sex: Male (he/him)
 Titles / Epithets: City Lord Jian (简城主), Young Master Jian (简公子)
 Sect & Role: Sky City (天上城) — Current City Lord (Tribulation Transcendence Stage / 渡劫期大能)
 Aliases & Forms of Address: Jian Haoge, City Lord Jian
-Relationships: Grandson of the architect and founder of Sky City; son of the former Alliance Leader of the Heavenly Dao Alliance; great-grandfather to Jian Nuo; born in the same year as Zhou Hui; lifelong unilateral rival and nemesis of Zhou Hui
+Relationships: Grandson of the architect and founder of Sky City; son of the former Alliance Leader of the Heavenly Dao Alliance; great-grandfather to Jian Nuo; born in the same year as Zhou Hui; lifelong unilateral rival and nemesis of Zhou Hui. In Chapter 173, Tao Zhu recalls their youth when Jian Haoge initially sought to compete with Zhou Hui but ended up constantly rescuing an oblivious, meditating Zhou Hui from markets, demon caves, dragon palaces, and the Great Wilderness ghost domain; most famously spent three days scrubbing Zhou Hui with a stiff brush after digging him out of an ancient beast's belly in the Abyssal Ocean.
 Speech Style & Personality: Proud, dignified, aristocratic cultivation scion of peerless pedigree who was destined to live bathed in praise, only to be perpetually overshadowed and suppressed by Zhou Hui across every single milestone—from Golden Core tournament duels to secret realm breakthroughs. Deeply resentful yet fiercely upright; acknowledges Zhou Hui pushed him to reach Tribulation Transcendence so swiftly. Utterly furious when Goddess Renran exposes his past defeats, and despite claiming he despises Zhou Hui, he unfurls Sky City's blueprints to block Goddess Renran and protect Zhou Hui's ascension attempt, insisting with heavy emphasis that he doesn't hold a grudge at all.
 ```
 
@@ -2001,6 +2001,102 @@ Sect & Role: Sky City (天上城) — Cultivation Second-Generation Scion (修�
 Aliases & Forms of Address: Xiao Geng
 Relationships: Traveling companion among the cultivation second-generation scions from Sky City who accompanied Jian Nuo and Liu Xuenian; conspirator with Xiao Jia (numerical balancer), Xiao Yi (narrative writer), and Xiao Bing
 Speech Style & Personality: Resentful, easily frustrated, and chronically competitive with his fellow scion buddies. Following Liu Xuenian's scheme to infiltrate the secret realm management team under a Heavenly Stem pseudonym, he sat through over a dozen technical examinations in a single day (failing numerical balance, level design, combat systems, and narrative writing). Deeply jealous when his peers were hired and forgot their kidnapping mission to make games, he rejoiced at being recruited by the "Testing Department"—only to find himself clad in demonic monster gear dodging barrage attacks as a live QA test mob.
+```
+
+```yaml
+Character Name: Pichi
+Chinese Name: 丕翅
+English Name (optional): 
+Sex: Demon / Fiend (it/its)
+Titles / Epithets: Pichi (丕翅)
+Sect & Role: Demon Realm (魔域 / 魔界) — Native Lesser Fiend (原生小魔物) / Demon General Successor
+Aliases & Forms of Address: Pichi
+Relationships: Native lesser demon insect born in the Demon Realm; devoured the demon core of a dying Demon General; now carries the Demon General's mission and fragmented memories
+Speech Style & Personality: Originally a timid, mayfly-like lesser fiend lacking a proper brain or ambition, drifting about to scavenge emotional dregs falling through the spatial membrane from the mortal realm. After surviving the heavenly lightning that incinerated the rift area and swallowing the fallen Demon General's demon core, it grew grand, gorgeous wings and inherited the general's memories and loyalty, believing it must travel to the Demon-God Battlefield frontline to warn Lord Demon Sovereign that the humans of the mortal realm have gone mad and are invading the Demon Realm.
+```
+
+```yaml
+Character Name: Goddess of the Miniature World
+Chinese Name: 小小世界神女 / 神女
+English Name (optional): 
+Sex: Female (she/her)
+Titles / Epithets: Goddess (神女), Creator Deity (创世神)
+Sect & Role: Miniature World (小小世界) — Creator Deity & Primordial Goddess
+Aliases & Forms of Address: Goddess, Divine Maiden
+Relationships: Creator deity of the football-sized Miniature World rescued by Zhou Hui from the True Immortals; deeply grateful to Zhou Hui as her world's savior; offers to advise Zhou Hui on the nature of deities and godhood
+Speech Style & Personality: Appears as a doll-sized figure composed of the miniature world's spiritual energy, with the sun and moon as her eyes and constellations as her gown. Courteous, humble, and gentle like a loving mother toward her world's mortal civilizations, but harbors a terrifying, emotionless cosmic coldness when discussing the nature of 'Anthropic Gods' and false deities. Laughs uproariously when Zhou Hui deduces that gods are simply 'spirit-monsters' born from sentient rules.
+```
+
+```yaml
+Character Name: Jian Haoge
+Chinese Name: 简皓歌
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: City Lord Jian (简城主), City Lord of Sky City (天上城城主)
+Sect & Role: Sky City (天上城) — Supreme Ruler / City Lord (Mahayana / Tribulation Transcendence Stage)
+Aliases & Forms of Address: Jian Haoge, City Lord Jian
+Relationships: Patriarch of Sky City in the Northern Domain; great-grandfather of Jian Nuo; one of the key figures from the ancient God-Demon War whose mysterious disappearance in the original "main plot" was one of the many unresolved loose threads left by the original author that Zhou Hui noticed within the legacy Heavenly Dao scripts.
+Speech Style & Personality: Majestic, ancient sovereign possessing the supreme bloodline of the cultivation realm; fiercely opposed Jian Nuo courting Qingyang Qingyu and traveling to the Central Domain.
+```
+
+```yaml
+Character Name: Siwu
+Chinese Name: 司吾
+English Name (optional): 
+Sex: Male / Entity (he/it)
+Titles / Epithets: 
+Sect & Role: Cultivation Realm / Upper Realm Tethered Entity — Puppet Vessel (傀儡人偶)
+Aliases & Forms of Address: Siwu
+Relationships: One of several puppet figurines / vessels planted in the mortal cultivation realm with parasitic tethers to the Upper Realm / Heavenly Court, alongside Goddess Ren Ran and Yuwen Xuan's bound Taotie form
+Speech Style & Personality: Identified by Zhou Hui as an external 'viral' puppet tethered to the upper realm requiring severance.
+```
+
+```yaml
+Character Name: White-Robed Youth (Fated Lover)
+Chinese Name: 白衣青年 / 命定之人
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: Fated Lover (命定之人)
+Sect & Role: Fire Abyss Sacred Tree / Illusion Manifestation
+Aliases & Forms of Address: Fated Lover, White-Robed Youth
+Relationships: An illusory being manifested by the Sacred Tree's trial of desire to cater to Mo Bei's romantic storybook fantasies of a handsome knight-errant rescuing the damsel; possesses an unremarkable face but eyes brighter than the sun and a dazzling smile; dramatically slays the giant lizard demon to "save" Mo Bei, only to instantly be sliced in two by Mo Bei because his heroics stole her kill and ruined her hairline breakthrough opportunity.
+Speech Style & Personality: Cheerful, dazzling, and heroically romantic; asks "Are you alright, miss?" before being immediately cleaved in two.
+```
+
+```yaml
+Character Name: Grand Elder (Fire Abyss Sacred Tree / Demigod)
+Chinese Name: 大长老 / 火渊神树 / 树神 / 半神
+English Name (optional): 
+Sex: Male appearance / Spirit Entity (he/him)
+Titles / Epithets: Grand Elder (大长老), Master of the Fire Abyss Sacred Tree (火渊神树的主人), Tree God (树神), Demigod (半神)
+Sect & Role: Southern Domain / Fire Abyss Sacred Tree — Supreme Ruler / Ecosystem Demigod
+Aliases & Forms of Address: Grand Elder, Lord Grand Elder, Tree God, Demigod
+Relationships: Ancient entity that has existed since the dawn of creation; supreme sovereign of the Fire Abyss Sacred Tree and guardian of the Southern Domain demon race; master/elder to Saintess Shui Huang'er and the Wood Spirits. In ancient antiquity when heaven and earth collapsed, it sheltered countless beings and demons, creating a miniature ecosystem on its body; injected all its life force to reincarnate as the ecosystem's governing rules, attaining half a divine spark and the potential to evolve into a full nature/creation god over tens of thousands of years.
+Speech Style & Personality: Speaks with an ancient voice but manifests as a tall, handsome youth nearly 2 meters tall with short white hair and tender green streaks, corded muscle, willow-like antennae on his head, parasol tree boughs on his shoulder blades, and vines around his waist, draped in blazing demon fire. Scholarly, warm, and hearty with a spring-breeze smile, yet deeply proud of his unique status as an ecosystem demigod. Delighted when Zhou Hui immediately recognizes him as a demigod rather than an ordinary tree spirit. Remembers past cycles of reincarnation, noting that Mo Xi was merely a venomous little snake in the 6th cycle whose cultivation he sheared for the treasure corridor, but was deeply puzzled by the ordinary human "protagonist" bewitching Shui Huang'er before reproductive maturity. Stunned into near-heart attack when Zhou Hui casually reveals he reset/washed the world 6-7 times; driven to frantic desperation when Zhou Hui runs a Heavenly Dao benchmark on his biological computer network and plans an OS reinstall, frantically dragging Zhou Hui away to gift him the secret treasure just to make him stop and leave. In Chapter 177, reveals that the crimson sun is this realm's hidden 'Primordial Sun' (原日), which it concealed from the Heavenly Court during the ancient fall, and gifts it to Zhou Hui to dump the pot / Heavenly Court clash onto the Human Sovereign; ends up having the regenerated Langhuan Library sapling fused directly into its Wood Spirit symbiotic network, and is terrified into utter speechlessness when Zhou Hui passionately grasps its hands and proposes "Let us raise it together!" to purge redundant data, expand memory, and build a Virtual Experimental Teaching Center.
+```
+
+```yaml
+Character Name: Shui Huang'er
+Chinese Name: 水凰儿
+English Name (optional): 
+Sex: Female (she/her)
+Titles / Epithets: Saintess (圣女), Lady Saintess (圣女大人)
+Sect & Role: Southern Domain / Fire Abyss Sacred Tree — Saintess of the Demon Race (Divine Fire Phoenix / 神火凤凰)
+Aliases & Forms of Address: Shui Huang'er, Saintess, Lady Saintess
+Relationships: Disciple/spiritual descendant of the Sacred Tree Grand Elder; sovereign representative of the Southern Domain demon race. In the original Heavenly Dao novel script, fell under the romantic spell of the human protagonist before reaching reproductive maturity, which baffled the Grand Elder. In Chapter 172, confronts Tao Zhu as he sneaks into the Sun Wheel Palace, mocking him as "Toad Immortal" and imprisoning him in a birdcage. In Chapter 173, witnesses Mo Bei ruthlessly bisect her 'fated lover' in the desire trial, fearing Mo Bei had fallen into senseless slaughter. In Chapter 178, feels deep instinctive revulsion and past-cycle traumatic dread toward Mo Xi's desire to "control the demon race," only to find he is broadcasting gamified drop-out propaganda. In Chapter 179, listens to Zhou Hui's pedagogical synthesis of the desire trial with sparkling eyes of profound admiration.
+Speech Style & Personality: Dignified, sharp, and fiercely protective of her demon kin; youthful yet carrying the proud heritage of the Divine Phoenix; easily captivated and enlightened by Zhou Hui's modern educational wisdom.
+```
+
+```yaml
+Character Name: Zhu Zhu
+Chinese Name: 诸祝
+English Name (optional): 
+Sex: Male (he/him)
+Titles / Epithets: 
+Sect & Role: Southern Domain / Fire Abyss Sacred Tree — Young Deer Demon (鹿妖 / 小妖) / Demon School Student
+Aliases & Forms of Address: Zhu Zhu, That Stag Head (那边的鹿头)
+Relationships: Young demon of the herbivorous deer clan residing upon the Fire Abyss Sacred Tree; student in the "Demon School" (妖族学堂) initiative
+Speech Style & Personality: Combative, stubborn, and impulsive buck who loves butting antlers; fell in love with watching ordinary humans overcome stronger foes during the Immortal Arts Assembly livestream and eagerly enrolled in the Demon School. Quickly suffered profound academic dread within 5 minutes and 36 seconds of class, reverting his head into a thoughtless stag skull and erecting silence barriers to dodge lectures. When offered the chance to skip school by defeating his future "learned self" in battle, he was pulverized into "deer paste" dozens of times, ultimately weeping in agony and clinging to the instructor's thigh, begging to study.
 ```
 
 ---
@@ -2747,7 +2843,7 @@ Location Name: Sacred Tree of Fire Abyss
 Location Chinese Name: 火渊神树
 Location English Name (optional): 
 Type: Ancient Divine Tree / Sacred Arboreal Realm in Southwestern Southern Realm (南境西南巨木神树)
-Notes: A colossal, primordial divine tree situated in the southwestern corner of the Southern Realm, flourishing for tens of thousands of years since the War of Gods and Demons. Revered as the seat of supreme authority in the Southern Realm, where various beast and avian demon clans roost, chief among them the Azure Phoenix Clan whose holy maidens and priestesses worship and tend to it. Houses powerful ancient wood spirits capable of rivaling True Immortals within the tree's native domain.
+Notes: A colossal, primordial divine tree situated in the southwestern corner of the Southern Realm, flourishing for tens of thousands of years since the War of Gods and Demons. Revered as the seat of supreme authority in the Southern Realm, where various beast and avian demon clans roost, chief among them the Azure Phoenix Clan whose holy maidens and priestesses worship and tend to it. In Chapter 168, its full vertical anatomy is detailed: (1) Summit canopy glows a luminous golden-red, blazing with Golden Crow flames into the clouds, inhabited exclusively by the Phoenix clan; (2) Sub-canopy features eternal autumn red and yellow boughs teeming with spiritual energy and spirit beasts; (3) Middle tier consists of emerald green foliage forming multi-layered stacked forests where trees, vines, demon clans, and rare beasts thrive; (4) Ground trunk emerges from soil sprawling across tens of thousands of li, its dark core sheltering shade-loving insects, resting upon a tens-of-thousands-of-years-old dead leaf bed; (5) Subterranean roots transition deep underground into silver-white and pure silver luminescent roots spreading throughout the Southern Domain, with taproots leading to pure-demon pocket worlds (the Demon Realm); (6) Ocean-submerged roots penetrate the continental crust into the pitch-black Abyssal Ocean, burning like Golden Crow flames whose thermal clash with icy waters creates the Southern Domain's sole forbidden zone, where divine beings have been glimpsed in myth.
 ```
 
 ```yaml
@@ -2831,6 +2927,14 @@ Notes: A perilous, resource-rich primordial ocean covering nearly eighty percent
 ```
 
 ```yaml
+Location Name: Heavenly Scripture Pagoda
+Location Chinese Name: 天书塔
+Location English Name (optional): 
+Type: Ancient Pagoda / Prophecy Monument in Northern Domain (北境上古建筑 / 预言圣地)
+Notes: An eighteen-story pagoda located in the Northern Domain, resting upon thin paper steps pinned down like a paperweight. Built roughly a thousand years ago following the Demon-God War when an ancient sage ascended and the Upper Realm lowered a Heavenly Scripture as a staircase. Inside its single floor is a pool where tossing in spirit stones reveals a mirrored downward staircase leading to a subterranean hall with a thin paper floor and a viewing mirror (窥镜) to read the Heavenly Scripture prophecies.
+```
+
+```yaml
 Location Name: Featherfolk
 Location Chinese Name: 羽民
 Location English Name (optional): 
@@ -2868,6 +2972,38 @@ Location Chinese Name: 第六十七扇南天门
 Location English Name (optional): 
 Type: Celestial Gateway / Heavenly Court Administrative Outpost (上界天门)
 Notes: One of numerous celestial gates in the upper realm connecting to lower minor worlds; despite being designated as a "Southern" gate, it does not actually face south. Positioned on lower cloud tiers near an Ascension Platform beneath the radiant humanoid "god," functioning as an administrative branch for lower-realm governance and ascender processing.
+```
+
+```yaml
+Location Name: Miniature World
+Location Chinese Name: 小小世界
+Location English Name (optional): 
+Type: Miniature Self-Contained World / Pocket Cosmos (自成一体的小世界)
+Notes: A fragile, self-contained world only the size of a soccer ball, complete with its own sun, moon, mountains, seas, mortal civilizations, beasts, spirits, and internal spiritual qi cycle. Forcibly torn from its native coordinates by True Immortals as a curiosity and nearly 'purified,' it was rescued in passing by Zhou Hui after he slew the upper-realm god. Preserved inside Zhou Hui's barren trial-piece pocket dimension where 1 day outside equals 100 years inside, allowing its damaged cosmic laws to gradually recuperate across multiple generational cycles of civilizations under the watch of its creator Goddess.
+```
+
+```yaml
+Location Name: Langhuan Forbidden Grounds
+Location Chinese Name: 琅嬛禁地
+Location English Name (optional): 
+Type: Ancient Sacred Grounds / Forbidden Secret Repository in the Abyssal Ocean (渊海深处禁地)
+Notes: A colossal, ancient forbidden site hidden in the deepest abyss of the Abyssal Ocean, named after the mythical celestial library of the Heavenly Emperor (琅嬛). It forms a complete minor world where every rock, fallen leaf, pond droplet, and bough embodies literature, poems, and philosophical debates. In Chapter 165, revealed to enshrine the genuine Heavenly Scripture in the form of a titanic, snapped ancient tree whose roots form the bedrock and boughs form the sky of Langhuan, behind which a fresh sickly sapling sprouted that communicated with the Heavenly Scripture Pagoda. Sighted by Boss Tao Zhu when guided by Yuwen Xuan; secretly sought by Yuwen Xuan to eliminate incriminating cosmic evidence regarding his role as one of the behind-the-scenes masterminds of the Heavenly Dao script.
+```
+
+```yaml
+Location Name: Central Domain Cultivation Sect Accreditation Council
+Location Chinese Name: 中境修仙门派审核会
+Location English Name (optional): 
+Type: Regional Cultivation Educational & Sect Accreditation Body
+Notes: An administrative and accreditation council established in the Central Domain and chaired by the Untiring Immortal Venerable (Zhou Hui). Reviews and approves cultivation sects wishing to establish direct disciple recruitment partnerships with the White Jade Capital Academies. Approved partner sects include Eternal Villa and the Thousand Harmony Gang.
+```
+
+```yaml
+Location Name: Sun Wheel Palace
+Location Chinese Name: 日轮宫
+Location English Name (optional): 
+Type: Sacred Demon Palace / Core of Fire Abyss Sacred Tree (火渊神树核心 / 妖族禁地)
+Notes: The very core and crown of the Fire Abyss Sacred Tree in the Southern Domain. Manifests externally as a colossal sphere of roaring demon fire hanging at the apex of the tree canopy, blazing perpetually even during the darkest hours when neither sun nor moon shines. Radiates concentrated demonic power that nurtures and guides the birth of new demons. Stores secret demon treasures; its demon flame scorches all living beings, requiring immense demonic power or dozens of times more spiritual energy for human cultivators to endure, naturally suppressing the power of visitors. In Chapter 169, Shui Huang'er guides Zhou Hui's party here as the highest honor of hospitality, where Mo Xi is prompted by Zhou Hui to step inside by his own strength to confront his illusions.
 ```
 
 ---
@@ -3093,6 +3229,9 @@ Notes: One of numerous celestial gates in the upper realm connecting to lower mi
 | 月相镜 | Moon Phase Mirror | Ancient divining mirror possessed by Fairy Ruopei of the Huanfei Sect, capable of peering into distant scenes and establishing communication across vast domains without spatial hindrance |
 | 拘灵阵 | Spirit-Binding Array | Defensive formation array given to Mo Bei by Ran Deng, sealing a target's spiritual meridians to prevent the circulation of any cultivation methods, rendering cultivators as powerless as mortals |
 | 五驭 / 五驭课 | Five Charioteering Arts / Five Charioteering Arts Class | White Jade Capital academy curriculum based on the classic Six Arts, utilizing body-refinement manuals provided by Shen Qingqian to teach mortals posture, breathing, and physical conditioning |
+| 妖火 | Demon Fire | Sacred and lethal flame of the demon race blazing perpetually atop the Fire Abyss Sacred Tree and enclosing the Sun Wheel Palace; capable of incinerating living beings and inflicting extreme spiritual agony on the soul, but resonates with pure Yang spiritual energy and can be melted or dissolved by peerless powerhouses |
+| 共生灵木 / 共生者 | Symbiotic Sacred Tree / Symbiotic Partner | Ancient symbiotic bond shared between demon beasts and spiritual flora/trees; demons safeguard the tree from harm, while the tree provides divine shelter and spiritual protection during a demon's critical breakthrough trials |
+| 妖目 | Demon Eye | The innate spiritual vision of the demon race (such as the Azure Phoenix Clan) capable of perceiving concealed spiritual energy flows, defensive matrix boundaries, and soul essence |
 
 ---
 
@@ -3926,6 +4065,139 @@ Notes: One of numerous celestial gates in the upper realm connecting to lower mi
 | 一时技痒 | fingers itching to try one's hand | `"Literal CN: 一时技痒 (yīshí jìyǎng) — itching to show off one's skills; the scions impulsively taking game design exams"` |
 | 打退堂鼓 | beating the retreat drum | `"Literal CN: 打退堂鼓 (dǎ tuìtánggǔ) — backing out / getting cold feet"` |
 | 放鸽子 | standing someone up / flaking | `"Literal CN: 放鸽子 (fàng gēzi) — releasing pigeons / standing someone up / flaking on an agreement"` |
+| 测试 | Testing | `"Literal CN: 测试 (cèshì) — Testing; chapter title referring to Xiao Geng acting as a sentient monster QA tester, Liu Xuenian testing the secret realm defense lines by possessing Xiao Geng, and Qu Qianxing stepping up to test his golden lightning to resolve his inner demon"` |
+| 照魔镜 | Demon-Revealing Mirror | `"Literal CN: 照魔镜 (zhàomójìng) — Demon-Revealing Mirror / Demon-Exposing Mirror; specialized magical mirror refined by Zhou Hui on short notice, capable of penetrating deceptive illusions and revealing the true grotesque form of parasitic True Immortals"` |
+| 巨婴 | giant infant / overgrown toddler | `"Literal CN: 巨婴 (jùyīng) — giant infant; modern Chinese psychological meme describing adults who are emotionally and mentally immature toddlers, used to describe pampered cultivation scions like Xiao Geng whose cultivation is piled up with pills while possessing zero mental fortitude"` |
+| 庚号测试 | Test Subject Geng / Geng-grade test | `"Literal CN: 庚号测试 (gēng hào cèshì) — Test Subject Geng / Geng-grade test; Qingyang Qingyu and Qu Qianxing's operational designation for Xiao Geng and the infiltrated puppets"` |
+| 猪队友 | pig teammates / deadweight allies | `"Literal CN: 猪队友 (zhū duìyǒu) — pig teammates; Chinese gaming/internet slang for foolish, incompetent teammates who do more harm than the enemy"` |
+| 虚与委蛇 (虚以为蛇) | humoring and playing along insincerely | `"Idiom: 虚与委蛇 (xūyǔwēiyí) — dealing with someone insincerely / pretending to play along; Jian Nuo feeling sickened that he had been humoring and associating with such a grotesque parasite"` |
+| 演 | Acting | `"Literal CN: 演 (yǎn) — Acting; chapter title referring to Jian Nuo and Qu Qianxing acting out a feigned dispute and playing along with 'Xiao Geng', Liu Xuenian pretending to be Xiao Geng, and Qu Qianxing feigning vulnerability to bait the True Immortal into his trap"` |
+| 搞一种很新的东西 | pioneering something entirely new | `"Literal CN: 搞一种很新的东西 — modern Chinese internet slang for 'trying something bizarrely modern/novel/avant-garde', used by Liu Xuenian to describe the absurd tower defense and forward staging base built directly over the Demon Realm rift"` |
+| 屎盆子 | basin of sewage / dump dirty blame | `"Literal CN: 屎盆子 (shǐpénzi) — chamber pot / pot of excrement; slang for dumping a toxic scandal, blame, or dirty mess onto someone, which Liu Xuenian plotted to dump on Untiring and Eternal Villa"` |
+| 结婴之劫 | Nascent Soul Breakthrough Tribulation | `"Literal CN: 结婴之劫 (jiéyīng zhī jié) — the cosmic heavenly lightning tribulation triggered when breaking through from Golden Core to Nascent Soul; summoned by Qu Qianxing amidst combat to fuse with his golden lightning and refine True Immortal Blood"` |
+| 炼化 | Refinement | `"Literal CN: 炼化 (liànhuà) — Refinement; chapter title referring to Qu Qianxing using his Nascent Soul breakthrough tribulation, supercomputer calculations, and refined True Immortal Blood from Zhou Hui to refine the True Immortal bloody tumor into a celestial heavenly robe"` |
+| 文曲之命 | Destiny of Wenqu | `"Literal CN: 文曲之命 (wénqǔ zhī mìng) — destiny under the Wenqu Star (Star of Literary and Civil Talent), designating a supreme scholar destined for celestial officialdom; the original heavenly destiny of Qu Qianxing"` |
+| 天衣 | Heavenly Robe | `"Literal CN: 天衣 (tiānyī) — celestial garment / heavenly robe; seamless robe of immortals referencing 'heaven's raiment has no seams' (天衣无缝); the purified artifact refined from the True Immortal's bloody tumor by Qu Qianxing"` |
+| 星宿印记 | Mark of the Astral Constellation | `"Literal CN: 星宿印记 (xīngxiù yìnjì) — mark of the astral constellation / celestial star imprint that manifested upon Qu Qianxing's forehead upon completing his Nascent Soul breakthrough, signifying the reclamation of his stellar powers"` |
+| 连锁反应 | Chain Reaction | `"Literal CN: 连锁反应 (liánsuǒ fǎnyìng) — Chain Reaction; chapter title referring to Qu Qianxing's breakthrough triggering an uncontrollable chain reaction across the Demon Realm and advancing Zhou Hui's godhead"` |
+| 心魔 | inner demon | `"Literal CN: 心魔 (xīnmó) — mental demons / inner devils; parasitic fiends from the Demon Realm that feed on human emotional dregs across the spatial membrane and secrete desire"` |
+| 神 | God | `"Literal CN: 神 (shén) — God / Deity; chapter title referring to the Goddess of the Miniature World conversing with Zhou Hui, exploring the fundamental nature of deities, Anthropic Gods, and Creator Deities"` |
+| 人神 | Anthropic God | `"Literal CN: 人神 (rénshén) — Anthropic God / Human God; deities whose existence, divinity, and godhead depend upon and advance through the faith, worship, and cognitive belief of mortal followers"` |
+| 创世神 | Creator Deity | `"Literal CN: 创世神 (chuàngshìshén) — Creator Deity / Primordial God; primordial divine entities that independently bring a world and its living beings into existence, operating under a separate cosmic system from faith-based Anthropic Gods"` |
+| 规则成精 | rules gaining sentience | `"Literal CN: 规则成精 (guīzé chéngjīng) — cosmic/social rules gaining sentience; Zhou Hui's materialist deduction that deities in an idealist cultivation universe are simply universal or societal conventions that have attained consciousness like spirit-monsters"` |
+| 事不过三 | a thing happens no more than thrice | `"Literal CN: 事不过三 (shì bù guò sān) — proverb meaning matters should not be repeated beyond three times; after three occurrences, one must act or understand"` |
+| 难得糊涂 | feigning ignorance is bliss | `"Literal CN: 难得糊涂 (nán dé hú tu) — famously coined by Qing scholar Zheng Banqiao: 'rare is the wisdom to be muddle-headed'; choosing blissful ignorance or not sweating the details"` |
+| 骚动 | Unrest | `"Literal CN: 骚动 (sāodòng) — Unrest / Commotion; chapter title referring to the inter-sect commotion caused by Qu Qianxing's Nascent Soul tribulation and Yuwen Xuan's sudden Void Refining breakthrough"` |
+| 祖传的代码shi山 | ancestral mountain of spaghetti code | `"Literal CN: 祖传的代码shi山 (ancestral mountain of shit code) — modern programmer slang for horrific, tangled legacy code inherited across generations; Zhou Hui's deadpan evaluation of the messy, script-cluttered Heavenly Dao"` |
+| 越俎代庖 | overstepping one's bounds | `"Idiom: 越俎代庖 (yuè zǔ dài páo) — stepping outside one's role to handle someone else's affair; Mo Bei refusing to handle visiting guests instead of her senior brothers"` |
+| 取经 | seeking scripture | `"Metaphor: 取经 (qǔjīng) — borrowing instructional wisdom or educational experience, alluding to Journey to the West; visiting sect elders arriving at Heavenly Spirit Sect to adopt textbooks"` |
+| 社牛 | social butterfly | `"Literal CN: 社牛 (shèniú) — internet slang for extreme social extrovert who fears no crowd, contrasted with introverted shut-ins; describing Villa Master Qingyang"` |
+| 甩锅 | passing the buck | `"Idiom: 甩锅 (shuǎi guō) — tossing the wok / passing the buck; Villa Master Qingyang praying for Zhou Hui to manifest and take the heat"` |
+| 欠挂 | begging to be hung up | `"Literal CN: 欠挂 (qiànguà) — deserving to be hung up from the ancient peach tree at the mountain gate by Master Zhou Hui for discipline; describing Yuwen Xuan's impulsive antics"` |
+| 祖神 | Ancestral God | `"Literal CN: 祖神 (zǔshén) — Ancestral God / Primordial Deity; creator deities hatched directly from newborn worlds, guiding world genesis before feeding back into the world"` |
+| 本体 | True Form | `"Literal CN: 本体 (běntǐ) — True Form; chapter title referring to the higher-dimensional true form of the Taotie, Yuwen Xuan connecting to it in a dream, and reabsorbing seven lifetimes of memories and cultivation"` |
+| 神二代 | god nepo baby / second-generation deity | `"Literal CN: 神二代 (shén èr dài) — modern Chinese slang for second-generation child of a god / divine nepo baby, playing on 'rich second generation' (富二代); Yuwen Xuan wishing Zhou Hui would become the supreme god so he could abuse his privileges as a god's kid"` |
+| 装了个X | flexed shamelessly / struck an epic posture | `"Literal CN: 装了个X (zhuāng le gè X / 装逼) — internet slang for acting cool / flexing shamelessly / putting on a theatrical pose; describing Yuwen Xuan's Void Refining breakthrough flex before Guan Ye and Mo Bei"` |
+| 黑幕 | Behind the Scenes / sinister mastermind | `"Literal CN: 黑幕 (hēimù) — behind the scenes / dark curtain / shady wire-puller; chapter title referring to Yuwen Xuan realizing after regaining his past memories that he was likely one of the conspirators/masterminds behind the Heavenly Dao script"` |
+| 毁尸灭迹 | destroying the evidence and wiping out all traces | `"Literal CN: 毁尸灭迹 (huǐshī mièjì) — destroy the corpse and extinguish all traces; classic idiom for destroying incriminating evidence, which Yuwen Xuan brings Boss Tao to Langhuan Forbidden Grounds to do"` |
+| 逆向编写天书 | reverse-engineering the Heavenly Scriptures | `"Literal CN: 逆向编写天书 — reverse-engineering the Heavenly Scriptures; Zhou Hui coding scripts to inject interference into the Upper Realm's Heavenly Dao"` |
+| 铁桶 | airtight iron barrel | `"Literal CN: 经营得像是铁桶一样 — fortified so securely like an iron bucket/barrel that nothing can penetrate; describing Yuwen Xuan's rule over the Central Domain in the 3rd lifetime"` |
+| 黑幕的计划 | The Mastermind's Plan | `"Literal CN: 黑幕的计划 (hēimù de jìhuà) — The Mastermind's Plan; chapter title referring to the original wild Taotie intentionally orchestrating its own death, soul-splitting, and descent as a living weapon to obtain a new body and turn the mortal realm into its personal feeding trough"` |
+| 萌混过关 | play cute to slide by | `"Literal CN: 萌混过关 (méng hùn guò guān) — playing cute to slide by / muddling through by acting adorably innocent; Yuwen Xuan acknowledging he cannot escape Zhou Hui's punishment even by turning into the little black lamb"` |
+| 借花献佛 | borrow another's flowers to offer to the Buddha | `"Idiom: 借花献佛 (jiè huā xiàn fó) — presenting a gift or taking credit using someone else's resources; Tao Zhu assuming Yuwen Xuan used him to crack open Langhuan to curry favor with Zhou Hui"` |
+| 十月朝 | Tenth Month Festival | `"Cultural: 十月朝 (Shíyuècháo) — the First Day of the Tenth Lunar Month, also known as the Winter Clothes Festival (寒衣节); a traditional date when Zhou Hui conducts academic assessments of his direct disciples"` |
+| 琅嬛 (琅嬛秘境) | Langhuan / Langhuan Secret Realm | `"Mythology/Location: 琅嬛 (Lánghuán) — the mythical imperial library of the Heavenly Emperor containing secret celestial records and the genuine Heavenly Scripture; situated deep within the Abyssal Ocean"` |
+| 泄洪区 | flood diversion basin | `"Literal CN: 泄洪区 (xièhóngqū) — flood runoff area / discharge zone; the Heavenly Court's plan to abandon this minor world and repurpose it as a runoff basin for the Demon Realm"` |
+| 回归本体 | returning to the true body | `"Literal CN: 回归本体 (huíguī běntǐ) — returning to the true form / true body; the process where the cleansed, reborn soul merges back with its original stashed memories and higher-dimensional form"` |
+| 天书 | The Heavenly Scripture | `"Literal CN: 天书 (tiānshū) — The Heavenly Scripture; chapter title referring to the prophetic scripture lowered by the Upper Realm a thousand years ago, and Zhou Hui attempting to reverse-engineer it to counter-hack the Heavenly Court"` |
+| 流量太低了 | the bandwidth is far too low | `"Literal CN: 流量太低了 (liúliàng tài dī le) — 'the traffic/bandwidth is far too low'; modern networking/data metaphor used by Zhou Hui to describe the narrow spiritual transmission channel between the mortal world and the Upper Realm"` |
+| 窥镜 | viewing speculum / viewing mirror | `"Literal CN: 窥镜 (kuījìng) — viewing mirror / speculum; the central observation device in the subterranean hall of the Heavenly Scripture Pagoda used to decipher the squirming characters on the delicate paper floor"` |
+| 无字天书 | wordless Heavenly Scripture | `"Literal CN: 无字天书 (wúzì tiānshū) — wordless heavenly scripture / blank heavenly book; legendary scriptures that reveal text only at designated times or under specific conditions"` |
+| 天书塔 | Heavenly Scripture Pagoda | `"Location/Mythology: 天书塔 (Tiānshūtǎ) — Heavenly Scripture Pagoda; eighteen-story pagoda in the Northern Domain resting on paper stairs, built where an ancient sage ascended to read the Heavenly Scripture's prophecies"` |
+| 斗法 | Battle of Spells | `"Literal CN: 斗法 (dòufǎ) — Battle of Spells / Battle of Techniques; chapter title referring to Zhou Hui remotely clashing spells with Boss Tao Zhu through the Heavenly Scripture conduit"` |
+| 总服务器 | central server | `"Literal CN: 总服务器 (zǒng fúwùqì) — central server / master host; modern computer science metaphor used by Zhou Hui to describe the origin host port of the Heavenly Scripture"` |
+| 寸步难行 | unable to take a single step forward | `"Literal CN: 寸步难行 (cùnbù nánxíng) — hard to move even an inch / completely paralyzed; describing book lovers overwhelmed by the endless texts embedded in the landscape of Langhuan"` |
+| 铜臭入脑 | money-grubbing | `"Literal CN: 铜臭入脑 (tóngchòu rùnǎo) — the stench of copper coins invading one's brain; obsessed with filthy lucre, describing Boss Tao Zhu calculating the market value of every book in Langhuan"` |
+| 掩耳盗铃 | plugged his ears while stealing the bell | `"Idiom: 掩耳盗铃 (yǎn'ěr-dàolíng) — plugging one's ears to steal a bell; burying one's head in the sand / self-deception, describing Yuwen Xuan foolishly trying to hide his massive frame behind the tree trunk"` |
+| 大招之日 | Grand Recruitment Day | `"Literal CN: 大招之日 (dàzhāo zhī rì) — the day of major recruitment / annual general disciple entrance examinations at the Heavenly Spirit Sect"` |
+| 水花 | Splashes | `"Literal CN: 水花 (shuǐhuā) — splashes / ripples / making waves; chapter title referring to the wide ripples and discussions stirred across the domain by Yuwen Xuan's public punishment on recruitment day"` |
+| 伤害不大，但侮辱性极强 | the damage was negligible, but the humiliation was absolute | `"Meme: 伤害不高，侮辱性极强 (shānghài bù gāo, wǔrǔxìng jí qiáng) — popular Chinese internet meme meaning low damage, maximum disrespect / extremely insulting"` |
+| 秋老虎 | Autumn Tiger | `"Cultural: 秋老虎 (qiūlǎohǔ) — late-summer / early-autumn scorching heatwave that strikes after the beginning of autumn"` |
+| 有教无类 | education for all without discrimination | `"Pedagogy/Philosophy: 有教无类 (yǒujiào wúlèi) — Confucius's classic pedagogical philosophy that education should be accessible to everyone regardless of background or status"` |
+| 连坐 | collective guilt / guilt by association | `"Legal/Cultural: 连坐 (liánzuò) — collective punishment / guilt by association, an ancient legal practice where friends, associates, or clan members are punished together for one person's crime"` |
+| 甩锅 | passing the buck / deflecting blame | `"Slang: 甩锅 (shuǎiguō) — throwing off the pot / deflecting blame / shifting responsibility onto others"` |
+| 渊源 | Historical Origins / Entangled Origins | `"Literal CN: 渊源 (yuānyuán) — Historical Origins / Deep Roots and Entangled Connections; chapter title referring to the world's ancient historical relationship with the Heavenly Court, why the Upper Realm designated it as a buffer zone, and the origins of the plot"` |
+| 兰台 | Lantai (Imperial Archival Bureau) | `"Historical/Institutional: 兰台 (Lántái) — Orchid Pavilion / Imperial Archival Bureau; dedicated celestial department in the Heavenly Court responsible for managing paperwork, clerical records, and monitoring Heavenly Dao scripts"` |
+| 黑料 | black files / incriminating dirt | `"Literal CN: 黑料 (hēiliào) — black files / scandalous dirt / compromising dossiers on gods and immortals stored in Langhuan"` |
+| 练手 | test the waters / warm up skills | `"Literal CN: 练手 (liànshǒu) — practice run / warm up one's skills; Zhou Hui's initial plan to use the Heavenly Scripture to practice interfering with the Upper Realm"` |
+| 霍霍 | devastated / ruined | `"Literal CN: 霍霍 (huòhuo) — northern Chinese colloquialism meaning to wreck, torment, or ruin, referring to the web novel protagonist wrecking the Heavenly Spirit Sect"` |
+| 枯木逢春 | making withered wood bloom in spring | `"Idiom: 枯木逢春 (kūmù-féngchūn) — bringing dead wood back to life / rejuvenating the decrepit; referring to the Southern Domain's secret treasure pouring spring water to heal the Heavenly Scripture tree"` |
+| 红玫瑰 | red rose | `"Literary/Pop-culture allusion: 红玫瑰 (hóng méiguì) — the 'red rose' archetype from Eileen Chang's novel 'Red Rose, White Rose', representing the passionate, vivid romantic love interest for whom the 6th cycle protagonist sought medicine in the Southern Domain"` |
+| 被交代了 | got wiped out / perished | `"Colloquial/slang: 被交代了 (bèi jiāodài le) — was finished off / died / perished, referring to the True Immortal in charge of the mortal realm strategy dying in the God-Demon War"` |
+| 掌掌眼 | cast an expert eye over it | `"Literal CN: 掌掌眼 (zhǎngzhǎng yǎn) — antique/commercial slang for having an expert inspect goods for authenticity and value"` |
+| 把把关 | vet the details / gatekeep | `"Literal CN: 把把关 (bǎbǎ guān) — guard the pass / oversee quality control, vetting, and compliance"` |
+| 炸毛 | bristle like an angry cat | `"Literal CN: 炸毛 (zhàmáo) — fur standing on end / bristling with indignation, describing Boss Tao's paranoid reaction to Mo Xi's invitation"` |
+| 误会 | Misunderstanding | `"Literal CN: 误会 (wùhuì) — Misunderstanding; chapter title referring to Shui Huang'er misunderstanding Yuwen Xuan hanging from the peach tree as Heavenly Spirit Sect's standard pedagogical/disciplinary method for the new school year, leading her to hang all disobedient demon children from the boughs of the Fire Abyss Sacred Tree"` |
+| 面子工程 | vanity projects / face-saving window dressing | `"Literal CN: 面子工程 (miànzi gōngchéng) — face-saving vanity projects / superficial window dressing meant to impress visiting superiors"` |
+| 储备粮 | emergency food rations / emergency provisions | `"Literal CN: 储备粮 (chǔbèi liáng) — stored provisions / emergency food supply; describing the silent demon children hanging from the Sacred Tree looking like a monster's pantry"` |
+| 挂树枝 | hanging from tree branches | `"Pedagogical satire: 挂在树枝上 — the demon race's comically distorted adaptation of Heavenly Spirit Sect discipline, stringing uncooperative students from boughs with silencing spells"` |
+| 幻象 | Illusions / Phantom Visions | `"Literal CN: 幻象 (huànxiàng) — Illusions / Phantom Visions; chapter title referring to Mo Xi experiencing traumatic residual past-life memories and hallucinations of the Fire Abyss Sacred Tree engulfed in flames"` |
+| 日轮宫 | Sun Wheel Palace | `"Location: 日轮宫 (Rìlún Gōng) — Sun Wheel Palace; the blazing, sun-like celestial sphere of perpetual demon flame perched at the summit of the Fire Abyss Sacred Tree, functioning as a demon trial ground and sacred treasure vault"` |
+| 义务教育 | compulsory education | `"Pedagogical: 义务教育 (yìwù jiàoyù) — compulsory education; state-mandated basic schooling applied comically to the demon race's forced universal education across the Sacred Tree"` |
+| 毁灭吧 | destroy it all! | `"Meme / Slang: 毁灭吧 (huǐmiè ba) — nihilistic pop-culture impulse to burn and destroy everything, surging in Mo Xi's heart due to past-life demonic corruption"` |
+| 鸿门宴 | Feast at Swan Goose Gate / Banquet at Hongmen | `"Idiom / Historical: 鸿门宴 (Hóngmén Yàn) — an infamous historical feast masking lethal traps and murderous intent, which Boss Tao fears he is attending"` |
+| 妖火 | Demon Fire | `"Literal CN: 妖火 (yāohuǒ) — Demon Fire; chapter title referring to the intense, Yin-natured azure sacred flame of the Sun Wheel Palace testing Mo Xi's soul and cultivation"` |
+| 共生灵木 / 共生者 | Symbiotic Sacred Tree / Symbiotic Partner | `"Cultivation / Demon Ecology: 共生灵木 / 共生者 — ancient spiritual trees paired in lifelong mutual symbiosis with high-ranking demon beasts, providing spiritual protection during crucial breakthroughs"` |
+| 妖目 | Demon Eye | `"Demon Race Trait: 妖目 (yāomù) — demonic spiritual vision allowing high-ranking demons like Shui Huang'er to perceive hidden dimensional energy networks"` |
+| 出厂配置 | factory default configuration | `"Computing / Metaphor: 出厂配置 (chūchǎng pèizhì) — factory settings; used by Zhou Hui to describe a reincarnated soul's baseline physical and spiritual reset"` |
+| 兜底 | hold the bottom line / provide a safety net | `"Literal CN: 兜底 (dōudǐ) — provide a safety net / cover all risks; Master Zhou Hui guaranteeing full protection for his disciples no matter how monumental the commotion they create"` |
+| 妖庭 | Demon Court / Demon Imperial Court | `"Mythology/Lore: 妖庭 (yāotíng) — Demon Court / Demon Imperial Court; the grand primordial civilization established by high-ranking demons that ruled the Great Chiliocosm before the rise of humanity, destroyed in the war against the Ancient Gods"` |
+| 古神 | Ancient Gods | `"Mythology/Lore: 古神 (gǔshén) — Ancient Gods; enigmatic primordial entities from before the rise of the human race who waged an apocalyptic war against the Demon Court, suffering catastrophic casualties that enabled the rise of humanity and the Heavenly Court"` |
+| 妖族初圣 | First Sage of the Demon Race | `"Mythology/Lore: 妖族初圣 (yāozú chūshèng) — First Sage of the Demon Race; legendary ancient demon sage who unlocked the spiritual intellect of all living creatures and elevated the entire demon race into cosmic sovereigns"` |
+| 妖族至宝 | Supreme Treasure of the Demon Race | `"Relic/Treasure: 妖族至宝 (yāozú zhìbǎo) — Supreme Treasure of the Demon Race; sacred ancient heirloom of the demon race housed at the summit of the Fire Abyss Sacred Tree, offered by Shui Huang'er to Zhou Hui as an alliance gift and test"` |
+| 妖族的计算 | The Demon Race's Calculations | `"Literal CN: 妖族的计算 (yāozú de jìsuàn) — The Demon Race's Calculations; chapter title referring to Shui Huang'er and the Wood Spirit Elders strategizing to secure a future for their declining race by allying with Zhou Hui before his inevitable conflict with the Heavenly Court"` |
+| 第一位的欲念 | The Foremost Desire | `"Literal CN: 第一位的欲念 (dì-yī wèi de yùniàn) — The Foremost Desire; chapter title referring to Zhou Hui's primary desire in the Supreme Treasure's trial: protecting his disciples and studying the code and architecture of the Heavenly Dao"` |
+| 摆烂 | let oneself rot | `"Modern slang: 摆烂 (bǎilàn) — letting things rot / giving up and doing nothing productive; describing Boss Tao giving up on the trial after failing"` |
+| 色厉内荏 | fierce of visage but faint of heart | `"Idiom: 色厉内荏 (sè lì nèi rěn) — outwardly fierce but inwardly cowardly; putting on a brave front; Tao Zhu trying to bluff Shui Huang'er"` |
+| 狐假虎威 | borrowing the tiger's terror | `"Idiom: 狐假虎威 (hú jiǎ hǔ wēi) — the fox borrowing the tiger's might; bullying others by flaunting powerful connections"` |
+| 一线之间 | A Hair's Breadth | `"Literal CN: 一线之间 (yīxiàn zhī jiān) — A Hair's Breadth / A Fine Line; chapter title referring to Mo Bei standing a mere hairline away from breaking through to Golden Core before being interrupted, and the razor-thin line between romantic fantasy and bloody slaughter"` |
+| 穷则思变 | adversity breeding innovation | `"Idiom: 穷则思变 (qióng zé sī biàn) — when conditions become intolerable, one must find new ways to adapt and reform; Tao Zhu theorizing why Zhou Hui reformed the cultivation world"` |
+| 塌房 | idol's house collapsing | `"Modern slang: 塌房 (tā fáng) — lit. 'house collapse'; the shattering of a fan's idealized image of their idol due to ugly reality; Shui Huang'er fearing Mo Bei's true desire is senseless bloodshed"` |
+| 命定之人 | fated lover / destined partner | `"Romance trope: 命定之人 (mìngdìng zhī rén) — fated lover / soulmate ordained by destiny; mocked and immediately sliced in two by Mo Bei for ruining her cultivation breakthrough"` |
+| 分化 | differentiate (gender/biological) | `"Biological / AB0 slang trope: 分化 (fēnhuà) — biological or gender differentiation; Mo Bei teasing Mo Xi about finally differentiating into a male after condensing his masculine core"` |
+| 前世的阴影 | Shadows of the Past Life | `"Literal CN: 前世的阴影 (qiánshì de yīnyǐng) — Shadows of the Past Life / Shadows of a Former Life; chapter title referring to Mo Bei and Mo Xi confronting lingering trauma and memories of backstabbing Master from the counterfeit sixth cycle's dogblood Heavenly Dao script"` |
+| 芥子法宝（书状） | Book-shaped Sumeru Artifact | `"Magical Artifact: 芥子法宝（书状） (jièzǐ fǎbǎo) — Sumeru artifact forged for Mo Xi by Yuwen Xuan and Guan Ye; looks like an ordinary book that flips open into a ravenous Taotie maw capable of swallowing anything into an extradimensional pocket stomach"` |
+| 欲念之笼 | Cage of Desire | `"Trial/Mechanism: 欲念之笼 (yùniàn zhī lóng) — the illusionary barrier and mental labyrinth trial imposed by the Sacred Tree's Wood Spirits upon seekers of the Supreme Treasure"` |
+| 木灵长老 | Wood Spirit Elders | `"Faction/Elders: 木灵长老 (mùlíng zhǎnglǎo) — the ancient Wood Spirit stewards residing within the Sacred Tree who oversee the supreme treasure's trials, driven to hysteria when Zhou Hui begins counter-examining them"` |
+| 火渊神树的主人 | Master of the Fire Abyss Sacred Tree | `"Literal CN: 火渊神树的主人 (Huǒyuān Shénshù de zhǔrén) — Master of the Fire Abyss Sacred Tree; chapter title referring to the Grand Elder, the ancient ecosystem demigod governing the Sacred Tree"` |
+| 超级生物计算机 | super biological computer | `"Literal CN: 超级生物计算机 (chāojí shēngwù jìsuànjī) — super biological computer; Zhou Hui's modern computing term for the Fire Abyss Sacred Tree's Wood Spirit neural network"` |
+| 生态圈成精 | ecosystem attaining sentience / apotheosis of an ecosystem | `"Literal CN: 生态圈成精 (shēngtàiquān chéngjīng) — an ecosystem gaining sentience / attaining spirit; the profound cosmological distinction between a simple tree spirit and an ecosystem demigod possessing half a divine spark"` |
+| 太一灵露 | Taiyi Spirit Dew | `"Relic/Essence: 太一灵露 (Tàiyī Línglù) — Supreme spiritual essence / dew produced by the Fire Abyss Sacred Tree, nearly handed over to the 'protagonist' by a bewitched Shui Huang'er in the previous cycle"` |
+| 重装 | clean OS reinstall | `"Literal CN: 重装 (chóngzhuāng) — operating system reinstallation; modern computer slang applied to Zhou Hui rebooting/formatting cosmological code, terrifying the ancient Sacred Tree"` |
+| 送礼好难啊 | Giving Gifts Is So Hard! | `"Literal CN: 送礼好难啊 (sònglǐ hǎo nán a) — Giving Gifts Is So Hard!; chapter title referring to the Fire Abyss Sacred Tree trying desperately to thrust the crimson sun onto Zhou Hui to divert him from upgrading/reinstalling its biological computer, only to find gifting it convincingly is an uphill struggle"` |
+| 绯红色的太阳 | Crimson Sun of the Southern Domain | `"Relic/Cosmic Landmark: 绯红色的太阳 (fēihóngsè de tàiyáng) — the crimson sun hanging in the Southern Domain sky whose erupted solar prominences condense into the Taiyi Spirit Dew that nourishes the Fire Abyss Sacred Tree"` |
+| 太一真水 | Taiyi True Water | `"Relic/Essence: 太一真水 (Tàiyī Zhēnshuǐ) — supreme alchemical water refined in quantity from Taiyi Spirit Dew, capable of bringing the dead to life, regrowing flesh on bones, and instantly forming Immortal Bones for ascension"` |
+| 学宫 (天界学宫) | Ancient Celestial Academy | `"Historical/Cosmic: 学宫 (xuégōng) — the ancient educational institution in the Heavenly Realm where youngsters of ancient nature deities, demons, and celestial beings studied before the sector was severed to plug the Demon Eye"` |
+| 登天梯（魔族所建） | Ascension Stairway (Demonic Origin) | `"Artifact/Architecture: 登天梯 (dēngtiāntī) — the celestial stairway originally constructed by demons of the Demon Realm out of corpses and bones to storm the Heavenly Court, later plugged and crushed by the falling mortal realm"` |
+| 覆巢之下，焉有完卵 | when the nest is overturned, how could any egg remain unbroken? | `"Idiom: 覆巢之下，焉有完卵 (fùcháo zhī xià, yān yǒu wánluǎn) — ancient idiom from the Romance of the Three Kingdoms / Kong Rong's children: when an entire society or collective collapses, no individual can escape unharmed"` |
+| 太阳 | The Sun | `"Literal CN: 太阳 (tàiyáng) — The Sun; chapter title referring to the Southern Domain's Primordial Sun, its role as a cosmic power source vs. Heavenly Court surveillance/control projection, and Zhou Hui merging Langhuan with the Sacred Tree to raise it"` |
+| 原日 | Primordial Sun | `"Cosmology/Relic: 原日 (yuánrì) — Primordial Sun; the very first pure spiritual energy body formed by creation power when a world coalesces, nourishing all living things; worlds submitting to the Heavenly Court must surrender their Primordial Sun in exchange for standardized projections"` |
+| 日精 | Solar Essence | `"Cosmology/Essence: 日精 (rìjīng) — Solar Essence; the unextracted, purest spiritual essence of a Primordial Sun, far purer than spirit dew, capable of nurturing ancient flora and biological computers"` |
+| 近水楼台先得日 | the pavilion closest to the water catches the sun first | `"Humorous Puns / Idioms: 近水楼台先得日 (jìnshuǐ lóutái xiān dé rì) — playful pun on the idiom 近水楼台先得月 (the pavilion closest to the water catches the moon first); the Fire Abyss Sacred Tree scooping up the newborn Primordial Sun because it fell right next to it"` |
+| 虚拟实验教学中心 | Virtual Experimental Teaching Center | `"Pedagogical / Infrastructure: 虚拟实验教学中心 (xūnǐ shíyàn jiàoxué zhōngxīn) — Virtual Experimental Teaching Center; Zhou Hui's visionary educational reform project combining the Fire Abyss Sacred Tree's illusion simulations with the Langhuan Library's knowledge base"` |
+| 欲念考验 | The Trial of Desires | `"Literal CN: 欲念考验 (yùniàn kǎoyàn) — The Trial of Desires; chapter title referring to Mo Xi's desire-induced illusion of a grand treasure vault, and his subconscious ambition to 'control' the demon race through a gamified educational curriculum"` |
+| 冰羽斛 | Ice Feather Orchid | `"Botanical/Spiritual Flora: 冰羽斛 (bīngyǔhú) — Ice Feather Orchid; an ancient legendary frost-dendrobium blooming once every five thousand years, believed by Tao Zhu to have gone extinct; found potted in Mo Xi's desire-manifested treasury"` |
+| 五帝缠丝金玉盘龙玺 | Five Emperors Silk-Bound Gold-Jade Coiled Dragon Seal | `"Antique/Artifact: 五帝缠丝金玉盘龙玺 — ancient imperial seal belonging to the Human Sovereign before the ten-thousand-year demonic catastrophe; famous archaeological relic lacking cultivation power, manifested in Mo Xi's desire treasury"` |
+| 劝退 | urging to drop out / weed out | `"Satirical / Slang: 劝退 (quàntuì) — advising someone to quit or withdraw; opposite of 劝学 (encouraging learning); Shui Huang'er's deadpan complaint about Mo Xi's gamified demon education slogans claiming players can skip classes and win freedom"` |
+| 妖族教改 (妖族的教育改革) | The Demon Race's Educational Reform | `"Literal CN: 妖族的教育改革 (yāozú de jiàoyù gǎigé) — The Demon Race's Educational Reform; chapter title referring to Zhou Hui and Mo Xi repurposing the Fire Abyss Sacred Tree's trial of desire to simulate students' future mastery and motivate demon children to study"` |
+| 祝祝 (鹿妖祝祝) | Zhu Zhu (Deer Demon Zhu Zhu) | `"Character / Lore: 祝祝 (Zhù Zhù) — young stag demon student attending the Demon School; belligerent herbivore who hates studying, repeatedly battered into 'deer paste' by simulations of his future self until desperately begging to attend classes"` |
+| 不以物喜 | Not Swayed by External Gains / Unmoved by Material Gain | `"Literal CN: 不以物喜 (bù yǐ wù xǐ) — alluding to Fan Zhongyan's famous line in Yueyang Lou Ji: 'Not pleased by external gains, nor saddened by personal losses' (不以物喜，不以己悲); chapter title directly punning on Mo Xi's (莫喜) name and character arc of letting go of external wealth to rely on his own internal foundation"` |
+| 雪莹草 | Snow Glow Grass | `"Botanical / Spiritual Flora: 雪莹草 (xuěyíngcǎo) — Snow Glow Grass; radiant celestial grass blooming profusely around Mo Bei in the illusion realm as past karmic entanglements converge upon her during deep meditation"` |
+| 估分 | score estimation | `"Literal CN: 估分 (gūfēn) — score estimation; projecting or calculating exam scores immediately following a test"` |
+| 徒手搓程序 | coding simulation programs from scratch / hand-rolling code | `"Modern computing slang: 徒手搓程序 (túshǒu cuō chéngxù) — hand-rolling / coding programs from scratch with bare hands; Mo Xi generating complex computational simulation systems without external engines"` |
+
+
+
 
 
 

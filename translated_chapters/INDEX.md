@@ -155,6 +155,35 @@
 | 150 | [Chapter 150: The Hint (第150章 暗示)](150_Chapter_150.md) | ✅ Translated |
 | 151 | [Chapter 151: Research on Immortals (第151章 仙的研究)](151_Chapter_151.md) | ✅ Translated |
 | 152 | [Chapter 152: A Foolish Conspiracy (第152章 愚蠢的阴谋)](152_Chapter_152.md) | ✅ Translated |
+| 153 | [Chapter 153: Testing (第153章 测试)](153_Chapter_153.md) | ✅ Translated |
+| 154 | [Chapter 154: Acting (第154章 演)](154_Chapter_154.md) | ✅ Translated |
+| 155 | [Chapter 155: Refinement (第155章 炼化)](155_Chapter_155.md) | ✅ Translated |
+| 156 | [Chapter 156: Chain Reaction (第156章 连锁反应)](156_Chapter_156.md) | ✅ Translated |
+| 157 | [Chapter 157: God (第157章 神)](157_Chapter_157.md) | ✅ Translated |
+| 158 | [Chapter 158: Unrest (第158章 骚动)](158_Chapter_158.md) | ✅ Translated |
+| 159 | [Chapter 159: True Form (第159章 本体)](159_Chapter_159.md) | ✅ Translated |
+| 160 | [Chapter 160: Spectating (第160章 围观)](160_Chapter_160.md) | ✅ Translated |
+| 161 | [Chapter 161: An Outstanding Youth (第161章 大好青年)](161_Chapter_161.md) | ✅ Translated |
+| 162 | [Chapter 162: Behind the Scenes (第162章 黑幕)](162_Chapter_162.md) | ✅ Translated |
+| 163 | [Chapter 163: The Mastermind's Plan (第163章 黑幕的计划)](163_Chapter_163.md) | ✅ Translated |
+| 164 | [Chapter 164: The Heavenly Scripture (第164章 天书)](164_Chapter_164.md) | ✅ Translated |
+| 165 | [Chapter 165: Battle of Spells (第165章 斗法)](165_Chapter_165.md) | ✅ Translated |
+| 166 | [Chapter 166: Splashes (第166章 水花)](166_Chapter_166.md) | ✅ Translated |
+| 167 | [Chapter 167: Historical Origins (第167章 渊源)](167_Chapter_167.md) | ✅ Translated |
+| 168 | [Chapter 168: Misunderstanding (第168章 误会)](168_Chapter_168.md) | ✅ Translated |
+| 169 | [Chapter 169: Illusions (第169章 幻象)](169_Chapter_169.md) | ✅ Translated |
+| 170 | [Chapter 170: Demon Fire (第170章 妖火)](170_Chapter_170.md) | ✅ Translated |
+| 171 | [Chapter 171: The Demon Race's Calculations (第171章 妖族的计算)](171_Chapter_171.md) | ✅ Translated |
+| 172 | [Chapter 172: The Foremost Desire (第172章 第一位的欲念)](172_Chapter_172.md) | ✅ Translated |
+| 173 | [Chapter 173: A Hair's Breadth (第173章 一线之间)](173_Chapter_173.md) | ✅ Translated |
+| 174 | [Chapter 174: Shadows of the Past Life (第174章 前世的阴影)](174_Chapter_174.md) | ✅ Translated |
+| 175 | [Chapter 175: The Master of the Fire Abyss Sacred Tree (第175章 火渊神树的主人)](175_Chapter_175.md) | ✅ Translated |
+| 176 | [Chapter 176: Giving Gifts Is So Hard! (第176章 送礼好难啊)](176_Chapter_176.md) | ✅ Translated |
+| 177 | [Chapter 177: The Sun (第177章 太阳)](177_Chapter_177.md) | ✅ Translated |
+| 178 | [Chapter 178: The Trial of Desires (第178章 欲念考验)](178_Chapter_178.md) | ✅ Translated |
+| 179 | [Chapter 179: The Demon Race's Educational Reform (第179章 妖族的教育改革)](179_Chapter_179.md) | ✅ Translated |
+| 180 | [Chapter 180: Not Swayed by External Gains (第180章 不以物喜)](180_Chapter_180.md) | ✅ Translated |
+
 
 
 
