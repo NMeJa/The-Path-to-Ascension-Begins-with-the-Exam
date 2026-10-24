@@ -9728,7 +9728,7 @@ window.READER_DATA = {
   "initialProgress": {
     "last_read_code": "179",
     "last_read_title": "Chapter 179: The Demon Race's Educational Reform",
-    "last_read_at": "2026-10-24T20:41:21",
+    "last_read_at": "2026-10-24T20:41:43",
     "read_chapters": [
       "000",
       "001",
