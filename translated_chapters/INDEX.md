@@ -223,6 +223,26 @@
 | 218 | [Chapter 218: Yuwen Xuan (第218章 宇文轩)](218_Chapter_218.md) | ✅ Translated |
 | 219 | [Chapter 219: Behind Every Troublemaking Brat Is an Enabling Parent (第219章 熊孩子必有熊家长)](219_Chapter_219.md) | ✅ Translated |
 | 220 | [Chapter 220: Ran Family Bloodline (第220章 冉家血统)](220_Chapter_220.md) | ✅ Translated |
+| 221 | [Chapter 221: A Measure of Strength (第221章 一些力量)](221_Chapter_221.md) | ✅ Translated |
+| 222 | [Chapter 222: Insignificant Memories (第222章 渺小的记忆)](222_Chapter_222.md) | ✅ Translated |
+| 223 | [Chapter 223: The Courtyard (第223章 庭院)](223_Chapter_223.md) | ✅ Translated |
+| 224 | [Chapter 224: Place of Origin (第224章 起源之地)](224_Chapter_224.md) | ✅ Translated |
+| 225 | [Chapter 225: Destined by Fate (第225章 命中注定)](225_Chapter_225.md) | ✅ Translated |
+| 226 | [Chapter 226: A Financier Who Can't Tell Stories Isn't a Good Programmer (第226章 不会编故事的金融家不是好程序员)](226_Chapter_226.md) | ✅ Translated |
+| 227 | [Chapter 227: The Old Days Reenacted (第227章 旧日重现)](227_Chapter_227.md) | ✅ Translated |
+| 228 | [Chapter 228: Being Too Clever for One's Own Good (第228章 自作聪明)](228_Chapter_228.md) | ✅ Translated |
+| 229 | [Chapter 229: I Want to Sit at the Celestial Emperor's Table (第229章 我要坐天帝那桌)](229_Chapter_229.md) | ✅ Translated |
+| 230 | [Chapter 230: Divine Feast (第230章 神宴)](230_Chapter_230.md) | ✅ Translated |
+| 231 | [Chapter 231: Tian Yan (第231章 天衍)](231_Chapter_231.md) | ✅ Translated |
+| 232 | [Chapter 232: Divine Authority (第232章 神权)](232_Chapter_232.md) | ✅ Translated |
+| 233 | [Chapter 233: Remote Call (第233章 远程通话)](233_Chapter_233.md) | ✅ Translated |
+| 234 | [Chapter 234: The Script Deliberation (第234章 剧本的商讨)](234_Chapter_234.md) | ✅ Translated |
+| 235 | [Chapter 235: Internal Strife and External Peril (第235章 内忧外患)](235_Chapter_235.md) | ✅ Translated |
+| 236 | [Chapter 236: The Ancestor Has Already Been Enraged Back to Life (第236章 老祖宗已经被气活了)](236_Chapter_236.md) | ✅ Translated |
+| 237 | [Chapter 237: Blinding Radiance (第237章 很亮)](237_Chapter_237.md) | ✅ Translated |
+| 238 | [Chapter 238: Behind the Scenes (第238章 幕后)](238_Chapter_238.md) | ✅ Translated |
+| 239 | [Chapter 239: The Petty Man Is Forever Beset with Anxiety (第239章 小人长戚戚)](239_Chapter_239.md) | ✅ Translated |
+| 240 | [Chapter 240: An Awkward Dragon (第240章 别扭的龙)](240_Chapter_240.md) | ✅ Translated |
 
 
 

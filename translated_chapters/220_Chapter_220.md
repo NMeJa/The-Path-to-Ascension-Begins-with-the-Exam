@@ -1,4 +1,4 @@
-[← Previous Chapter](219_Chapter_219.md) | [Table of Contents](INDEX.md)
+[← Previous Chapter](219_Chapter_219.md) | [Table of Contents](INDEX.md) | [Next Chapter →](221_Chapter_221.md)
 
 # Chapter 220: Ran Family Bloodline
 
@@ -390,4 +390,4 @@ The grandmasters froze in stunned realization.
 
 —"...You orchestrated the entire tournament just for this?!"
 
-[← Previous Chapter](219_Chapter_219.md) | [Table of Contents](INDEX.md)
+[← Previous Chapter](219_Chapter_219.md) | [Table of Contents](INDEX.md) | [Next Chapter →](221_Chapter_221.md)
