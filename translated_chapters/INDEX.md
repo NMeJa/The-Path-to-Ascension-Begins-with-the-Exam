@@ -203,6 +203,26 @@
 | 198 | [Chapter 198: The Fall (第198章 落)](198_Chapter_198.md) | ✅ Translated |
 | 199 | [Chapter 199: Reputation (第199章 名声)](199_Chapter_199.md) | ✅ Translated |
 | 200 | [Chapter 200: Offense and Defense of the Spiritual Energy Field (第200章 灵力场攻防战)](200_Chapter_200.md) | ✅ Translated |
+| 201 | [Chapter 201: Reaping What One Sows (第201章 自食其果)](201_Chapter_201.md) | ✅ Translated |
+| 202 | [Chapter 202: Door-to-Door Delivery (第202章 送货上门)](202_Chapter_202.md) | ✅ Translated |
+| 203 | [Chapter 203: Array Eye (第203章 阵眼)](203_Chapter_203.md) | ✅ Translated |
+| 204 | [Chapter 204: *Hiccup* (第204章 嗝)](204_Chapter_204.md) | ✅ Translated |
+| 205 | [Chapter 205: Each Performing Their Duties (第205章 各司其职)](205_Chapter_205.md) | ✅ Translated |
+| 206 | [Chapter 206: Return of the Dragon King (第206章 龙王归来)](206_Chapter_206.md) | ✅ Translated |
+| 207 | [Chapter 207: Tower (第207章 楼)](207_Chapter_207.md) | ✅ Translated |
+| 208 | [Chapter 208: Amateur Troupe (第208章 草台班子)](208_Chapter_208.md) | ✅ Translated |
+| 209 | [Chapter 209: A Future That Will Never Happen (第209章 永远不会发生的未来)](209_Chapter_209.md) | ✅ Translated |
+| 210 | [Chapter 210: Immortal Arts Assembly Athletes' Village (第210章 仙法大会选手村)](210_Chapter_210.md) | ✅ Translated |
+| 211 | [Chapter 211: Trial System (第211章 试炼系统)](211_Chapter_211.md) | ✅ Translated |
+| 212 | [Chapter 212: Fox Borrowing the Tiger's Might (第212章 狐假虎威)](212_Chapter_212.md) | ✅ Translated |
+| 213 | [Chapter 213: Heart Demon (第213章 心魔)](213_Chapter_213.md) | ✅ Translated |
+| 214 | [Chapter 214: Loving Master, Filial Disciple (第214章 X慈X孝)](214_Chapter_214.md) | ✅ Translated |
+| 215 | [Chapter 215: Rare Beast Enclosure (第215章 珍兽苑)](215_Chapter_215.md) | ✅ Translated |
+| 216 | [Chapter 216: Plotting with a Tiger for Its Hide (第216章 与虎谋皮)](216_Chapter_216.md) | ✅ Translated |
+| 217 | [Chapter 217: The Malicious and Gluttonous Nature of the Taotie (第217章 恶形恶状的饕餮本性)](217_Chapter_217.md) | ✅ Translated |
+| 218 | [Chapter 218: Yuwen Xuan (第218章 宇文轩)](218_Chapter_218.md) | ✅ Translated |
+| 219 | [Chapter 219: Behind Every Troublemaking Brat Is an Enabling Parent (第219章 熊孩子必有熊家长)](219_Chapter_219.md) | ✅ Translated |
+| 220 | [Chapter 220: Ran Family Bloodline (第220章 冉家血统)](220_Chapter_220.md) | ✅ Translated |
 
 
 
