@@ -243,6 +243,25 @@
 | 238 | [Chapter 238: Behind the Scenes (第238章 幕后)](238_Chapter_238.md) | ✅ Translated |
 | 239 | [Chapter 239: The Petty Man Is Forever Beset with Anxiety (第239章 小人长戚戚)](239_Chapter_239.md) | ✅ Translated |
 | 240 | [Chapter 240: An Awkward Dragon (第240章 别扭的龙)](240_Chapter_240.md) | ✅ Translated |
+| 241 | [Chapter 241: Prerequisite for Unity (第241章 团结的前提)](241_Chapter_241.md) | ✅ Translated |
+| 242 | [Chapter 242: Gathering Spirit (第242章 聚灵)](242_Chapter_242.md) | ✅ Translated |
+| 243 | [Chapter 243: Cause and Effect (第243章 因果)](243_Chapter_243.md) | ✅ Translated |
+| 244 | [Chapter 244: Settling Accounts (第244章 算账)](244_Chapter_244.md) | ✅ Translated |
+| 245 | [Chapter 245: Dead End (第245章 陌路)](245_Chapter_245.md) | ✅ Translated |
+| 246 | [Chapter 246: Final Boss (第246章 最终BOSS)](246_Chapter_246.md) | ✅ Translated |
+| 247 | [Chapter 247: Seeking One's Own Death (第247章 自寻死路)](247_Chapter_247.md) | ✅ Translated |
+| 248 | [Chapter 248: Assemble (第248章 集合)](248_Chapter_248.md) | ✅ Translated |
+| 249 | [Chapter 249: It's Over (第249章 完了)](249_Chapter_249.md) | ✅ Translated |
+| 250 | [Chapter 250: Three Hundred Years Later (Part 1) (第250章 三百年后（一）)](250_Chapter_250.md) | ✅ Translated |
+| 251 | [Chapter 251: Three Hundred Years Later (Part 2) (第251章 三百年后（二）)](251_Chapter_251.md) | ✅ Translated |
+| 252 | [Chapter 252: Three Hundred Years Later (Part 3) (第252章 三百年后（三）)](252_Chapter_252.md) | ✅ Translated |
+| 253 | [Chapter 253: Three Hundred Years Later (Part 4) (第253章 三百年后（四）)](253_Chapter_253.md) | ✅ Translated |
+| 254 | [Chapter 254: Three Hundred Years Later (Part 5) (第254章 三百年后（五）)](254_Chapter_254.md) | ✅ Translated |
+| 255 | [Chapter 255: Three Hundred Years Later (Part 6) (第255章 三百年后（六）)](255_Chapter_255.md) | ✅ Translated |
+| 256 | [Chapter 256: Three Hundred Years Later (Part 7) (第256章 三百年后（七）)](256_Chapter_256.md) | ✅ Translated |
+| 257 | [Chapter 257: Three Hundred Years Later (Part 8) (第257章 三百年后（八）)](257_Chapter_257.md) | ✅ Translated |
+| 258 | [Chapter 258: Three Hundred Years Later (Conclusion) (第258章 三百年后（完）)](258_Chapter_258.md) | ✅ Translated |
+| END | [Author's Afterword (作者有话说)](999_Afterword.md) | ✅ Translated |
 
 
 
